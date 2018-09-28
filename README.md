@@ -5,8 +5,8 @@
  - *Missing data imputation*
  - *Rolling traffic prediction*
  
-![Time series of speed observations.](https://github.com/xinychen/transdim/blob/master/images/estimated_series1.pdf)
-<img src="https://github.com/xinychen/transdim/blob/master/images/estimated_series1.pdf">
+![Time series of speed observations.](https://github.com/xinychen/transdim/blob/master/images/estimated_series1.png)
+<img src="https://github.com/xinychen/transdim/blob/master/images/estimated_series1.png">
 
 # Reference
 
