@@ -1,11 +1,16 @@
 # transdim
 
-**Trans**portation **D**ata **Im**putation (**transdim**) covers the following topics:
+**Trans**portation **d**ata **im**putation (**transdim**) covers the following topics:
 
  - *Missing data imputation*
  - *Rolling traffic prediction*
 
 # Reference
+
+## Tensor regression
+
+ - Guillaume Rabusseau, Hachem Kadri, 2016. [*Low-rank regression with tensor responses*](https://papers.nips.cc/paper/6302-low-rank-regression-with-tensor-responses.pdf). 30th Conference on Neural Information Processing Systems (*NIPS 2016*), Barcelona, Spain.
+ - Rose Yu, Yan Liu, 2016. [*Learning from multiway data: simple and efficient tensor regression*](http://proceedings.mlr.press/v48/yu16.pdf). Proceedings of the 33rd International Conference on Machine Learning (*ICML 2016*), New York, NY, USA, 2016.
 
 # Publication
 
@@ -14,3 +19,4 @@
  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. *A Bayesian Tensor Decomposition Approach for Spatiotemporal Traffic DataImputation*. Transportation Research Part C: Emerging Technologies. (*under review*)
 
 **Free Evaluation!**
+
