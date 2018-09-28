@@ -4,6 +4,9 @@
 
  - *Missing data imputation*
  - *Rolling traffic prediction*
+ 
+ ![Alt text](./estimated_series1.pdf)
+<img src="./estimated_series1.pdf">
 
 # Reference
 
