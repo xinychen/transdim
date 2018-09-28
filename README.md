@@ -5,8 +5,8 @@
  - *Missing data imputation*
  - *Rolling traffic prediction*
  
- ![Alt text](./images/estimated_series1.pdf?sanitize=true)
-<img src="./images/estimated_series1.pdf?sanitize=true">
+ ![Alt text](https://github.com/xinychen/transdim/blob/master/images/estimated_series1.pdf?sanitize=true)
+<img src="https://github.com/xinychen/transdim/blob/master/images/estimated_series1.pdf?sanitize=true">
 
 # Reference
 
