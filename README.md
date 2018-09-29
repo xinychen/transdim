@@ -18,14 +18,18 @@
 
    >With the development and application of intelligent transportation systems, large quantities of urban traffic data are collected on a continuous basis from various sources, such as loop detectors, cameras, and floating vehicles. These data sets capture the underlying states and dynamics of transportation networks and the whole system and become beneficial to many traffic operation and management applications, including routing, signal control, travel time prediction, and so on. However, the missing data problem is inevitable when collecting traffic data from intelligent transportation systems.
 
-## ![Urban traffic speed data set of Guangzhou, China](https://doi.org/10.5281/zenodo.1205228)
+## Urban traffic speed data set
+
+Available at our Zenodo repository: ![Urban Traffic Speed Data Set of Guangzhou, China](https://doi.org/10.5281/zenodo.1205228)
 
 
 
 ![example](https://github.com/xinychen/transdim/blob/master/images/estimated_series1.png)
 *(a) Time series of actual and estimated speed within two weeks from August 1 to 14.*
+
 ![example](https://github.com/xinychen/transdim/blob/master/images/estimated_series2.png)
 *(b) Time series of actual and estimated speed within two weeks from September 12 to 25.*
+
 *Figure 1: The imputation performance of BGCP (CP rank $r=15$ and missing rate $α=30\%$) under the fiber missingscenario with third-order tensor representation, where the estimated result of road segment #1 is selected as an example. In the both two panels, red rectangles represent fiber missing (i.e., speed observations are lost in a whole day).*
 
 # References
