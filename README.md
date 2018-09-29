@@ -6,7 +6,7 @@
  
 	- *Random missing*: each sensor lost their observations at completely random. (*simple task*)
 
-	- *Fiber missing*: eachsensor lost their observations during several complete days. (*difficult task*)
+	- *Fiber missing*: each sensor lost their observations during several days. (*difficult task*)
 
  - ***Rolling traffic prediction*** (short-term)
  
