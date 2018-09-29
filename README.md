@@ -1,9 +1,13 @@
-# transdim
+# *transdim*
 
 **Trans**portation **d**ata **im**putation (**transdim**) covers the following topics:
 
- - *Missing data imputation*
- - *Rolling traffic prediction*
+ - ***Missing data imputation***
+-- Scenario #1: **Random** missing where sensor lost their observations at completely random. (*simple task*)
+-- Scenario #2: **Fiber** missing where sensor lost their observations during several complete days at random. (*difficult task*)
+ - ***Rolling traffic prediction*** (short-term)
+-- Forecasting **without missing values**. (*simple task*)
+-- Forecasting **with incomplete observations**. (*difficult task*)
 
    >With the development and application of intelligent transportation systems, large quantities of urban traffic data are collected on a continuous basis from various sources, such as loop detectors, cameras, and floating vehicles. These data sets capture the underlying states and dynamics of transportation networks and the whole system and become beneficial to many traffic operation and management applications, including routing, signal control, travel time prediction, and so on. However, the missing data problem is inevitable when collecting traffic data from intelligent transportation systems.
  
@@ -27,3 +31,4 @@
  - Xinyu Chen, Zhaocheng He, Jiawei Wang, 2018. [*Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition*](https://doi.org/10.1016/j.trc.2017.10.023). Transportation Research Part C: Emerging Technologies, 86: 59-77. [[data](https://doi.org/10.5281/zenodo.1205228)]
 
  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. *A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*. Transportation Research Part C: Emerging Technologies. (*under review*)
+
