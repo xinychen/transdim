@@ -14,7 +14,7 @@
 *Figure 2: An example of time series consisting of incomplete speed observations.*
 
 
-# Reference
+# References
 
 ## Tensor regression
 
