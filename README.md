@@ -18,9 +18,9 @@
 
    >With the development and application of intelligent transportation systems, large quantities of urban traffic data are collected on a continuous basis from various sources, such as loop detectors, cameras, and floating vehicles. These data sets capture the underlying states and dynamics of transportation networks and the whole system and become beneficial to many traffic operation and management applications, including routing, signal control, travel time prediction, and so on. However, the missing data problem is inevitable when collecting traffic data from intelligent transportation systems.
 
-## Urban traffic speed data set
+## [Urban traffic speed data set of Guangzhou, China](https://doi.org/10.5281/zenodo.1205228)
 
-Available at our Zenodo repository: ![Urban Traffic Speed Data Set of Guangzhou, China](https://doi.org/10.5281/zenodo.1205228)
+  >**Publicly available at our Zenodo repository!**
 
 
 
