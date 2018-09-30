@@ -18,7 +18,7 @@
 
    >With the development and application of intelligent transportation systems, large quantities of urban traffic data are collected on a continuous basis from various sources, such as loop detectors, cameras, and floating vehicles. These data sets capture the underlying states and dynamics of transportation networks and the whole system and become beneficial to many traffic operation and management applications, including routing, signal control, travel time prediction, and so on. However, the missing data problem is inevitable when collecting traffic data from intelligent transportation systems.
 
-## [Urban traffic speed data set of Guangzhou, China](https://doi.org/10.5281/zenodo.1205228)
+### [Urban traffic speed data set of Guangzhou, China](https://doi.org/10.5281/zenodo.1205228)
 
   >**Publicly available at our Zenodo repository!**
 
@@ -70,4 +70,4 @@
 
   - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. *A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*. Transportation Research Part C: Emerging Technologies. (*under review*)
 
-  >Please consider citing our publications in your publications if they help your research.
+  >Please consider citing our papers if they help your research.
