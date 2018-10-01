@@ -14,9 +14,11 @@
 
 	- Forecasting **with incomplete observations**. (*difficult task*)
 
->Note:
+>**What I should do just now!**
+
 - add a **framework** indicating overall studies;
-- define the **problems** clearly and describe the **core challenges** intuitively;
+- define the **problems** clearly;
+- describe the **core challenges** intuitively;
 - list **main contributions** of these studies.
 
 # Overview
