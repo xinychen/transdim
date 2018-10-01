@@ -40,6 +40,8 @@
 
   - ***LocInt***: local interpolation.
 
+	> Note: This model mainly consider *local information* from observations at the neighboring time slots of the missing values.
+
   - ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
   - ***BTMF***: Bayesian temporal matrix factorization. [[Matlab code is also available!](https://github.com/lijunsun/btmf)]
