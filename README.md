@@ -4,15 +4,20 @@
 
  - ***Missing data imputation***
 
-	- *Random missing*: each sensor lost their observations at completely random. (*simple task*)
+	- **Random missing**: each sensor lost their observations at completely random. (*simple task*)
 
-	- *Fiber missing*: each sensor lost their observations during several days. (*difficult task*)
+	- **Fiber missing**: each sensor lost their observations during several days. (*difficult task*)
 
  - ***Rolling traffic prediction*** (short-term)
 
-	- Forecasting *without missing values*. (*simple task*)
+	- Forecasting **without missing values**. (*simple task*)
 
-	- Forecasting *with incomplete observations*. (*difficult task*)
+	- Forecasting **with incomplete observations**. (*difficult task*)
+
+>Note:
+- add a **framework** indicating overall studies;
+- list **main contributions** of these studies;
+- define the **problems** clearly and describe the **core challenges** intuitively.
 
 # Overview
 
@@ -35,7 +40,7 @@
 
   - ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
-  - ***BTMF***: Bayesian temporal matrix factorization. [[Matlab code is also available](https://github.com/lijunsun/btmf)]
+  - ***BTMF***: Bayesian temporal matrix factorization. [[Matlab code is also available!](https://github.com/lijunsun/btmf)]
 
   - ***BPMF***: Bayesian probabilistic matrix factorization.
 
@@ -45,7 +50,7 @@
 
   - ***CNN***
 
-  - ***GAIN***: 
+  - ***GAIN***: Generative Adversarial Imputation Nets.
 
 
 # References
