@@ -38,7 +38,7 @@
 
 ## Machine learning models
 
-	- **LocInt**: local interpolation.
+  - ***LocInt***: local interpolation.
 
   - ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
