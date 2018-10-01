@@ -16,8 +16,8 @@
 
 >Note:
 - add a **framework** indicating overall studies;
-- list **main contributions** of these studies;
-- define the **problems** clearly and describe the **core challenges** intuitively.
+- define the **problems** clearly and describe the **core challenges** intuitively;
+- list **main contributions** of these studies.
 
 # Overview
 
