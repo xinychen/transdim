@@ -33,11 +33,11 @@
 
 ## Machine learning models
 
-  - ***BGCP***
+  - ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
-  - ***BTMF***
+  - ***BTMF***: Bayesian temporal matrix factorization. [[Matlab code is also available](https://github.com/lijunsun/btmf)]
 
-  - ***BPMF***
+  - ***BPMF***: Bayesian probabilistic matrix factorization.
 
   - ***HaLRTC***
 
@@ -45,7 +45,7 @@
 
   - ***CNN***
 
-  - ***GAIN***
+  - ***GAIN***: 
 
 
 # References
