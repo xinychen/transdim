@@ -111,7 +111,7 @@
 
 # Near-future plans
 
-### Firt idea: augmented Bayesian tensor factorization vs. GAN
+### First idea: present an interesting comparison between augmented Bayesian tensor factorization and GAN, and this will be an important illustration in the data imputation!
 
   - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, 2018. *Missing traffic data imputation with an augmented Bayesian tensor factorization model*. Transportation Research Part C: Emerging Technologies. (*under review*)
 
