@@ -108,3 +108,14 @@
   - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. *A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*. Transportation Research Part C: Emerging Technologies. (*under review*)
 
   >Please consider citing our papers if they help your research.
+
+# Near-future plans
+
+  - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, 2018. *Missing traffic data imputation with an augmented Bayesian tensor factorization model*. Transportation Research Part C: Emerging Technologies. (*under review*)
+
+	  - Contribution #1: propose a augmented model and compare with existing models;
+		- Contribution #2: present comparison between GAN model (the state-of-the-art model?) and our proposed model;
+		- Contribution #3: GAN model should consider the data organization and contextual knowledge.
+		- Contribution #4: present robust imputation.
+
+>most fantastic things: overcoming the **data noise** in GAN is a direction of further studies; placing **time series constriants** on discrete dimension labels is a direction of the future tensor factorization models; transforming from conventional tensor learning model to novel genrative models need pay more emphisis on algebric structure.
