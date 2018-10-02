@@ -85,7 +85,7 @@
 
 	- Ji Liu, Przemyslaw Musialski, Peter Wonka, Jieping Ye, 2013. [*Tensor completion for estimating missing values in visual data*](https://doi.org/10.1109/TPAMI.2012.39). IEEE Transactions on Pattern Analysis and Machine Intelligence, 35(1): 208-220.
 
-	- Bin Ran, Huachun Tan, Yuankai Wu, Peter J. Jinc, 2016. [*Tensor based missing traffic data completion with spatial–temporal correlation*](https://doi.org/10.1016/j.physa.2015.09.105). Physica A: Statistical Mechanics and its Applications, 446: 54-63.
+	- Bin Ran, Huachun Tan, Yuankai Wu, Peter J. Jin, 2016. [*Tensor based missing traffic data completion with spatial–temporal correlation*](https://doi.org/10.1016/j.physa.2015.09.105). Physica A: Statistical Mechanics and its Applications, 446: 54-63.
 
 - **Generative Adversarial Nets (GAN)**
 
@@ -125,6 +125,8 @@
 
 >most fantastic things: overcoming the **data noise** in GAN is a direction of further studies; placing **time series constriants** on discrete dimension labels is a direction of the future tensor factorization models; transforming from conventional tensor learning model to novel genrative models need pay more emphisis on algebric structure.
 
-### Second idea: Bayesian temporal matrix factorization + AR time series model (*under working, urgent task!*)
+### Second idea: Bayesian temporal matrix factorization + AR time series model (*in preparation, urgent task!*)
 
-### Third idea: Bayesian temporal matrix factorization + Gaussian process
+### Third idea: Bayesian temporal matrix factorization + Gaussian process (authors: Xinyu Chen, Jiawei Wang)
+
+### Fourth idea: GAN + matrix/tensor models (authors: Jiawei Wang, Xinyu Chen)
