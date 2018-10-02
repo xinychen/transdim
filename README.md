@@ -111,6 +111,8 @@
 
 # Near-future plans
 
+### Firt idea: augmented Bayesian tensor factorization vs. GAN
+
   - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, 2018. *Missing traffic data imputation with an augmented Bayesian tensor factorization model*. Transportation Research Part C: Emerging Technologies. (*under review*)
 
 	 - Contribution #1: propose an augmented model and compare with existing models;
@@ -122,3 +124,7 @@
 	 - Contribution #4: present robust imputation.
 
 >most fantastic things: overcoming the **data noise** in GAN is a direction of further studies; placing **time series constriants** on discrete dimension labels is a direction of the future tensor factorization models; transforming from conventional tensor learning model to novel genrative models need pay more emphisis on algebric structure.
+
+### Second idea: Bayesian temporal matrix factorization + AR time series model (*under working, urgent task!*)
+
+### Third idea: Bayesian temporal matrix factorization + Gaussian process
