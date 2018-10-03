@@ -40,23 +40,23 @@
 
 ## Machine learning models
 
-  - ***LocInt***: local interpolation.
+ - ***LocInt***: local interpolation.
 
 	> Note: This model only considers *local information* from observations at the neighboring time slots of the missing values.
 
-  - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
+ - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
 
-	- ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
+ - ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
-  - ***BPMF***: Bayesian probabilistic matrix factorization.
+ - ***BPMF***: Bayesian probabilistic matrix factorization.
 
-  - ***HaLRTC***
+ - ***HaLRTC***
 
-  - ***LSTM***
+ - ***LSTM***
 
-  - ***CNN***
+ - ***CNN***
 
-  - ***GAIN***: Generative Adversarial Imputation Nets.
+ - ***GAIN***: Generative Adversarial Imputation Nets.
 
 
 # Selected references
