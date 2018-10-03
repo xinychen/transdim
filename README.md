@@ -44,7 +44,9 @@
 
 	> Note: This model only considers *local information* from observations at the neighboring time slots of the missing values.
 
-  - ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
+  - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
+
+	- ***BGCP***: Bayesian Gaussian CP decomposition. [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
   - ***BPMF***: Bayesian probabilistic matrix factorization.
 
@@ -68,6 +70,8 @@
 - **Time series models**
 
 	- Filipe Rodrigues, Kristian Henrickson, Francisco C. Pereira, 2018. [*Multi-output Gaussian processes for crowdsourced traffic data imputation*](https://doi.org/10.1109/TITS.2018.2817879). IEEE Transactions on Intelligent Transportation Systems, early access. [[Matlab code](http://fprodrigues.com/publications/multi-output-gaussian-processes-for-crowdsourced-traffic-data-imputation/)]
+
+	- Hsiang-Fu Yu, Nikhil Rao, Inderjit S. Dhillon, 2016. [*Temporal regularized matrix factorization for high-dimensional time series prediction*](http://www.cs.utexas.edu/~rofuyu/papers/tr-mf-nips.pdf). 30th Conference on Neural Information Processing Systems (*NIPS 2016*), Barcelona, Spain. [[Matlab code](https://github.com/rofuyu/exp-trmf-nips16)]
 
 - **Bayesian matrix/tensor factorization**
 
