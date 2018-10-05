@@ -133,6 +133,8 @@
 
 	 - Contribution #4: present robust imputation.
 
+Note: add an appendix for describing GAN model.
+
 >most fantastic things: overcoming the **data noise** in GAN is a direction of further studies; placing **time series constriants** on discrete dimension labels is a direction of the future tensor factorization models; transforming from conventional tensor learning model to novel genrative models need pay more emphisis on algebric structure.
 
 ### Second idea: Bayesian temporal matrix factorization + AR time series model (*in preparation, urgent task!*)
