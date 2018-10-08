@@ -21,6 +21,11 @@
 - describe the **core challenges** intuitively;
 - list **main contributions** of these studies.
 
+>**key words**
+
+- data organization;
+- temporal modeling.
+
 # Overview
 
    >With the development and application of intelligent transportation systems, large quantities of urban traffic data are collected on a continuous basis from various sources, such as loop detectors, cameras, and floating vehicles. These data sets capture the underlying states and dynamics of transportation networks and the whole system and become beneficial to many traffic operation and management applications, including routing, signal control, travel time prediction, and so on. However, the missing data problem is inevitable when collecting traffic data from intelligent transportation systems.
