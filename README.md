@@ -162,6 +162,12 @@ Note: add an appendix for describing GAN model.
 
 - Third idea: Bayesian temporal matrix factorization + Gaussian process
 
-  - Current work: factorize matrix into two sub-matrices (spatial and temporal factor matrices); then apply Gaussian process to temporal factor matrix for prediction; finally recover the data matrix by producting spatial factor matrix and temporal post-factor matrix.
+  - Current work:
+	 - factorize matrix into two sub-matrices (spatial and temporal factor matrices);
+	 - then apply Gaussian process to temporal factor matrix for prediction;
+	 - finally recover the data matrix by producting spatial factor matrix and temporal post-factor matrix.
 
 - Fourth idea: GAN + matrix/tensor models
+
+# License
+This work is released under the MIT license.
