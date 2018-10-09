@@ -14,16 +14,16 @@
 
 	- Forecasting **with incomplete observations**. (*difficult task*)
 
-> Example: Traffic forecasting usin matrix factorization models.
-
-
-		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
-
 
 >**What I should do just now!**
 
 - add a **framework** indicating overall studies;
 - define the **problems** clearly;
+
+    - Example: Traffic forecasting usin matrix factorization models.
+
+		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
+
 - describe the **core challenges** intuitively;
 - list **main contributions** of these studies.
 
