@@ -144,24 +144,24 @@
 
 # Near-future plans
 
-### First idea: present an interesting comparison between augmented Bayesian tensor factorization and GAN, and this will be an important illustration in the data imputation!
+- First idea: present an interesting comparison between augmented Bayesian tensor factorization and GAN, and this will be an important illustration in the data imputation!
 
-  - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, 2018. *Missing traffic data imputation with an augmented Bayesian tensor factorization model*. Transportation Research Part C: Emerging Technologies. (*under review*)
+  - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, 2018. *Missing traffic data imputation and pattern discovery with an augmented Bayesian tensor factorization model*. Transportation Research Part C: Emerging Technologies. (*under review*)
 
-	 - Contribution #1: propose an augmented model and compare with existing models;
+	 - Contribution #1: propose an augmented model based on Bayesian tensor factorization and present robust imputation performance.
 
-	 - Contribution #2: present comparison between GAN model (the state-of-the-art model?) and our proposed model;
+	 - Contribution #2: discover traffic patterns.
 
-	 - Contribution #3: GAN model should consider the data organization and contextual knowledge.
-
-	 - Contribution #4: present robust imputation.
+	 - Contribution #3: present comparison between GAN model (state-of-the-art model) and our proposed model.
 
 Note: add an appendix for describing GAN model.
 
->most fantastic things: overcoming the **data noise** in GAN is a direction of further studies; placing **time series constriants** on discrete dimension labels is a direction of the future tensor factorization models; transforming from conventional tensor learning model to novel genrative models need pay more emphisis on algebric structure.
+>most fantastic things: overcoming the **data noise** in GAN is a direction of further studies; placing **time series constriants** on discrete time slots is a direction of the future tensor factorization models; transforming from conventional tensor learning model to novel genrative models needs do more about data algebric structure.
 
-### Second idea: Bayesian temporal matrix factorization + AR time series model (*in preparation, urgent task!*)
+- Second idea: Bayesian temporal matrix factorization + AR time series model (*a simple trick, but rather powerful!*)
 
-### Third idea: Bayesian temporal matrix factorization + Gaussian process (authors: Xinyu Chen, Jiawei Wang)
+- Third idea: Bayesian temporal matrix factorization + Gaussian process
 
-### Fourth idea: GAN + matrix/tensor models (authors: Jiawei Wang, Xinyu Chen)
+  - Current work: factorize matrix into two sub-matrices (spatial and temporal factor matrices); then apply Gaussian process to temporal factor matrix for prediction; finally recover the data matrix by producting spatial factor matrix and temporal post-factor matrix.
+
+- Fourth idea: GAN + matrix/tensor models
