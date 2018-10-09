@@ -14,7 +14,7 @@
 
 	- Forecasting **with incomplete observations**. (*difficult task*)
 
-    - Traffic forecasting usin matrix factorization models:
+> Example: Traffic forecasting usin matrix factorization models.
 
 		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
 
