@@ -20,7 +20,7 @@
 - add a **framework** indicating overall studies;
 - define the **problems** clearly;
 
-    - Example: Traffic forecasting usin matrix factorization models.
+    - Example: Traffic forecasting using matrix factorization models.
 
 		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
 
