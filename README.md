@@ -24,6 +24,8 @@
 
 		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
 
+> *Real experiment setting*: Observations with **0%, 20% and 40% fiber missing rates** during first **56 days are treated as stationary inputs**. Meanwhile, there are some rolling inputs for **forecasting traffic speed during last 5 days (from Monday to Friday)** in a rolling manner.
+
 - describe the **core challenges** intuitively;
 - list **main contributions** of these studies.
 
