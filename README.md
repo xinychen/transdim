@@ -136,6 +136,14 @@
 
   - Rose Yu, Guangyu Li, Yan Liu, 2018. [*Tensor regression meets Gaussian processes*](http://proceedings.mlr.press/v84/yu18a/yu18a.pdf). Proceedings of the 21st International Conference on Artificial Intelligence and Statistics (*AISTATS 2018*), Lanzarote, Spain.
 
+- **Poisson matrix factorization**
+
+  - Liangjie Hong, 2015. [*Poisson matrix factorization*](http://www.hongliangjie.com/2015/08/17/poisson-matrix-factorization/). blog post.
+
+	- Prem Gopalan, Jake M. Hofman, David M. Blei, 2013. [*Scalable recommendation with Poisson factorization*](https://arxiv.org/pdf/1311.1704v1.pdf). arXiv.
+
+	- Laurent Charlin, Rajesh Ranganath, James McInerney, David M. Blei, 2015. [*Dynamic Poisson factorization*](http://www.cs.toronto.edu/~lcharlin/papers/2015_CharlinRanganathMcInerneyBlei.pdf). arXiv.
+
 # Publications
 
   - Xinyu Chen, Zhaocheng He, Jiawei Wang, 2018. [*Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition*](https://doi.org/10.1016/j.trc.2017.10.023). Transportation Research Part C: Emerging Technologies, 86: 59-77.
