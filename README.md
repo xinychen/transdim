@@ -142,9 +142,12 @@
 
   - Liangjie Hong, 2015. [*Poisson matrix factorization*](http://www.hongliangjie.com/2015/08/17/poisson-matrix-factorization/). blog post.
 
-  - Prem Gopalan, Jake M. Hofman, David M. Blei, 2013. [*Scalable recommendation with Poisson factorization*](https://arxiv.org/pdf/1311.1704v1.pdf). arXiv.
+  - Prem Gopalan, Jake M. Hofman, David M. Blei, 2015. [*Scalable recommendation with hierarchical poisson factorization*](http://www.cs.columbia.edu/~blei/papers/GopalanHofmanBlei2015.pdf). In UAI, 326-335. [[C++ Code](https://github.com/premgopalan/hgaprec)]
 
-  - Laurent Charlin, Rajesh Ranganath, James McInerney, David M. Blei, 2015. [*Dynamic Poisson factorization*](http://www.cs.toronto.edu/~lcharlin/papers/2015_CharlinRanganathMcInerneyBlei.pdf). arXiv.
+  - Laurent Charlin, Rajesh Ranganath, James Mclnerney, 2015. [*Dynamic Poisson factorization*](http://www.cs.toronto.edu/~lcharlin/papers/2015_CharlinRanganathMcInerneyBlei.pdf). Proceedings of the 9th ACM Conference on Recommender Systems (*RecSys 2015*), Vienna, Italy. [[C++ Code](https://github.com/blei-lab/DynamicPoissonFactorization)]
+
+  - Seyed Abbas Hosseini, Keivan Alizadeh, Ali Khodadadi, Ali Arabzadeh, Mehrdad Farajtabar, Hongyuan Zha, Hamid R. Rabiee, 2017. [*Recurrent Poisson Factorization for Temporal Recommendation*](https://dl.acm.org/citation.cfm?doid=3097983.3098197). Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (*KDD 2017*), Halifax, Nova Scotia Canada. [[Matlab Code](https://github.com/AHosseini/RPF)]
+
 
 # Publications
 
