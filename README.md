@@ -29,10 +29,13 @@
 - describe the **core challenges** intuitively;
 - list **main contributions** of these studies.
 
->**key words**
+>**What we care about?**
 
-- data organization;
-- temporal modeling.
+- Best algebraic structure for data imputation.
+- The context of urban transportation (e.g., biases).
+- Data noise avoidance.
+- Competitive imputation performance.
+- Fit various missing data scenarios.
 
 # Overview
 
@@ -63,11 +66,7 @@
 
  - ***BPMF***: Bayesian probabilistic matrix factorization.
 
- - ***HaLRTC***
-
- - ***LSTM***
-
- - ***CNN***
+ - ***HaLRTC***: High accuracy low rank tensor completion.
 
  - ***GAIN***: Generative Adversarial Imputation Nets.
 
@@ -161,36 +160,9 @@
 
   - Xinyu Chen, Zhaocheng He, Jiawei Wang, 2018. [*Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition*](https://doi.org/10.1016/j.trc.2017.10.023). Transportation Research Part C: Emerging Technologies, 86: 59-77.
 
-  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. *A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*. Transportation Research Part C: Emerging Technologies. (*under review*)
+  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. *A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*. Transportation Research Part C: Emerging Technologies. (*accepted*)
 
   >Please consider citing our papers if they help your research.
-
-# Near-future plans
-
-- First idea: present an interesting comparison between augmented Bayesian tensor factorization and GAN, and this will be an important illustration in the data imputation!
-
-  - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, 2018. *Missing traffic data imputation and pattern discovery with an augmented Bayesian tensor factorization model*. Transportation Research Part C: Emerging Technologies. (*under review*)
-
-	 - Contribution #1: propose an augmented model based on Bayesian tensor factorization and present robust imputation performance.
-
-	 - Contribution #2: discover traffic patterns.
-
-	 - Contribution #3: present comparison between GAN model (state-of-the-art model) and our proposed model.
-
-Note: add an appendix for describing GAN model.
-
->most fantastic things: overcoming the **data noise** in GAN is a direction of further studies; placing **time series constriants** on discrete time slots is a direction of the future tensor factorization models; transforming from conventional tensor learning model to novel genrative models needs do more about data algebric structure.
-
-- Second idea: Bayesian temporal matrix factorization + AR time series model (*a simple trick, but rather powerful!*)
-
-- Third idea: Bayesian temporal matrix factorization + Gaussian process
-
-  - Current work:
-	 - factorize matrix into two sub-matrices (spatial and temporal factor matrices);
-	 - then apply Gaussian process to temporal factor matrix for prediction;
-	 - finally recover the data matrix by producting spatial factor matrix and temporal post-factor matrix.
-
-- Fourth idea: GAN + matrix/tensor models
 
 # License
 This work is released under the MIT license.
