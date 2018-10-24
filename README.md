@@ -2,9 +2,11 @@
 
 >**Trans**portation **d**ata **im**putation (***transdim***).
 
-**Strategic Aim**: Creating accurate and efficient solutions for the spatio-temporal traffic data imputation and prediction tasks.
+### **Strategic Aim**
 
-**Tasks and Challenges**:
+Creating accurate and efficient solutions for the spatio-temporal traffic data imputation and prediction tasks.
+
+### **Tasks and Challenges**
 
  - ***Missing data imputation***
 
@@ -19,7 +21,7 @@
 	- Forecasting **with incomplete observations**. (*difficult task*)
 
 
->**What I should do just now!**
+### **What I should do just now!**
 
 - add a **framework** indicating overall studies;
 - define the **problems** clearly;
@@ -33,13 +35,13 @@
 - describe the **core challenges** intuitively;
 - list **main contributions** of these studies.
 
->**What we care about！**
+### **What we care about！**
 
 - Best algebraic structure for data imputation.
 - The context of urban transportation (e.g., biases).
 - Data noise avoidance.
-- Competitive imputation performance.
-- Fit various missing data scenarios.
+- Competitive imputation and prediction performance.
+- Capable of various missing data scenarios.
 
 # Overview
 
