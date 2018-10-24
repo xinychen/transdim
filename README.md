@@ -1,6 +1,6 @@
 # *transdim*
 
->**Project**: **Trans**portation **d**ata **im**putation (***transdim***).
+>**Trans**portation **d**ata **im**putation (***transdim***).
 
 **Strategic Aim**: Creating accurate and efficient solutions for the spatio-temporal traffic data imputation and prediction tasks.
 
