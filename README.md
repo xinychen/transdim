@@ -4,7 +4,7 @@
 
 ### **Strategic Aim**
 
-Creating accurate and efficient solutions for the spatio-temporal traffic data imputation and prediction tasks.
+>Creating accurate and efficient solutions for the spatio-temporal traffic data imputation and prediction tasks.
 
 ### **Tasks and Challenges**
 
