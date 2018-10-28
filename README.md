@@ -165,7 +165,7 @@
 
   - Arman Hasanzadeh, Xi Liu, Nick Duffield, Krishna R. Narayanan, Byron Chigoy, 2017. [*A graph signal processing approach for real-time traffic prediction in transportation networks*](https://arxiv.org/pdf/1711.06954.pdf). arXiv.
 
-	- Graph signal processing: overview, challenges, and applications.
+  - Graph signal processing: overview, challenges, and applications.
 
 # Publications
 
