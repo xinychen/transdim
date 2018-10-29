@@ -161,7 +161,7 @@
 
   - Seyed Abbas Hosseini, Keivan Alizadeh, Ali Khodadadi, Ali Arabzadeh, Mehrdad Farajtabar, Hongyuan Zha, Hamid R. Rabiee, 2017. [*Recurrent Poisson factorization for temporal recommendation*](https://dl.acm.org/citation.cfm?doid=3097983.3098197). Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (*KDD 2017*), Halifax, Nova Scotia Canada. [[Matlab code](https://github.com/AHosseini/RPF)]
 
-- **Graph signal processing, GSP**
+- **Graph signal processing (GSP)**
 
   - Arman Hasanzadeh, Xi Liu, Nick Duffield, Krishna R. Narayanan, Byron Chigoy, 2017. [*A graph signal processing approach for real-time traffic prediction in transportation networks*](https://arxiv.org/pdf/1711.06954.pdf). arXiv.
 
