@@ -149,11 +149,13 @@
 
   - Zhiwei Deng, Rajitha Navarathna, Peter Carr, Stephan Mandt, Yisong Yue, 2017. [*Factorized variational autoencoders for modeling audience reactions to movies*](http://openaccess.thecvf.com/content_cvpr_2017/papers/Deng_Factorized_Variational_Autoencoders_CVPR_2017_paper.pdf). 2017 IEEE Conference on Computer Vision and Pattern Recognition (*CVPR 2017*), Honolulu, HI, USA.
 
-  - Rianne van den Berg, Thomas N. Kipf, Max Welling, 2018. [*Graph convolutional matrix completion*](https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_32.pdf). *KDD 2018*, London, UK.
+  - Vassilis Kalofolias, Xavier Bresson, Michael Bronstein, Pierre Vandergheynst, 2014. [*Matrix completion on graphs*](https://arxiv.org/abs/1408.1717). arXiv. (appear in NIPS 2014)
+
+  - Rianne van den Berg, Thomas N. Kipf, Max Welling, 2018. [*Graph convolutional matrix completion*](https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_32.pdf). Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (*KDD 2018*), London, UK.
 
   - [*Graph autoencoder - GitHub*](https://github.com/tkipf/gae).
 
-  - Haowen Xu, Wenxiao Chen, Nengwen Zhao, Zeyan Li, Jiahao Bu, Zhihan Li, Ying Liu, Youjian Zhao, Dan Pei, Yang Feng, Jie Chen, Zhaogang Wang, Honglin Qiao, 2018. [*Unsupervised anomaly detection via variational auto-Encoder for seasonal KPIs in web applications*](https://arxiv.org/pdf/1802.03903.pdf). *WWW 2018*.
+  - Haowen Xu, Wenxiao Chen, Nengwen Zhao, Zeyan Li, Jiahao Bu, Zhihan Li, Ying Liu, Youjian Zhao, Dan Pei, Yang Feng, Jie Chen, Zhaogang Wang, Honglin Qiao, 2018. [*Unsupervised anomaly detection via variational auto-encoder for seasonal KPIs in web applications*](https://arxiv.org/pdf/1802.03903.pdf). *WWW 2018*.
 
 - **Tensor regression**
 
