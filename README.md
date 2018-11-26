@@ -68,7 +68,7 @@
 
  - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
 
- - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Notebook](https://github.com/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
+ - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
  - ***BPMF***: Bayesian probabilistic matrix factorization.
 
