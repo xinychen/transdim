@@ -94,6 +94,7 @@
   - Zhengping Che, Sanjay Purushotham, Kyunghyun Cho, David Sontag, Yan Liu, 2018. [*Recurrent neural networks for multivariate time series with missing values*](https://doi.org/10.1038/s41598-018-24271-9). Scientific Reports, 8(6085).
 
   - Chuxu Zhang, Dongjin Song, Yuncong Chen, Xinyang Feng, Cristian Lumezanu, Wei Cheng, Jingchao Ni, Bo Zong, Haifeng Chen, Nitesh V. Chawla, 2018. [*A deep neural network for unsupervised anomaly detection and diagnosis in multivariate time series data*](https://arxiv.org/abs/1811.08055). arXiv.
+  - Wang, X., Chen, C., Min, Y., He, J., Yang, B., & Zhang, Y. (2018). [*Efficient Metropolitan Traffic Prediction Based on Graph Recurrent Neural Network.*](https://arxiv.org/pdf/1811.00740.pdf). arXiv preprint arXiv:1811.00740.
 
 - **Principal component analysis (PCA)**
 
