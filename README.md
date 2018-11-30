@@ -64,11 +64,11 @@
 
  - ***LocInt***: local interpolation.
  
-  - This model considers *local information* from observations at the neighboring time slots of the missing values.
+     - This model considers *local information* from observations at the neighboring time slots of the missing values.
 
  - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
 
-  - Alleviating hyperparameters setting is a rewarding way.
+     - Alleviating hyperparameters setting is a rewarding way.
 
  - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
