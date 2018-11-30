@@ -14,14 +14,14 @@
 
 	- **Fiber missing**: each sensor lost their observations during several days. (*difficult task*)
 
- - ***Rolling traffic prediction*** (short-term)
+ - ***Rolling traffic prediction*** (short-term/long-term)
 
 	- Forecasting **without missing values**. (*simple task*)
 
 	- Forecasting **with incomplete observations**. (*difficult task*)
 
 
-### **What I should do just now!**
+### **Do what just now!**
 
 - add a **framework** indicating overall studies;
 - define the **problems** clearly;
@@ -63,10 +63,12 @@
 ## Machine learning models
 
  - ***LocInt***: local interpolation.
-
-	> Note: This model only considers *local information* from observations at the neighboring time slots of the missing values.
+ 
+  - This model considers *local information* from observations at the neighboring time slots of the missing values.
 
  - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
+
+  - Alleviating hyperparameters setting is a rewarding way.
 
  - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
@@ -196,19 +198,19 @@
 
   - Xinyu Chen, Zhaocheng He, Jiawei Wang, 2018. [*Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition*](https://doi.org/10.1016/j.trc.2017.10.023). Transportation Research Part C: Emerging Technologies, 86: 59-77.
 
-  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. *A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*. Transportation Research Part C: Emerging Technologies. (*in press*) [[Matlab code](https://github.com/lijunsun/bgcp_imputation)]
+  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2018. [*A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*](https://doi.org/10.1016/j.trc.2018.11.003). Transportation Research Part C: Emerging Technologies, 98: 73-84. [[Matlab code](https://github.com/lijunsun/bgcp_imputation)]
 
   >Please consider citing our papers if they help your research.
 
 # Our blog posts (in Chinese)
 
-  - [**贝叶斯泊松分解变分推断笔记**](https://yxnchen.github.io/machine-learning/%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%8A%E6%9D%BE%E5%88%86%E8%A7%A3%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
+  - [贝叶斯泊松分解变分推断笔记](https://yxnchen.github.io/machine-learning/%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%8A%E6%9D%BE%E5%88%86%E8%A7%A3%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
 
-  - [**变分贝叶斯推断笔记**](https://yxnchen.github.io/machine-learning/%E5%8F%98%E5%88%86%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
+  - [变分贝叶斯推断笔记](https://yxnchen.github.io/machine-learning/%E5%8F%98%E5%88%86%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
 
-  - [**统计学习 | 贝叶斯高斯张量分解**](https://zhuanlan.zhihu.com/p/47049414), by Xinyu Chen (陈新宇).
+  - [贝叶斯高斯张量分解](https://zhuanlan.zhihu.com/p/47049414), by Xinyu Chen (陈新宇).
 
-  - [**贝叶斯矩阵分解**](https://zhuanlan.zhihu.com/p/26067454), by Xinyu Chen (陈新宇).
+  - [贝叶斯矩阵分解](https://zhuanlan.zhihu.com/p/26067454), by Xinyu Chen (陈新宇).
 
 # License
 This work is released under the MIT license.
