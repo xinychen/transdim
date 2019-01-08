@@ -27,7 +27,7 @@
 
 ![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
 
-> *Framework*: Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
+> *Framework*: Tensor completion task and its framework including **data organization** and **tensor completion**, in which traffic measurements are partially observed.
 
 - define the **problems** clearly;
 
