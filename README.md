@@ -101,7 +101,13 @@
   - Zhengping Che, Sanjay Purushotham, Kyunghyun Cho, David Sontag, Yan Liu, 2018. [*Recurrent neural networks for multivariate time series with missing values*](https://doi.org/10.1038/s41598-018-24271-9). Scientific Reports, 8(6085).
 
   - Chuxu Zhang, Dongjin Song, Yuncong Chen, Xinyang Feng, Cristian Lumezanu, Wei Cheng, Jingchao Ni, Bo Zong, Haifeng Chen, Nitesh V. Chawla, 2018. [*A deep neural network for unsupervised anomaly detection and diagnosis in multivariate time series data*](https://arxiv.org/abs/1811.08055). arXiv.
-  - Wang, X., Chen, C., Min, Y., He, J., Yang, B., & Zhang, Y. (2018). [*Efficient Metropolitan Traffic Prediction Based on Graph Recurrent Neural Network.*](https://arxiv.org/pdf/1811.00740.pdf). arXiv preprint arXiv:1811.00740.
+  - Wang, X., Chen, C., Min, Y., He, J., Yang, B., Zhang, Y., 2018. [*Efficient metropolitan traffic prediction based on graph recurrent neural network*](https://arxiv.org/pdf/1811.00740.pdf). arXiv.
+
+  - Peiguang Jing, Yuting Su, Xiao Jin, Chengqian Zhang, 2018. [*High-order temporal correlation model learning for time-series prediction*](https://doi.org/10.1109/TCYB.2018.2832085). IEEE Transactions on Cybernetics, early access.
+
+  - Oren Anava, Elad Hazan, Assaf Zeevi, 2015. [*Online time series prediction with missing data*](http://proceedings.mlr.press/v37/anava15.pdf). Proceedings of the 32nd International Conference on International Conference on Machine Learning, 37: 2191-2199.
+
+  - Shanshan Feng, Gao Cong, Bo An, Yeow Meng Chee, 2017. [*POI2Vec: Geographical latent representation for predicting future visitors*](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902/13749). Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (*AAAI 2017*).
 
 - **Principal component analysis (PCA)**
 
@@ -118,6 +124,8 @@
   - Nicolo Fusi, Rishit Sheth, Huseyn Melih Elibol, 2017. [*Probabilistic matrix factorization for automated machine learning*](https://arxiv.org/pdf/1705.05355.pdf). arXiv. [[Python code](https://github.com/elibol/amle)]
 
   - Tinghui Zhou, Hanhuai Shan, Arindam Banerjee, Guillermo Sapiro, 2012. [*Kernelized probabilistic matrix factorization: exploiting graphs and side information*](http://www.cs.cmu.edu/~tinghuiz/papers/sdm12_kpmf.pdf). [[slide](http://people.ee.duke.edu/~lcarin/Jorge6.4.2012.pdf)]
+
+  - John Bradshaw, Alexander G. de G. Matthews, Zoubin Ghahramani, 2017. [*Adversarial examples, uncertainty, and transfer testing robustness in Gaussian process hybrid deep networks*](https://arxiv.org/pdf/1707.02476.pdf). arXiv.
 
 - **Matrix factorization**
 
