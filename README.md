@@ -13,17 +13,10 @@ Contents
 -   [What we do just now!](#what-we-do-just-now)
 -   [What we care about!](#what-we-care-about)
 -   [Overview](#overview)
--   [Machine Learning Models](#machine-learning-models)
 -   [Selected References](#selected-references)
-    -   [Spatio-temporal forecasting](#spatio-temporal-forecasting)
-    -   [Principal component analysis (PCA)](#principal-component-analysis-(pca))
-    -   [Guassian process (GP)](#gaussian-process-(gp))
-    -   [Matrix factorization](#matrix-factorization)
-    -   [Bayesian matrix/tensor factorization](#bayesian-matrix-tensor-factorization)
-    -   [Low-rank tensor completion](#low-rank-tensor-completion)
-    -   [Generative Adversarial Nets (GAN)](#generative-adversarial-nets-(gan))
-    -   [Variational Autoencoder (VAE)](#variational-autoencoder-(vae))
-    -   [Tensor regression](#tensor-regression)
+    -   [Spatio-temporal forecasting](-spatio-temporal-forecasting)
+-   [Our Publications](#our-publications)
+-   [License](#license)
 
 Strategic Aim
 --------------
@@ -35,16 +28,13 @@ Tasks and Challenges
 
  ### Missing data imputation
 
-	- **Random missing**: each sensor lost their observations at completely random. (*simple task*)
-
-	- **Fiber missing**: each sensor lost their observations during several days. (*difficult task*)
+  - **Random missing**: each sensor lost their observations at completely random. (*simple task*)
+  - **Fiber missing**: each sensor lost their observations during several days. (*difficult task*)
 
  ### Rolling traffic prediction (short-term/long-term)
 
-	- Forecasting **without missing values**. (*simple task*)
-
-	- Forecasting **with incomplete observations**. (*difficult task*)
-
+  - Forecasting **without missing values**. (*simple task*)
+  - Forecasting **with incomplete observations**. (*difficult task*)
 
 What we do just now!
 --------------
@@ -91,10 +81,9 @@ Overview
 ![example](https://github.com/xinychen/transdim/blob/master/images/estimated_series2.png)
   *(b) Time series of actual and estimated speed within two weeks from September 12 to 25.*
 
-*Figure 1: The imputation performance of BGCP (CP rank r=15 and missing rate α=30%) under the fiber missing scenario with third-order tensor representation, where the estimated result of road segment #1 is selected as an example. In the both two panels, red rectangles represent fiber missing (i.e., speed observations are lost in a whole day).*
+> *The imputation performance of BGCP (CP rank r=15 and missing rate α=30%) under the fiber missing scenario with third-order tensor representation, where the estimated result of road segment #1 is selected as an example. In the both two panels, red rectangles represent fiber missing (i.e., speed observations are lost in a whole day).*
 
-Machine learning models
---------------
+### Machine learning models
 
  - ***LocInt***: local interpolation.
 
@@ -116,7 +105,7 @@ Machine learning models
 Selected references
 --------------
 
-### Spatio-temporal forecasting
+- **Spatio-temporal forecasting**
 
   - Zheyi Pan, Yuxuan Liang, Junbo Zhang, Xiuwen Yi, Yong Yu, Yu Zheng, 2018. [*HyperST-Net: hypernetworks for spatio-temporal forecasting*](https://arxiv.org/pdf/1809.10889.pdf). arXiv.
 
@@ -139,13 +128,13 @@ Selected references
 
   - Shanshan Feng, Gao Cong, Bo An, Yeow Meng Chee, 2017. [*POI2Vec: Geographical latent representation for predicting future visitors*](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902/13749). Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (*AAAI 2017*).
 
-### Principal component analysis (PCA)
+- **Principal component analysis (PCA)**
 
-	- Li Qu, Li Li, Yi Zhang, Jianming Hu, 2009. [*PPCA-based missing data imputation for traffic flow volume: a systematical approach*](https://doi.org/10.1109/TITS.2009.2026312). IEEE Transactions on Intelligent Transportation Systems, 10(3): 512-522.
+  - Li Qu, Li Li, Yi Zhang, Jianming Hu, 2009. [*PPCA-based missing data imputation for traffic flow volume: a systematical approach*](https://doi.org/10.1109/TITS.2009.2026312). IEEE Transactions on Intelligent Transportation Systems, 10(3): 512-522.
 
-	- Li Li, Yuebiao Li, Zhiheng Li, 2013. [*Efficient missing data imputing for traffic flow by considering temporal and spatial dependence*](https://doi.org/10.1016/j.trc.2013.05.008). Transportation Research Part C: Emerging Technologies, 34: 108-120.
+  - Li Li, Yuebiao Li, Zhiheng Li, 2013. [*Efficient missing data imputing for traffic flow by considering temporal and spatial dependence*](https://doi.org/10.1016/j.trc.2013.05.008). Transportation Research Part C: Emerging Technologies, 34: 108-120.
 
-### Guassian process (GP)
+- **Guassian process (GP)**
 
   - Michalis K. Titsias, Magnus Rattray, Neil D. Lawrence, 2009. [*Markov chain Monte Carlo algorithms for Gaussian processes*](http://www2.aueb.gr/users/mtitsias/papers/ILDMChapter09.pdf), Chapter.
 
@@ -157,7 +146,7 @@ Selected references
 
   - John Bradshaw, Alexander G. de G. Matthews, Zoubin Ghahramani, 2017. [*Adversarial examples, uncertainty, and transfer testing robustness in Gaussian process hybrid deep networks*](https://arxiv.org/pdf/1707.02476.pdf). arXiv.
 
-### Matrix factorization
+- **Matrix factorization**
 
   - Nikhil Rao, Hsiangfu Yu, Pradeep Ravikumar, Inderjit S Dhillon, 2015. [*Collaborative filtering with graph information: Consistency and scalable methods*](http://www.cs.utexas.edu/~rofuyu/papers/grmf-nips.pdf). Neural Information Processing Systems (*NIPS 2015*). [[Matlab code](http://bigdata.ices.utexas.edu/publication/collaborative-filtering-with-graph-information-consistency-and-scalable-methods/)]
 
@@ -165,7 +154,7 @@ Selected references
 
   - Yongshun Gong, Zhibin Li, Jian Zhang, Wei Liu, Yu Zheng, Christina Kirsch, 2018. [*Network-wide crowd flow prediction of Sydney trains via customized online non-negative matrix factorization*](http://urban-computing.com/pdf/CIKM18-1121-Camera%20Ready.pdf). In The 27th ACM International Conference on Information and Knowledge Management (*CIKM 2018*), Torino, Italy.
 
-### Bayesian matrix/tensor factorization
+- **Bayesian matrix/tensor factorization**
 
   - Ruslan Salakhutdinov, Andriy Mnih, 2008. [*Bayesian probabilistic matrix factorization using Markov chain Monte Carlo*](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf). Proceedings of the 25th International Conference on Machine Learning (*ICML 2008*), Helsinki, Finland. [[Matlab code (official)](https://www.cs.toronto.edu/~rsalakhu/BPMF.html)] [[Python code](https://github.com/LoryPack/BPMF)] [[Julia and C++ code](https://github.com/ExaScience/bpmf)] [[Julia code](https://github.com/RottenFruits/BPMF.jl)]
 
@@ -181,13 +170,13 @@ Selected references
 
   - Piyush Rai, Yingjian Wang, Shengbo Guo, Gary Chen, David B. Dunsun,	Lawrence Carin, 2014. [*Scalable Bayesian low-rank decomposition of incomplete multiway tensors*](http://people.ee.duke.edu/~lcarin/mpgcp.pdf). Proceedings of the 31st International Conference on Machine Learning (*ICML 2014*), Beijing, China.
 
-### Low-rank tensor completion
+- **Low-rank tensor completion**
 
-	- Ji Liu, Przemyslaw Musialski, Peter Wonka, Jieping Ye, 2013. [*Tensor completion for estimating missing values in visual data*](https://doi.org/10.1109/TPAMI.2012.39). IEEE Transactions on Pattern Analysis and Machine Intelligence, 35(1): 208-220.
+  - Ji Liu, Przemyslaw Musialski, Peter Wonka, Jieping Ye, 2013. [*Tensor completion for estimating missing values in visual data*](https://doi.org/10.1109/TPAMI.2012.39). IEEE Transactions on Pattern Analysis and Machine Intelligence, 35(1): 208-220.
 
-	- Bin Ran, Huachun Tan, Yuankai Wu, Peter J. Jin, 2016. [*Tensor based missing traffic data completion with spatial–temporal correlation*](https://doi.org/10.1016/j.physa.2015.09.105). Physica A: Statistical Mechanics and its Applications, 446: 54-63.
+  - Bin Ran, Huachun Tan, Yuankai Wu, Peter J. Jin, 2016. [*Tensor based missing traffic data completion with spatial–temporal correlation*](https://doi.org/10.1016/j.physa.2015.09.105). Physica A: Statistical Mechanics and its Applications, 446: 54-63.
 
-### Generative Adversarial Nets (GAN)
+- **Generative Adversarial Nets (GAN)**
 
   - Brandon Amos, 2016. [*Image completion with deep learning in TensorFlow*](http://bamos.github.io/2016/08/09/deep-completion/). blog post. [[github](https://github.com/bamos/dcgan-completion.tensorflow)]
 
@@ -197,7 +186,7 @@ Selected references
 
   - Thomas Schlegl, Philipp Seeböck, Sebastian M. Waldstein, Ursula Schmidt-Erfurth, Georg Langs, 2017. [*Unsupervised anomaly detection with generative adversarial networks to guide marker discovery*](https://arxiv.org/abs/1703.05921). arXiv.
 
-### Variational Autoencoder (VAE)
+- **Variational Autoencoder (VAE)**
 
   - Zhiwei Deng, Rajitha Navarathna, Peter Carr, Stephan Mandt, Yisong Yue, 2017. [*Factorized variational autoencoders for modeling audience reactions to movies*](http://openaccess.thecvf.com/content_cvpr_2017/papers/Deng_Factorized_Variational_Autoencoders_CVPR_2017_paper.pdf). 2017 IEEE Conference on Computer Vision and Pattern Recognition (*CVPR 2017*), Honolulu, HI, USA.
 
@@ -209,7 +198,7 @@ Selected references
 
   - Haowen Xu, Wenxiao Chen, Nengwen Zhao, Zeyan Li, Jiahao Bu, Zhihan Li, Ying Liu, Youjian Zhao, Dan Pei, Yang Feng, Jie Chen, Zhaogang Wang, Honglin Qiao, 2018. [*Unsupervised anomaly detection via variational auto-encoder for seasonal KPIs in web applications*](https://arxiv.org/pdf/1802.03903.pdf). *WWW 2018*.
 
-### Tensor regression
+- **Tensor regression**
 
   - Guillaume Rabusseau, Hachem Kadri, 2016. [*Low-rank regression with tensor responses*](https://papers.nips.cc/paper/6302-low-rank-regression-with-tensor-responses.pdf). 30th Conference on Neural Information Processing Systems (*NIPS 2016*), Barcelona, Spain.
 
@@ -237,7 +226,12 @@ Selected references
 
   - Antonio Ortega, Pascal Frossard, Jelena Kovačević, José M. F. Moura, Pierre Vandergheynst, 2018. [*Graph signal processing: overview, challenges, and applications*](https://doi.org/10.1109/JPROC.2018.2820126). Proceedings of the IEEE, 106(5): 808-828. [[slide](https://www.seas.upenn.edu/~gsp16/ortega.pdf)]
 
-# Publications
+- **Graph neural network (GNN)**
+
+  - [*How to do Deep Learning on Graphs with Graph Convolutional Networks (Part 1: A High-Level Introduction to Graph Convolutional Networks)*](https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780). blog post.
+
+Our publications
+--------------
 
   - Xinyu Chen, Zhaocheng He, Jiawei Wang, 2018. [*Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition*](https://doi.org/10.1016/j.trc.2017.10.023). Transportation Research Part C: Emerging Technologies, 86: 59-77.
 
@@ -245,7 +239,8 @@ Selected references
 
   >Please consider citing our papers if they help your research.
 
-# Our blog posts (in Chinese)
+Our blog posts (in Chinese)
+--------------
 
   - [贝叶斯泊松分解变分推断笔记](https://yxnchen.github.io/machine-learning/%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%8A%E6%9D%BE%E5%88%86%E8%A7%A3%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
 
@@ -255,5 +250,7 @@ Selected references
 
   - [贝叶斯矩阵分解](https://zhuanlan.zhihu.com/p/26067454), by Xinyu Chen (陈新宇).
 
-# License
+License
+--------------
+
 This work is released under the MIT license.
