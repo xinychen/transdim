@@ -105,7 +105,7 @@ Overview
 Selected references
 --------------
 
-- ####**Spatio-temporal forecasting**
+- ### **Spatio-temporal forecasting**
 
   - Zheyi Pan, Yuxuan Liang, Junbo Zhang, Xiuwen Yi, Yong Yu, Yu Zheng, 2018. [*HyperST-Net: hypernetworks for spatio-temporal forecasting*](https://arxiv.org/pdf/1809.10889.pdf). arXiv.
 
