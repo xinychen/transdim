@@ -6,8 +6,8 @@
 Contents
 --------
 
--   [Strategic Aim](#strategic-aim)
--   [Tasks and Challenges](#tasks-and-challenges)
+-   [Strategic aim](#strategic-aim)
+-   [Tasks and challenges](#tasks-and-challenges)
     -   [Missing data imputation](#missing-data-imputation)
     -   [Rolling traffic prediction](#rolling-traffic-prediction)
 -   [What we do just now!](#what-we-do-just-now)
@@ -29,12 +29,12 @@ Contents
 -   [Our Publications](#our-publications)
 -   [License](#license)
 
-Strategic Aim
+Strategic aim
 --------------
 
 >Creating accurate and efficient solutions for the spatio-temporal traffic data imputation and prediction tasks.
 
-Tasks and Challenges
+Tasks and challenges
 --------------
 
 - ### **Missing data imputation**
@@ -240,8 +240,12 @@ Selected references
 - ### **Graph neural network**
 
   - [*How to do Deep Learning on Graphs with Graph Convolutional Networks (Part 1: A High-Level Introduction to Graph Convolutional Networks)*](https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780). blog post.
-  
+
   - [*Structured deep models: Deep learning on graphs and beyond*](https://tkipf.github.io/misc/SlidesCambridge.pdf). slide.
+
+  - [*gcn: Implementation of Graph Convolutional Networks in TensorFlow*](https://github.com/tkipf/gcn). GitHub project.
+
+  - [*gated-graph-neural-network-samples: Sample Code for Gated Graph Neural Networks*](https://github.com/Microsoft/gated-graph-neural-network-samples). GitHub project.
 
 Our publications
 --------------
