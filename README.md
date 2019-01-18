@@ -26,6 +26,7 @@ Contents
     -   [Poisson matrix factorization](#poisson-matrix-factorization)
     -   [Graph signal processing](#graph-signal-processing)
     -   [Graph neural network](#graph-neural-network)
+    -   [Others](#others)
 -   [Our Publications](#our-publications)
 -   [License](#license)
 
@@ -246,6 +247,10 @@ Selected references
   - [*gcn: Implementation of Graph Convolutional Networks in TensorFlow*](https://github.com/tkipf/gcn). GitHub project.
 
   - [*gated-graph-neural-network-samples: Sample Code for Gated Graph Neural Networks*](https://github.com/Microsoft/gated-graph-neural-network-samples). GitHub project.
+
+- ### **Others**
+
+  -  Daniel J. Stekhoven, Peter Bühlmann, 2012. [*MissForest—non-parametric missing value imputation for mixed-type data*](https://doi.org/10.1093/bioinformatics/btr597). Bioinformatics, 28(1): 112–118. [missingpy - PyPi](https://pypi.org/project/missingpy/) or [missingpy - GitHub](https://github.com/epsilon-machine/missingpy)
 
 Our publications
 --------------
