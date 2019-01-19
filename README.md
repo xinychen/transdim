@@ -198,7 +198,7 @@ Selected references
 
   - Thomas Schlegl, Philipp Seeböck, Sebastian M. Waldstein, Ursula Schmidt-Erfurth, Georg Langs, 2017. [*Unsupervised anomaly detection with generative adversarial networks to guide marker discovery*](https://arxiv.org/abs/1703.05921). arXiv.
 
-  - Yonghong Luo, Xiangrui Cai, Ying Zhang, Jun Xu, Xiaojie Yuan, 2018. [*Multivariate time series imputation with generative adversarial networks*](https://papers.nips.cc/paper/7432-multivariate-time-series-imputation-with-generative-adversarial-networks). 32nd Conference on Neural Information Processing Systems (*NeurIPS 2018*), Montréal, Canada.
+  - Yonghong Luo, Xiangrui Cai, Ying Zhang, Jun Xu, Xiaojie Yuan, 2018. [*Multivariate time series imputation with generative adversarial networks*](https://papers.nips.cc/paper/7432-multivariate-time-series-imputation-with-generative-adversarial-networks). 32nd Conference on Neural Information Processing Systems (*NeurIPS 2018*), Montréal, Canada. [[Python code](https://github.com/Luoyonghong/Multivariate-Time-Series-Imputation-with-Generative-Adversarial-Networks)]
 
 - ### **Variational Autoencoder**
 
