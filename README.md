@@ -140,6 +140,8 @@ Selected references
 
   - Shanshan Feng, Gao Cong, Bo An, Yeow Meng Chee, 2017. [*POI2Vec: Geographical latent representation for predicting future visitors*](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902/13749). Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (*AAAI 2017*).
 
+  - Koh Takeuchi, Hisashi Kashima, Naonori Ueda, 2017. [*Autoregressive tensor factorization for spatio-temporal predictions*](https://doi.org/10.1109/ICDM.2017.146). 2017 IEEE International Conference on Data Mining (*ICDM 2017*).
+
 - ### **Principal component analysis**
 
   - Li Qu, Li Li, Yi Zhang, Jianming Hu, 2009. [*PPCA-based missing data imputation for traffic flow volume: a systematical approach*](https://doi.org/10.1109/TITS.2009.2026312). IEEE Transactions on Intelligent Transportation Systems, 10(3): 512-522.
