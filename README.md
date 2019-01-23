@@ -131,6 +131,8 @@ Selected references
 
   - Zhengping Che, Sanjay Purushotham, Kyunghyun Cho, David Sontag, Yan Liu, 2018. [*Recurrent neural networks for multivariate time series with missing values*](https://doi.org/10.1038/s41598-018-24271-9). Scientific Reports, 8(6085).
 
+  - Zhengping Che, Sanjay Purushotham, Guangyu Li, Bo Jiang, Yan Liu, 2018. [*Hierarchical deep generative models for multi-rate multivariate time series*](http://proceedings.mlr.press/v80/che18a/che18a.pdf). Proceedings of the 35th International Conference on Machine Learning (*ICML 2018*), PMLR 80:784-793, 2018.
+
   - Chuxu Zhang, Dongjin Song, Yuncong Chen, Xinyang Feng, Cristian Lumezanu, Wei Cheng, Jingchao Ni, Bo Zong, Haifeng Chen, Nitesh V. Chawla, 2018. [*A deep neural network for unsupervised anomaly detection and diagnosis in multivariate time series data*](https://arxiv.org/abs/1811.08055). arXiv.
   - Wang, X., Chen, C., Min, Y., He, J., Yang, B., Zhang, Y., 2018. [*Efficient metropolitan traffic prediction based on graph recurrent neural network*](https://arxiv.org/pdf/1811.00740.pdf). arXiv.
 
@@ -139,6 +141,10 @@ Selected references
   - Oren Anava, Elad Hazan, Assaf Zeevi, 2015. [*Online time series prediction with missing data*](http://proceedings.mlr.press/v37/anava15.pdf). Proceedings of the 32nd International Conference on Machine Learning (*ICML 2015*), 37: 2191-2199.
 
   - Shanshan Feng, Gao Cong, Bo An, Yeow Meng Chee, 2017. [*POI2Vec: Geographical latent representation for predicting future visitors*](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14902/13749). Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (*AAAI 2017*).
+
+  - Yasuko Matsubara, Yasushi Sakurai, Christos Faloutsos, Tomoharu Iwata, Masatoshi Yoshikawa, 2012. [*Fast mining and forecasting of complex time-stamped events*](http://www.cs.kumamoto-u.ac.jp/~yasuko/PUBLICATIONS/kdd12-trimine.pdf). Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining (*KDD 2012*).
+
+  - Yasuko Matsubara, Yasushi Sakurai, Willem G. van Panhuis, Christos Faloutsos, 2014. [*FUNNEL: automatic mining of spatially coevolving epidemics*](http://www.cs.cmu.edu/~christos/PUBLICATIONS/14-kdd-funnel.pdf). Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining (*KDD 2014*).
 
   - Koh Takeuchi, Hisashi Kashima, Naonori Ueda, 2017. [*Autoregressive tensor factorization for spatio-temporal predictions*](https://doi.org/10.1109/ICDM.2017.146). 2017 IEEE International Conference on Data Mining (*ICDM 2017*).
 
