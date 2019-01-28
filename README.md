@@ -13,20 +13,7 @@ Contents
 -   [What we do just now!](#what-we-do-just-now)
 -   [What we care about!](#what-we-care-about)
 -   [Overview](#overview)
--   [Selected References](#selected-references)
-    -   [Spatio-temporal forecasting](#spatio-temporal-forecasting)
-    -   [Principal component analysis](#principal-component-analysis)
-    -   [Guassian process](#gaussian-process)
-    -   [Matrix factorization](#matrix-factorization)
-    -   [Bayesian matrix and tensor factorization](#bayesian-matrix-and-tensor-factorization)
-    -   [Low-rank tensor completion](#low-rank-tensor-completion)
-    -   [Generative Adversarial Nets](#generative-adversarial-nets)
-    -   [Variational Autoencoder](#variational-autoencoder)
-    -   [Tensor regression](#tensor-regression)
-    -   [Poisson matrix factorization](#poisson-matrix-factorization)
-    -   [Graph signal processing](#graph-signal-processing)
-    -   [Graph neural network](#graph-neural-network)
-    -   [Others](#others)
+-   [Selected References](#selected-references): [[Spatio-temporal forecasting](#spatio-temporal-forecasting)] [[Principal component analysis](#principal-component-analysis)] [[Guassian process](#gaussian-process)] [[Matrix factorization](#matrix-factorization)] [[Bayesian matrix and tensor factorization](#bayesian-matrix-and-tensor-factorization)] [[Low-rank tensor completion](#low-rank-tensor-completion)] [[Generative Adversarial Nets](#generative-adversarial-nets)] [[Variational Autoencoder](#variational-autoencoder)] [[Tensor regression](#tensor-regression)] [[Poisson matrix factorization](#poisson-matrix-factorization)] [[Graph signal processing](#graph-signal-processing)] [[Graph neural network](#graph-neural-network)] [[Missing data imputation](#missing-data-imputation)]
 -   [Our Publications](#our-publications)
 -   [License](#license)
 
@@ -258,11 +245,13 @@ Selected references
 
   - [*gated-graph-neural-network-samples: Sample Code for Gated Graph Neural Networks*](https://github.com/Microsoft/gated-graph-neural-network-samples). GitHub project.
 
-- ### **Others**
+- ### **Missing data imputation**
 
   -  Daniel J. Stekhoven, Peter Bühlmann, 2012. [*MissForest—non-parametric missing value imputation for mixed-type data*](https://doi.org/10.1093/bioinformatics/btr597). Bioinformatics, 28(1): 112–118. [[missingpy - PyPi](https://pypi.org/project/missingpy/)] or [[missingpy - GitHub](https://github.com/epsilon-machine/missingpy)]
 
   - [fancyimpute](https://github.com/iskandr/fancyimpute): A variety of matrix completion and imputation algorithms implemented in Python. [[homepage](https://pypi.org/project/fancyimpute/)]
+
+  - Dimitris Bertsimas, Colin Pawlowski, Ying Daisy Zhuo, 2018. [*From predictive methods to missing data imputation: An optimization approach*](http://jmlr.org/papers/v18/17-073.html). Journal of Machine Learning Research, 18(196): 1-39.
 
 Our publications
 --------------
