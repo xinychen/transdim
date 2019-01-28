@@ -13,7 +13,9 @@ Contents
 -   [What we do just now!](#what-we-do-just-now)
 -   [What we care about!](#what-we-care-about)
 -   [Overview](#overview)
--   [Selected References](#selected-references): [[Spatio-temporal forecasting](#spatio-temporal-forecasting)] [[Principal component analysis](#principal-component-analysis)] [[Guassian process](#gaussian-process)] [[Matrix factorization](#matrix-factorization)] [[Bayesian matrix and tensor factorization](#bayesian-matrix-and-tensor-factorization)] [[Low-rank tensor completion](#low-rank-tensor-completion)] [[Generative Adversarial Nets](#generative-adversarial-nets)] [[Variational Autoencoder](#variational-autoencoder)] [[Tensor regression](#tensor-regression)] [[Poisson matrix factorization](#poisson-matrix-factorization)] [[Graph signal processing](#graph-signal-processing)] [[Graph neural network](#graph-neural-network)] [[Missing data imputation](#missing-data-imputation)]
+-   [Selected References](#selected-references):
+
+		[[Spatio-temporal forecasting](#spatio-temporal-forecasting)] [[Principal component analysis](#principal-component-analysis)] [[Guassian process](#gaussian-process)] [[Matrix factorization](#matrix-factorization)] [[Bayesian matrix and tensor factorization](#bayesian-matrix-and-tensor-factorization)] [[Low-rank tensor completion](#low-rank-tensor-completion)] [[Generative Adversarial Nets](#generative-adversarial-nets)] [[Variational Autoencoder](#variational-autoencoder)] [[Tensor regression](#tensor-regression)] [[Poisson matrix factorization](#poisson-matrix-factorization)] [[Graph signal processing](#graph-signal-processing)] [[Graph neural network](#graph-neural-network)] [[Missing data imputation](#missing-data-imputation)]
 -   [Our Publications](#our-publications)
 -   [License](#license)
 
