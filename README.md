@@ -139,7 +139,7 @@ Selected references
 
 - ### **Principal component analysis**
 
-  - Oba, S., Sato, M., Takemasa, I., Monden, M., Matsubara, K., and Ishii, S., 2003. A Bayesian Missing value estimation method. Bioinformatics, 19: 2088-2096. [[Matlab code](http://ishiilab.jp/member/oba/tools/BPCAFill.html)]
+  - Shigeyuki Oba, Masa-aki Sato, Ichiro Takemasa, Morito Monden, Ken-ichi Matsubara, Shin Ishii, 2003. [*A Bayesian missing value estimation method for gene expression profile data*](https://doi.org/10.1093/bioinformatics/btg287). Bioinformatics, 19: 2088-2096. [[Matlab code](http://ishiilab.jp/member/oba/tools/BPCAFill.html)]
 
   - Li Qu, Li Li, Yi Zhang, Jianming Hu, 2009. [*PPCA-based missing data imputation for traffic flow volume: a systematical approach*](https://doi.org/10.1109/TITS.2009.2026312). IEEE Transactions on Intelligent Transportation Systems, 10(3): 512-522.
 
