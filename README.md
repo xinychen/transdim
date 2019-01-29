@@ -209,6 +209,8 @@ Selected references
 
   - Haowen Xu, Wenxiao Chen, Nengwen Zhao, Zeyan Li, Jiahao Bu, Zhihan Li, Ying Liu, Youjian Zhao, Dan Pei, Yang Feng, Jie Chen, Zhaogang Wang, Honglin Qiao, 2018. [*Unsupervised anomaly detection via variational auto-encoder for seasonal KPIs in web applications*](https://arxiv.org/pdf/1802.03903.pdf). *WWW 2018*.
 
+  - John T. McCoy, Steve Kroon, Lidia Auret, 2018. [*Variational Autoencoders for missing data imputation with application to a simulated milling circuit*](https://doi.org/10.1016/j.ifacol.2018.09.406). IFAC-PapersOnLine, 51(21): 141-146. [[Python code](https://github.com/ProcessMonitoringStellenboschUniversity/IFAC-VAE-Imputation)] [[VAE demo](https://github.com/oduerr/dl_tutorial/blob/master/tensorflow/vae/vae_demo-2D.ipynb)]
+
 - ### **Tensor regression**
 
   - Guillaume Rabusseau, Hachem Kadri, 2016. [*Low-rank regression with tensor responses*](https://papers.nips.cc/paper/6302-low-rank-regression-with-tensor-responses.pdf). 30th Conference on Neural Information Processing Systems (*NIPS 2016*), Barcelona, Spain.
