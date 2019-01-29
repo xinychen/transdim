@@ -139,6 +139,8 @@ Selected references
 
 - ### **Principal component analysis**
 
+  - Oba, S., Sato, M., Takemasa, I., Monden, M., Matsubara, K., and Ishii, S., 2003. A Bayesian Missing value estimation method. Bioinformatics, 19: 2088-2096. [[Matlab code](http://ishiilab.jp/member/oba/tools/BPCAFill.html)]
+
   - Li Qu, Li Li, Yi Zhang, Jianming Hu, 2009. [*PPCA-based missing data imputation for traffic flow volume: a systematical approach*](https://doi.org/10.1109/TITS.2009.2026312). IEEE Transactions on Intelligent Transportation Systems, 10(3): 512-522.
 
   - Li Li, Yuebiao Li, Zhiheng Li, 2013. [*Efficient missing data imputing for traffic flow by considering temporal and spatial dependence*](https://doi.org/10.1016/j.trc.2013.05.008). Transportation Research Part C: Emerging Technologies, 34: 108-120.
