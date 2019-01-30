@@ -251,6 +251,8 @@ Selected references
 
   - [*gated-graph-neural-network-samples: Sample Code for Gated Graph Neural Networks*](https://github.com/Microsoft/gated-graph-neural-network-samples). GitHub project.
 
+  - Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu, 2019. [*Spatiotemporal multi-graph convolution network for ride-hailing demand forecasting*](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf). *AAAI 2019*.
+
 - ### **Missing data imputation**
 
   -  Daniel J. Stekhoven, Peter Bühlmann, 2012. [*MissForest—non-parametric missing value imputation for mixed-type data*](https://doi.org/10.1093/bioinformatics/btr597). Bioinformatics, 28(1): 112–118. [[missingpy - PyPi](https://pypi.org/project/missingpy/)] or [[missingpy - GitHub](https://github.com/epsilon-machine/missingpy)]
