@@ -223,6 +223,8 @@ Selected references
 
   - Rose Yu, Guangyu Li, Yan Liu, 2018. [*Tensor regression meets Gaussian processes*](http://proceedings.mlr.press/v84/yu18a/yu18a.pdf). Proceedings of the 21st International Conference on Artificial Intelligence and Statistics (*AISTATS 2018*), Lanzarote, Spain. [[Matlab code](https://github.com/yuqirose/MultilinearGP)]
 
+  - Lifang He, Kun Chen, Wanwan Xu, Jiayu Zhou, Fei Wang, 2018. [*Boosted sparse and low-rank tensor regression*](https://papers.nips.cc/paper/7379-boosted-sparse-and-low-rank-tensor-regression.pdf). 32nd Conference on Neural Information Processing Systems (*NeurIPS 2018*), Montréal, Canada.
+
 - ### **Poisson matrix factorization**
 
   - Liangjie Hong, 2015. [*Poisson matrix factorization*](http://www.hongliangjie.com/2015/08/17/poisson-matrix-factorization/). blog post.
