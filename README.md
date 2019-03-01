@@ -86,7 +86,7 @@ Overview
 
 ### Machine learning models
 
- - ***PMF***: Probabilistic matrix factorization. [[Imputation example (Guangzhou-data-set) - Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb)]
+ - ***PMF***: Probabilistic matrix factorization. [[Data imputation (Guangzhou-data-set) - Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb)] [[Python code by adamzjw](https://github.com/adamzjw)] [[Python code by fuhailin](https://github.com/fuhailin/Probabilistic-Matrix-Factorization)]
 
  - ***LocInt***: local interpolation.
 
