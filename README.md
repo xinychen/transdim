@@ -8,8 +8,7 @@ Contents
 
 -   [Strategic aim](#strategic-aim)
 -   [Tasks and challenges](#tasks-and-challenges)
-    -   [Missing data imputation](#missing-data-imputation)
-    -   [Rolling traffic prediction](#rolling-traffic-prediction)
+  [[Missing data imputation](#missing-data-imputation)] [[Rolling traffic prediction](#rolling-traffic-prediction)]
 -   [What we do just now!](#what-we-do-just-now)
 -   [What we care about!](#what-we-care-about)
 -   [Overview](#overview)
@@ -86,6 +85,8 @@ Overview
 
 ### Machine learning models
 
+ - ***PMF***: Probabilistic matrix factorization. [[Imputation example (Guangzhou-data-set) - Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb)]
+
  - ***LocInt***: local interpolation.
 
      - This model considers *local information* from observations at the neighboring time slots of the missing values.
@@ -94,7 +95,7 @@ Overview
 
      - Alleviating hyperparameters setting is a rewarding way.
 
- - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
+ - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
  - ***BPMF***: Bayesian probabilistic matrix factorization.
 
