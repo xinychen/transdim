@@ -88,7 +88,9 @@ Overview
 
   - **Missing data imputation**
 
-	| Models | Paper | Data set | Missing | RMSE | Jupyter Notebook |
+  Urban traffic speed data set (i.e., [Guangzhou-data-set(Gdata)](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set)) registered traffic speed data from 214 road segments over two months (61 days from August 1 to September 30 in 2016) in Guangzhou, China. We organize the raw data into a time series matrix of 214 rows (dimensionality 8784 per row).
+
+	| Model | Paper | Data set | Missing | RMSE | Jupyter Notebook |
 	|---     |---    |---       |---      |---   |---:      |
 	|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **4.0909** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
 	|  PMF   |--| -- | 40%, RM | **4.2280** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
