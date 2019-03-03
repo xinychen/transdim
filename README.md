@@ -88,9 +88,9 @@ Overview
 
   - **Missing data imputation**
 
-  > Urban traffic speed data set (i.e., [Guangzhou-data-set(Gdata)](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set)) registered traffic speed data from 214 road segments over two months (61 days from August 1 to September 30 in 2016) in Guangzhou, China. We organize the raw data into a time series matrix of (214, 8784).
+  > **Urban traffic speed data set** (i.e., [Guangzhou-data-set(Gdata)](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set)) registered traffic speed data from 214 road segments over two months (61 days from August 1 to September 30 in 2016) in Guangzhou, China. We organize the raw data into a time series matrix of (214, 8784).
 
-  > We consider two common missing data scenarios (i.e., random missing (RM) and non-random missing (NM)). For RM, we simply remove certain amount of observed entries in the matrix randomly and use these entries as ground truth to evaluate RMSE. For NM, we apply correlated fiber missing experiment by randomly choosing certain amount (e.g., 40%) (location, day) combinations and removing the whole time series in each combination.
+  > We consider two common missing data scenarios (i.e., **random missing (RM)** and **non-random missing (NM))**. For **RM**, we simply remove certain amount of observed entries in the matrix randomly and use these entries as ground truth to evaluate RMSE. For **NM**, we apply correlated fiber missing experiment by randomly choosing certain amount (e.g., 40%) (location, day) combinations and removing the whole time series in each combination.
 
 | Model | Paper | Data set | Missing | RMSE | Jupyter Notebook |
 |---     |---    |---       |---      |---   |---:      |
