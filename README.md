@@ -93,11 +93,11 @@ Overview
   > We consider two common missing data scenarios (i.e., random missing (RM) and non-random missing (NM)). For RM, we simply remove certain amount of observed entries in the matrix randomly and use these entries as ground truth to evaluate RMSE. For NM, we apply correlated fiber missing experiment by randomly choosing certain amount (e.g., 40%) (location, day) combinations and removing the whole time series in each combination.
 
 | Model | Paper | Data set | Missing | RMSE | Jupyter Notebook |
-	|---     |---    |---       |---      |---   |---:      |
-	|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **4.0909** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
-	|  PMF   |--| -- | 40%, RM | **4.2280** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
-	|  PMF   |--| -- | 20%, NM | **4.3575** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
-	|  PMF   |--| -- | 40%, NM | **4.4866** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
+|---     |---    |---       |---      |---   |---:      |
+|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **4.0909** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
+|  PMF   |--| -- | 40%, RM | **4.2280** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
+|  PMF   |--| -- | 20%, NM | **4.3575** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
+|  PMF   |--| -- | 40%, NM | **4.4866** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
 
 
  - ***PMF***: Probabilistic matrix factorization. [[Data imputation (Guangzhou-data-set) - Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb)] [[Python code by adamzjw](https://github.com/adamzjw)] [[Python code by fuhailin](https://github.com/fuhailin/Probabilistic-Matrix-Factorization)]
