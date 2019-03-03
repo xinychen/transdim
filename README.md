@@ -88,7 +88,7 @@ Overview
 
   - **Missing data imputation**
 
-| Models | Paper | Data set | Missing | RMSE | Jupyter |
+| Models | Paper | Data set | Missing | RMSE | Jupyter Notebook |
 |---     |---    |---       |---      |---   |---      |
 |  PMF   |[PDF](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| Gdata | 20%, RM | **4.0909** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
 |  PMF   |--| -- | 40%, RM | **4.2280** | [Python code](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
