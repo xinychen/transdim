@@ -101,7 +101,9 @@ Overview
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | **4.4866** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
 
 
- - ***PMF***: Probabilistic matrix factorization. [[Python code by adamzjw](https://github.com/adamzjw)] [[Python code by fuhailin](https://github.com/fuhailin/Probabilistic-Matrix-Factorization)]
+ - ***PMF***: Probabilistic matrix factorization. [We have adapted [code1](https://github.com/adamzjw) and [code2](https://github.com/fuhailin/Probabilistic-Matrix-Factorization) for our implementation!]
+
+ - ***GAIN***: Generative Adversarial Imputation Nets. [We have adapted [code](https://github.com/jsyoon0823/GAIN) for our implementation!]
 
  - ***LocInt***: local interpolation.
 
@@ -117,7 +119,6 @@ Overview
 
  - ***HaLRTC***: High accuracy low rank tensor completion.
 
- - ***GAIN***: Generative Adversarial Imputation Nets. [[Python code is also available!](https://github.com/jsyoon0823/GAIN)]
 
 
 Selected references
