@@ -92,9 +92,10 @@ Overview
 
   > We consider two common missing data scenarios (i.e., **random missing (RM)** and **non-random missing (NM))**. For **RM**, we simply remove certain amount of observed entries in the matrix randomly and use these entries as ground truth to evaluate RMSE. For **NM**, we apply correlated fiber missing experiment by randomly choosing certain amount (e.g., 40%) (location, day) combinations and removing the whole time series in each combination.
 
-| Model | Paper | Data set | Missing | RMSE | Our Implementation |
+| Model | Paper | Data set | Missing | RMSE | Our implementation |
 |---     |---    |---       |---      |---   |---:      |
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **4.0909** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
+|  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **4.8601** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/GAIN-imputation-Gdata.ipynb) |
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | **4.2280** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | **4.3575** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | **4.4866** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/PMF-imputation-Gdata.ipynb) |
