@@ -101,23 +101,25 @@ Overview
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | **4.4866** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
 
 
- - ***PMF***: Probabilistic matrix factorization. [We have adapted [code1](https://github.com/adamzjw) and [code2](https://github.com/fuhailin/Probabilistic-Matrix-Factorization) for our implementation!]
+  - ***PMF***: Probabilistic matrix factorization.
+    - The [code1](https://github.com/adamzjw) and [code2](https://github.com/fuhailin/Probabilistic-Matrix-Factorization) have been adapted for our implementation.
 
- - ***GAIN***: Generative Adversarial Imputation Nets. [We have adapted [code](https://github.com/jsyoon0823/GAIN) for our implementation!]
+  - ***GAIN***: Generative Adversarial Imputation Nets.
+    - The [code](https://github.com/jsyoon0823/GAIN) has been adapted for our implementation.
 
- - ***LocInt***: local interpolation.
+  - ***LocInt***: local interpolation.
 
      - This model considers *local information* from observations at the neighboring time slots of the missing values.
 
- - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
+  - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
 
      - Alleviating hyperparameters setting is a rewarding way.
 
- - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
+  - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
- - ***BPMF***: Bayesian probabilistic matrix factorization.
+  - ***BPMF***: Bayesian probabilistic matrix factorization.
 
- - ***HaLRTC***: High accuracy low rank tensor completion.
+  - ***HaLRTC***: High accuracy low rank tensor completion.
 
 
 
@@ -231,6 +233,8 @@ Selected references
 
   - John T. McCoy, Steve Kroon, Lidia Auret, 2018. [*Variational Autoencoders for missing data imputation with application to a simulated milling circuit*](https://doi.org/10.1016/j.ifacol.2018.09.406). IFAC-PapersOnLine, 51(21): 141-146. [[Python code](https://github.com/ProcessMonitoringStellenboschUniversity/IFAC-VAE-Imputation)] [[VAE demo](https://github.com/oduerr/dl_tutorial/blob/master/tensorflow/vae/vae_demo-2D.ipynb)]
 
+  - Pierre-Alexandre Mattei, Jes Frellsen, 2018. [missingIWAE: Deep generative modelling and imputation of incomplete data](http://bayesiandeeplearning.org/2018/papers/100.pdf). Third workshop on Bayesian Deep Learning (*NeurIPS 2018*), Montréal, Canada. [related slide](https://ai.ku.dk/ai-seminar-series/ai-seminar_jes-frellsen.pdf)
+
 - ### **Tensor regression**
 
   - Guillaume Rabusseau, Hachem Kadri, 2016. [*Low-rank regression with tensor responses*](https://papers.nips.cc/paper/6302-low-rank-regression-with-tensor-responses.pdf). 30th Conference on Neural Information Processing Systems (*NIPS 2016*), Barcelona, Spain.
@@ -275,11 +279,13 @@ Selected references
 
 - ### **Missing data imputation**
 
-  -  Daniel J. Stekhoven, Peter Bühlmann, 2012. [*MissForest—non-parametric missing value imputation for mixed-type data*](https://doi.org/10.1093/bioinformatics/btr597). Bioinformatics, 28(1): 112–118. [[missingpy - PyPi](https://pypi.org/project/missingpy/)] or [[missingpy - GitHub](https://github.com/epsilon-machine/missingpy)]
+  -  Daniel J. Stekhoven, Peter Bühlmann, 2012. [*MissForest—non-parametric missing value imputation for mixed-type data*](https://doi.org/10.1093/bioinformatics/btr597). Bioinformatics, 28(1): 112–118. [[missingpy - PyPI](https://pypi.org/project/missingpy/)] or [[missingpy - GitHub](https://github.com/epsilon-machine/missingpy)]
 
   - [fancyimpute](https://github.com/iskandr/fancyimpute): A variety of matrix completion and imputation algorithms implemented in Python. [[homepage](https://pypi.org/project/fancyimpute/)]
 
   - Dimitris Bertsimas, Colin Pawlowski, Ying Daisy Zhuo, 2018. [*From predictive methods to missing data imputation: An optimization approach*](http://jmlr.org/papers/v18/17-073.html). Journal of Machine Learning Research, 18(196): 1-39.
+
+  - Wei Cao, Dong Wang, Jian Li, Hao Zhou, Yitan Li, Lei Li, 2018. [*BRITS: Bidirectional Recurrent Imputation for Time Series*](https://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series.pdf). 32nd Conference on Neural Information Processing Systems (NeurIPS 2018), Montréal, Canada. [Python code](https://github.com/caow13/BRITS)
 
 Our publications
 --------------
