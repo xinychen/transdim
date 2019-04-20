@@ -94,15 +94,21 @@ Overview
 
 | Model | Paper | Data set | Missing | RMSE | Our implementation |
 |---     |---    |---       |---      |---   |---:      |
-|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **4.0909** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
+|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **4.0403** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
+|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | 4.0909 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
 |  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | 4.6718 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
-|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | **4.2280** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
+|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | **4.1578** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
+|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | 4.2280 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
 |  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | 5.1776 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
+|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | 4.3828 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | **4.3575** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
 |  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | 6.5500 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
+|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | 4.5586 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
 |  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | **4.4866** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
 |  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | 6.9947 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
 
+
+  - ***BPMF***: Bayesian probabilistic matrix factorization.
 
   - ***PMF***: Probabilistic matrix factorization.
     - The [code1](https://github.com/adamzjw) and [code2](https://github.com/fuhailin/Probabilistic-Matrix-Factorization) have been adapted for our implementation.
@@ -297,7 +303,7 @@ Our publications
 
   - Xinyu Chen, Zhaocheng He, Jiawei Wang, 2018. [*Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition*](https://doi.org/10.1016/j.trc.2017.10.023). Transportation Research Part C: Emerging Technologies, 86: 59-77.
 
-  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2019. [*A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*](https://doi.org/10.1016/j.trc.2018.11.003). Transportation Research Part C: Emerging Technologies, 98: 73-84. [[Matlab code](https://github.com/lijunsun/bgcp_imputation)]
+  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2019. [*A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*](https://doi.org/10.1016/j.trc.2018.11.003). Transportation Research Part C: Emerging Technologies, 98: 73-84. [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Imputation example - Jyputer notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)]
 
   >Please consider citing our papers if they help your research.
 
@@ -311,6 +317,8 @@ Our blog posts (in Chinese)
   - [贝叶斯高斯张量分解](https://zhuanlan.zhihu.com/p/47049414), by Xinyu Chen (陈新宇).
 
   - [贝叶斯矩阵分解](https://zhuanlan.zhihu.com/p/26067454), by Xinyu Chen (陈新宇).
+
+  - [时序矩阵分解 | 时序数据修补与预测](https://zhuanlan.zhihu.com/p/56105537), by Jamie Yang (杨津铭).
 
 License
 --------------
