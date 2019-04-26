@@ -285,9 +285,11 @@ Selected references
 Our publications
 --------------
 
-  - Xinyu Chen, Zhaocheng He, Jiawei Wang, 2018. [*Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition*](https://doi.org/10.1016/j.trc.2017.10.023). Transportation Research Part C: Emerging Technologies, 86: 59-77.
+- **Xinyu Chen**, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)] (in press)
 
-  - Xinyu Chen, Zhaocheng He, Lijun Sun, 2019. [*A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation*](https://doi.org/10.1016/j.trc.2018.11.003). Transportation Research Part C: Emerging Technologies, 98: 73-84. [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Imputation example - Jyputer notebook （Matlab）](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Jupyter notebook (Python)](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb)]
+- **Xinyu Chen**, Zhaocheng He, Lijun Sun (2019). **A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 98: 73-84. [[preprint](https://www.researchgate.net/publication/329177786_A_Bayesian_tensor_decomposition_approach_for_spatiotemporal_traffic_data_imputation)] [[doi](https://doi.org/10.1016/j.trc.2018.11.003)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Imputation example in Jupyter notebook (Matlab)](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Jupyter notebook (Python)](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb)]
+
+- **Xinyu Chen**, Zhaocheng He, Jiawei Wang (2018). **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. Transportation Research Part C: Emerging Technologies, 86: 59-77. [[doi](http://doi.org/10.1016/j.trc.2017.10.023)] [[data](http://doi.org/10.5281/zenodo.1205229)]
 
   >Please consider citing our papers if they help your research.
 
@@ -303,6 +305,10 @@ Our blog posts (in Chinese)
   - [贝叶斯矩阵分解](https://zhuanlan.zhihu.com/p/26067454), by Xinyu Chen (陈新宇).
 
   - [时序矩阵分解 | 时序数据修补与预测](https://zhuanlan.zhihu.com/p/56105537), by Jamie Yang (杨津铭).
+
+  - [如何用贝叶斯概率矩阵分解修复缺失数据？(Jupyter notebook - Python)](https://zhuanlan.zhihu.com/p/63351454), by Xinyu Chen (陈新宇).
+
+  - [如何用贝叶斯高斯张量分解修复缺失数据？(Jupyter notebook - Python)](https://zhuanlan.zhihu.com/p/59196946), by Xinyu Chen (陈新宇).
 
 License
 --------------
