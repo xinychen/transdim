@@ -92,47 +92,27 @@ Overview
 
   > We consider two common missing data scenarios (i.e., **random missing (RM)** and **non-random missing (NM))**. For **RM**, we simply remove certain amount of observed entries in the matrix randomly and use these entries as ground truth to evaluate RMSE. For **NM**, we apply correlated fiber missing experiment by randomly choosing certain amount (e.g., 40%) (location, day) combinations and removing the whole time series in each combination.
 
-| Model | Paper | Data set | Missing | RMSE | Our implementation |
-|---     |---    |---       |---      |---   |---:      |
-|  BGCP  |[Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | **3.5762** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb) |
-|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | 4.0403 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
-|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | 4.0909 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
-|  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, RM | 4.6718 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
-|  BGCP  |[Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | **3.5969** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb) |
-|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | 4.1578 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
-|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | 4.2280 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
-|  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, RM | 5.1776 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
-|  BGCP  |[Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | 4.4136 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb) |
-|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | 4.3828 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
-|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | **4.3575** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
-|  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 20%, NM | 6.5500 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
-|  BGCP  |[Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | 4.6791 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb) |
-|  BPMF  |[Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | 4.5586 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) |
-|  PMF   |[Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | **4.4866** | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) |
-|  GAIN   |[Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)| [Gdata](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) | 40%, NM | 6.9947 | [Jupyter Notebook](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
+|  Missingness | [BGCP](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb) | [BPMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) | [PMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) | [GAIN](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
+|---     |---    |---    |---    |---    |
+| 20%, RM | **3.5762** | 4.0403 | 4.0909 | 4.6718 |
+| 40%, RM | **3.5969** | 4.1578	| 4.2280 | 5.1776 |
+| 20%, NM | 4.4136 | 4.3828 | **4.3575** | 6.5500 |
+| 40%, NM | 4.6791 | 4.5586	| **4.4866** | 6.9947	|
 
 
-  - ***BPMF***: Bayesian probabilistic matrix factorization.
+- ***BGCP***: Bayesian Gaussian CP decomposition (by [Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)). [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
-  - ***PMF***: Probabilistic matrix factorization.
-    - The [code1](https://github.com/adamzjw) and [code2](https://github.com/fuhailin/Probabilistic-Matrix-Factorization) have been adapted for our implementation.
+- ***BPMF***: Bayesian probabilistic matrix factorization (by [Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)).
 
-  - ***GAIN***: Generative Adversarial Imputation Nets.
-    - The [code](https://github.com/jsyoon0823/GAIN) has been adapted for our implementation.
+- ***PMF***: Probabilistic matrix factorization (by [Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)).
+  - The [code1](https://github.com/adamzjw) and [code2](https://github.com/fuhailin/Probabilistic-Matrix-Factorization) have been adapted for our experiments.
 
-  - ***LocInt***: local interpolation.
+- ***GAIN***: Generative Adversarial Imputation Nets (by [Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)).
+  - The [code](https://github.com/jsyoon0823/GAIN) has been adapted for our implementation.
 
-     - This model considers *local information* from observations at the neighboring time slots of the missing values.
+- ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
 
-  - ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
-
-     - Alleviating hyperparameters setting is a rewarding way.
-
-  - ***BGCP***: Bayesian Gaussian CP decomposition. [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
-
-  - ***BPMF***: Bayesian probabilistic matrix factorization.
-
-  - ***HaLRTC***: High accuracy low rank tensor completion.
+- ***HaLRTC***: High accuracy low rank tensor completion.
 
 
 
