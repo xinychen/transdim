@@ -186,6 +186,8 @@ Selected references
 
   - Ilya Sutskever, Ruslan Salakhutdinov, Joshua B. Tenenbaum, 2009. [*Modelling relational data using Bayesian clustered tensor factorization*](https://ece.duke.edu/~lcarin/pmfcrp.pdf). NIPS 2009.
 
+  - kan Saha, Vikas Sindhwani, 2012. [*Learning evolving and emerging topics in social media: A dynamic NMF approach with temporal regularization*](http://people.cs.uchicago.edu/~ankans/Papers/wsdm227-saha.pdf). WSDM 2012. (★★★★)
+
   - Nicolo Fusi, Rishit Sheth, Melih Huseyn Elibol, 2017. [*Probabilistic matrix factorization for automated machine learning*](https://arxiv.org/pdf/1705.05355.pdf). arXiv.
 
   - Liang Xiong, Xi Chen, Tzu-Kuo Huang, Jeff Schneider, Jaime G. Carbonell, 2010. [*Temporal collaborative filtering with Bayesian probabilistic tensor factorization*](https://www.cs.cmu.edu/~jgc/publication/PublicationPDF/Temporal_Collaborative_Filtering_With_Bayesian_Probabilidtic_Tensor_Factorization.pdf). Proceedings of the 2010 SIAM International Conference on Data Mining. SIAM, pp. 211-222.
@@ -272,6 +274,8 @@ Selected references
 
   - Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu, 2019. [*Spatiotemporal multi-graph convolution network for ride-hailing demand forecasting*](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf). *AAAI 2019*.
 
+  - Menglin Wang, Baisheng Lai, Zhongming Jin, Yufeng Lin, Xiaojia Gong, Jiangqiang Huang, Xiansheng Hua, 2018. [*Dynamic spatio-temporal graph-based CNNs for traffic prediction*](https://arxiv.org/pdf/1812.02019.pdf). arXiv.
+
 - ### **Missing data imputation**
 
   -  Daniel J. Stekhoven, Peter Bühlmann, 2012. [*MissForest—non-parametric missing value imputation for mixed-type data*](https://doi.org/10.1093/bioinformatics/btr597). Bioinformatics, 28(1): 112–118. [[missingpy - PyPI](https://pypi.org/project/missingpy/)] or [[missingpy - GitHub](https://github.com/epsilon-machine/missingpy)]
@@ -285,7 +289,7 @@ Selected references
 Our publications
 --------------
 
-- **Xinyu Chen**, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)] (in press)
+- **Xinyu Chen**, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies, 104: 66-77. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)]
 
 - **Xinyu Chen**, Zhaocheng He, Lijun Sun (2019). **A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 98: 73-84. [[preprint](https://www.researchgate.net/publication/329177786_A_Bayesian_tensor_decomposition_approach_for_spatiotemporal_traffic_data_imputation)] [[doi](https://doi.org/10.1016/j.trc.2018.11.003)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Imputation example in Jupyter notebook (Matlab)](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Jupyter notebook (Python)](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb)]
 
