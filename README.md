@@ -29,13 +29,13 @@ Tasks and challenges
 
 - ### **Missing data imputation**
 
-  - **Random missing**: each sensor lost their observations at completely random. (*simple task*)
-  - **Fiber missing**: each sensor lost their observations during several days. (*difficult task*)
+  - **Random missing**: Each sensor lost their observations at completely random. (★★★)
+  - **Non-random missing**: Each sensor lost their observations during several days. (★★★★)
 
 - ### **Rolling traffic prediction**
 
-  - Forecasting **without missing values**. (*simple task*)
-  - Forecasting **with incomplete observations**. (*difficult task*)
+  - Forecasting **without missing values**. (★★★)
+  - Forecasting **with incomplete observations**. (★★★★★)
 
 What we do just now!
 --------------
