@@ -152,6 +152,8 @@ Selected references
 
   - Koh Takeuchi, Hisashi Kashima, Naonori Ueda, 2017. [*Autoregressive tensor factorization for spatio-temporal predictions*](https://doi.org/10.1109/ICDM.2017.146). 2017 IEEE International Conference on Data Mining (*ICDM 2017*).
 
+  - Shun-Yao Shih, Fan-Keng Sun, Hung-yi Lee, 2018. [*Temporal pattern attention for multivariate time series forecasting*](https://arxiv.org/pdf/1809.04206v2.pdf). arXiv.
+
 - ### **Principal component analysis**
 
   - Shigeyuki Oba, Masa-aki Sato, Ichiro Takemasa, Morito Monden, Ken-ichi Matsubara, Shin Ishii, 2003. [*A Bayesian missing value estimation method for gene expression profile data*](https://doi.org/10.1093/bioinformatics/btg287). Bioinformatics, 19: 2088-2096. [[Matlab code](http://ishiilab.jp/member/oba/tools/BPCAFill.html)]
