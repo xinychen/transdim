@@ -1,7 +1,13 @@
-***transdim***
---------------
+# transdim
 
->**Trans**portation **d**ata **im**putation (***transdim***).
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Python 3.7](https://img.shields.io/badge/Python-3.7-blue.svg)
+[![GitHub stars](https://img.shields.io/github/stars/xinychen/transdim.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/transdim)
+
+
+**Trans**portation **d**ata **im**putation (***transdim***).
+
+In a hurry? Please check out our contents as follows.
 
 Contents
 --------
