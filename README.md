@@ -104,14 +104,6 @@ Overview
 
   > We consider two common missing data scenarios (i.e., **random missing (RM)** and **non-random missing (NM))**. For **RM**, we simply remove certain amount of observed entries in the matrix randomly and use these entries as ground truth to evaluate RMSE. For **NM**, we apply correlated fiber missing experiment by randomly choosing certain amount (e.g., 40%) (location, day) combinations and removing the whole time series in each combination.
 
-|  Missingness | [BGCP](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb) | [BPMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BPMF-Gdata.ipynb) | [PMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-PMF-Gdata.ipynb) | [GAIN](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-GAIN-Gdata.ipynb) |
-|---     |---    |---    |---    |---    |
-| 20%, RM | **3.5762** | 4.0403 | 4.0909 | 4.6718 |
-| 40%, RM | **3.5969** | 4.1578	| 4.2280 | 5.1776 |
-| 20%, NM | 4.4136 | 4.3828 | **4.3575** | 6.5500 |
-| 40%, NM | 4.6791 | 4.5586	| **4.4866** | 6.9947	|
-
-
 - ***BGCP***: Bayesian Gaussian CP decomposition (by [Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)). [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
 - ***BPMF***: Bayesian probabilistic matrix factorization (by [Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)).
@@ -131,7 +123,9 @@ Overview
 Selected references
 --------------
 
-- ### **Spatio-temporal forecasting**
+- ### **Spatiotemporal forecasting**
+
+  - Yuyang Wang, Alex Smola, Danielle C. Maddix, Jan Gasthaus, Dean Foster, Tim Januschowski, 2019. [*Deep Factors for Forecasting*](https://arxiv.org/pdf/1905.12417.pdf). ICML 2019. (★★★★★)
 
   - San Gultekin, John Paisley, 2019. [*Online Forecasting Matrix Factorization*](https://ieeexplore.ieee.org/document/8590686/). IEEE Transactions on Signal Processing, 67(5): 1223-1236. [[Python code](https://github.com/chloemnge/online_learning)]
 
@@ -197,6 +191,8 @@ Selected references
 - ### **Bayesian matrix and tensor factorization**
 
   - Ruslan Salakhutdinov, Andriy Mnih, 2008. [*Bayesian probabilistic matrix factorization using Markov chain Monte Carlo*](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf). Proceedings of the 25th International Conference on Machine Learning (*ICML 2008*), Helsinki, Finland. [[Matlab code (official)](https://www.cs.toronto.edu/~rsalakhu/BPMF.html)] [[Python code](https://github.com/LoryPack/BPMF)] [[Julia and C++ code](https://github.com/ExaScience/bpmf)] [[Julia code](https://github.com/RottenFruits/BPMF.jl)]
+
+  - Neil D. Lawrence, Raquel Urtasun, 2009. [*Non-linear Matrix Factorization with Gaussian Processes*](http://people.ee.duke.edu/~lcarin/MatrixFactorization.pdf). ICML 2009. (★★★★★)
 
   - Ilya Sutskever, Ruslan Salakhutdinov, Joshua B. Tenenbaum, 2009. [*Modelling relational data using Bayesian clustered tensor factorization*](https://ece.duke.edu/~lcarin/pmfcrp.pdf). NIPS 2009.
 
@@ -305,7 +301,7 @@ Our publications
 
 - **Xinyu Chen**, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies, 104: 66-77. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)]
 
-- **Xinyu Chen**, Zhaocheng He, Lijun Sun (2019). **A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 98: 73-84. [[preprint](https://www.researchgate.net/publication/329177786_A_Bayesian_tensor_decomposition_approach_for_spatiotemporal_traffic_data_imputation)] [[doi](https://doi.org/10.1016/j.trc.2018.11.003)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Imputation example in Jupyter notebook (Matlab)](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Jupyter notebook (Python)](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/Imputation-BGCP-Gdata.ipynb)]
+- **Xinyu Chen**, Zhaocheng He, Lijun Sun (2019). **A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 98: 73-84. [[preprint](https://www.researchgate.net/publication/329177786_A_Bayesian_tensor_decomposition_approach_for_spatiotemporal_traffic_data_imputation)] [[doi](https://doi.org/10.1016/j.trc.2018.11.003)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Python code](https://github.com/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)]
 
 - **Xinyu Chen**, Zhaocheng He, Jiawei Wang (2018). **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. Transportation Research Part C: Emerging Technologies, 86: 59-77. [[doi](http://doi.org/10.1016/j.trc.2017.10.023)] [[data](http://doi.org/10.5281/zenodo.1205229)]
 
@@ -327,6 +323,8 @@ Our blog posts (in Chinese)
   - [如何用贝叶斯概率矩阵分解修复缺失数据？(Jupyter notebook - Python)](https://zhuanlan.zhihu.com/p/63351454), by Xinyu Chen (陈新宇).
 
   - [如何用贝叶斯高斯张量分解修复缺失数据？(Jupyter notebook - Python)](https://zhuanlan.zhihu.com/p/59196946), by Xinyu Chen (陈新宇).
+  
+  - [统计学习 | 矩阵正态分布 (matrix normal distribution)](https://zhuanlan.zhihu.com/p/73585133), by Xinyu Chen (陈新宇).
 
 License
 --------------
