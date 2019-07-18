@@ -15,21 +15,15 @@ In the **transdim** (**trans**portation **d**ata **im**putation) project, we cre
 
 In a hurry? Please check out our contents as follows.
 
-Contents
---------
-
--   [Strategic aim](#strategic-aim)
--   [Tasks and challenges](#tasks-and-challenges)
-
-  	[[Missing data imputation](#missing-data-imputation)] [[Rolling traffic prediction](#rolling-traffic-prediction)]
--   [What we do just now!](#what-we-do-just-now)
--   [What we care about!](#what-we-care-about)
--   [Overview](#overview)
--   [Selected References](#selected-references):
-
-	[[Spatio-temporal forecasting](#spatio-temporal-forecasting)] [[Principal component analysis](#principal-component-analysis)] [[Guassian process](#gaussian-process)] [[Matrix factorization](#matrix-factorization)] [[Bayesian matrix and tensor factorization](#bayesian-matrix-and-tensor-factorization)] [[Low-rank tensor completion](#low-rank-tensor-completion)] [[Generative Adversarial Nets](#generative-adversarial-nets)] [[Variational Autoencoder](#variational-autoencoder)] [[Tensor regression](#tensor-regression)] [[Poisson matrix factorization](#poisson-matrix-factorization)] [[Graph signal processing](#graph-signal-processing)] [[Graph neural network](#graph-neural-network)] [[Missing data imputation](#missing-data-imputation)]
--   [Our Publications](#our-publications)
--   [License](#license)
+| Table of Contents |
+| :------------- |
+| [Strategic aim](#strategic-aim) |
+| [Tasks and challenges](#tasks-and-challenges) |
+| [What we do just now!](#what-we-do-just-now) |
+| [Overview](#overview) |
+| [Selected References](#selected-references) |
+| [Our Publications](#our-publications) |
+| [License](#license) |
 
 Strategic aim
 --------------
