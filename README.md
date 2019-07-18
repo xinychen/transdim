@@ -5,9 +5,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/xinychen/transdim.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/transdim)
 
 
-Machine learning models make important developments about spatiotemporal data modeling -- like how to forecast near-future traffic states of road networks. But what happens when these models are built with incomplete data commonly collected in real-world systems?
+Machine learning models make important developments about spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built with incomplete data commonly collected in real-world systems?
 
-About the project
+About the Project
 ---
 
 In the **transdim** (**trans**portation **d**ata **im**putation) project, we create machine learning models to help address some of the toughest challenges of spatiotemporal data modeling -- from missing data imputation to time series prediction.
@@ -17,20 +17,20 @@ In a hurry? Please check out our contents as follows.
 
 | Table of Contents |
 | :------------- |
-| [Strategic aim](#strategic-aim) |
-| [Tasks and challenges](#tasks-and-challenges) |
+| [Strategic Aim](#strategic-aim) |
+| [Tasks and Challenges](#tasks-and-challenges) |
 | [What we do just now!](#what-we-do-just-now) |
 | [Overview](#overview) |
 | [Selected References](#selected-references) |
 | [Our Publications](#our-publications) |
 | [License](#license) |
 
-Strategic aim
+Strategic Aim
 --------------
 
->Creating accurate and efficient solutions for the spatio-temporal traffic data imputation and prediction tasks.
+>Creating accurate and efficient solutions for the spatiotemporal traffic data imputation and prediction tasks.
 
-Tasks and challenges
+Tasks and Challenges
 --------------
 
 - ### **Missing data imputation**
@@ -67,7 +67,7 @@ What we care about!
 --------------
 
 - Best algebraic structure for data imputation.
-- The context of urban transportation (e.g., biases).
+- The context of urban transportation.
 - Data noise avoidance.
 - Competitive imputation and prediction performance.
 - Capable of various missing data scenarios.
@@ -114,7 +114,7 @@ Overview
 
 
 
-Selected references
+Selected References
 --------------
 
 - ### **Spatiotemporal forecasting**
@@ -290,7 +290,7 @@ Selected references
 
   - Wei Cao, Dong Wang, Jian Li, Hao Zhou, Yitan Li, Lei Li, 2018. [*BRITS: Bidirectional Recurrent Imputation for Time Series*](https://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series.pdf). 32nd Conference on Neural Information Processing Systems (NeurIPS 2018), Montréal, Canada. [Python code](https://github.com/caow13/BRITS)
 
-Our publications
+Our Publications
 --------------
 
 - **Xinyu Chen**, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies, 104: 66-77. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)]
@@ -301,7 +301,7 @@ Our publications
 
   >Please consider citing our papers if they help your research.
 
-Our blog posts (in Chinese)
+Our Blog Posts (in Chinese)
 --------------
 
   - [贝叶斯泊松分解变分推断笔记](https://yxnchen.github.io/research/%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%8A%E6%9D%BE%E5%88%86%E8%A7%A3%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
