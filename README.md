@@ -120,6 +120,10 @@ Selected References
 - ### **Spatiotemporal forecasting**
 
   - Yuyang Wang, Alex Smola, Danielle C. Maddix, Jan Gasthaus, Dean Foster, Tim Januschowski, 2019. [*Deep Factors for Forecasting*](https://arxiv.org/pdf/1905.12417.pdf). ICML 2019. (★★★★★)
+  
+  - Danielle C. Maddix, Yuyang Wang, Alex Smola, 2018. [*Deep Factors with Gaussian Processes for Forecasting*](https://arxiv.org/pdf/1812.00098.pdf). arXiv.
+  
+  - Syama Sundar Rangapuram, Matthias Seeger, Jan Gasthaus, Lorenzo Stella, Yuyang Wang, Tim Januschowski, 2018. [*Deep State Space Models for Time Series Forecasting*](http://papers.nips.cc/paper/8004-deep-state-space-models-for-time-series-forecasting.pdf?nsukey=CoqM71tHuwiqTTDwkPRsu40QKdc%2BlY%2FWWNEiuEJaWd6sw7dUXlAT3mU122dvYrMHOYfANParRFLBDLgraANFjHdggEDRxbT9Kk2Mam6nZfVkQT4E2cRCMULUTPTFmjCeuBKHjDSSEs6L4Ci7JuyRqB2ojJnBKDD%2FkcAgdhwhJQa%2BLZ5owi4oVwnQrgWX5pTr0vTORENMdC59F4mqtOQENA%3D%3D). NeurIPS 2018.
 
   - San Gultekin, John Paisley, 2019. [*Online Forecasting Matrix Factorization*](https://ieeexplore.ieee.org/document/8590686/). IEEE Transactions on Signal Processing, 67(5): 1223-1236. [[Python code](https://github.com/chloemnge/online_learning)]
 
