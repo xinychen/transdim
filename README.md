@@ -82,6 +82,31 @@ Our Implementation
 
 ### Model implementation
 
+| Task     | Jupyter Notebook link | Guangzhou data | Birmingham data | Hangzhou data | NYC data |
+| :---:    | :------------- | :------------: | :------------:  | :-----------: | :-------:|
+|Imputation| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)           | ✅     | ✅     | ✅    | 🔶 |
+|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
+|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
+|          | [**BPMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
+|          | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) | ✅     | ✅     | ✅    | ✅ |
+|          | [**TF-ALS**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TF-ALS.ipynb) | ✅     | ✅     | ✅    | ✅ |
+|          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
+|          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
+|          | [**BPTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
+|Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
+|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
+|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
+|          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
+|          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
+|          | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
+
+
+* ✅ — Covered
+* 🔶 — Does not cover
+* 🚧 — Under development
+
+
+
 ### Imputation/Prediction performance
 
 - **Imputation example**
@@ -95,23 +120,6 @@ Our Implementation
 > *The imputation performance of BGCP (CP rank r=15 and missing rate α=30%) under the fiber missing scenario with third-order tensor representation, where the estimated result of road segment #1 is selected as an example. In the both two panels, red rectangles represent fiber missing (i.e., speed observations are lost in a whole day).*
 
 - **Prediction example**
-
-
-
-
-- ***BGCP***: Bayesian Gaussian CP decomposition (by [Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)). [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
-
-- ***BPMF***: Bayesian probabilistic matrix factorization (by [Salakhutdinov et al., 2008](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf)).
-
-- ***PMF***: Probabilistic matrix factorization (by [Salakhutdinov et al., 2007](http://59.80.44.99/papers.nips.cc/paper/3208-probabilistic-matrix-factorization.pdf)).
-  - The [code1](https://github.com/adamzjw) and [code2](https://github.com/fuhailin/Probabilistic-Matrix-Factorization) have been adapted for our experiments.
-
-- ***GAIN***: Generative Adversarial Imputation Nets (by [Yoon et al., 2018](http://proceedings.mlr.press/v80/yoon18a/yoon18a.pdf)).
-  - The [code](https://github.com/jsyoon0823/GAIN) has been adapted for our implementation.
-
-- ***TRMF***: Temporal regularized matrix factorization. [[Matlab code is also available!](https://github.com/rofuyu/exp-trmf-nips16)]
-
-- ***HaLRTC***: High accuracy low rank tensor completion.
 
 
 
