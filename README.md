@@ -75,10 +75,10 @@ Our Implementation
 
 ### Open data
 
-- Guangzhou traffic speed data set. [**adpated data**](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) [**source data**](https://doi.org/10.5281/zenodo.1205228)
-- Birmingham parking data set. [**adapted data**](https://github.com/xinychen/transdim/tree/master/Birmingham-data-set) [**source data**](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
-- Hangzhou metro passenger flow data set. [**adapted data**](https://github.com/xinychen/transdim/tree/master/Hangzhou-data-set) [**source data**](https://doi.org/10.5281/zenodo.3145403)
-- NYC taxi data set. [**adapted data**](https://github.com/xinychen/transdim/tree/master/NYC-data-set) [**source data**](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- Guangzhou traffic speed data set. [[**adpated data**](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set)] [[**source data**](https://doi.org/10.5281/zenodo.1205228)]
+- Birmingham parking data set. [[**adapted data**](https://github.com/xinychen/transdim/tree/master/Birmingham-data-set)] [[**source data**](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)]
+- Hangzhou metro passenger flow data set. [[**adapted data**](https://github.com/xinychen/transdim/tree/master/Hangzhou-data-set)] [[**source data**](https://doi.org/10.5281/zenodo.3145403)]
+- NYC taxi data set. [[**adapted data**](https://github.com/xinychen/transdim/tree/master/NYC-data-set)] [[**source data**](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)]
 
 ### Model implementation
 
