@@ -121,7 +121,11 @@ Our Implementation
 
 - **Prediction example**
 
+![example](https://github.com/xinychen/transdim/blob/master/images/prediction_hangzhou.png)
 
+![example](https://github.com/xinychen/transdim/blob/master/images/prediction_nyc_heatmap.png)
+
+![example](https://github.com/xinychen/transdim/blob/master/images/prediction_nyc.png)
 
 Selected References
 --------------
