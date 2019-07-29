@@ -20,7 +20,7 @@ In a hurry? Please check out our contents as follows.
 | [Strategic Aim](#strategic-aim) |
 | [Tasks and Challenges](#tasks-and-challenges) |
 | [What we do just now!](#what-we-do-just-now) |
-| [Overview](#overview) |
+| [Our Implementation](#our-implementation) |
 | [Selected References](#selected-references) |
 | [Our Publications](#our-publications) |
 | [License](#license) |
@@ -46,19 +46,17 @@ Tasks and Challenges
 What we do just now!
 --------------
 
-- add a **framework** indicating overall studies;
+- Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
 
 ![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
 
-> *Framework*: Tensor completion task and its framework including **data organization** and **tensor completion**, in which traffic measurements are partially observed.
+> *Framework*: Tensor completion task and its framework ( including two steps: **data organization** and **tensor completion**), here, these traffic measurements are partially observed.
 
-- define the **problems** clearly;
+- An illustration of single-step rolling prediction task under a matrix factorization framework.
 
     - Example: Traffic forecasting using matrix factorization models.
 
 		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
-
-> *Real experiment setting*: Observations with **0%, 20% and 40% fiber missing rates** during first **56 days are treated as stationary inputs**. Meanwhile, there are some rolling inputs for **forecasting traffic speed during last 5 days (from Monday to Friday)** in a rolling manner.
 
 - describe the **core challenges** intuitively;
 - list **main contributions** of these studies.
@@ -72,15 +70,21 @@ What we care about!
 - Competitive imputation and prediction performance.
 - Capable of various missing data scenarios.
 
-Overview
+Our Implementation
 --------------
 
-   >With the development and application of intelligent transportation systems, large quantities of urban traffic data are collected on a continuous basis from various sources, such as loop detectors, cameras, and floating vehicles. These data sets capture the underlying states and dynamics of transportation networks and the whole system and become beneficial to many traffic operation and management applications, including routing, signal control, travel time prediction, and so on. However, the missing data problem is inevitable when collecting traffic data from intelligent transportation systems.
+### Open data
 
-### [Urban traffic speed data set of Guangzhou, China](https://doi.org/10.5281/zenodo.1205228)
+- Guangzhou traffic speed data set. [**adpated data**](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set) [**source data**](https://doi.org/10.5281/zenodo.1205228)
+- Birmingham parking data set. [**adapted data**](https://github.com/xinychen/transdim/tree/master/Birmingham-data-set) [**source data**](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
+- Hangzhou metro passenger flow data set. [**adapted data**](https://github.com/xinychen/transdim/tree/master/Hangzhou-data-set) [**source data**](https://doi.org/10.5281/zenodo.3145403)
+- NYC taxi data set. [**adapted data**](https://github.com/xinychen/transdim/tree/master/NYC-data-set) [**source data**](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
-  >**Publicly available at our Zenodo repository!**
+### Model implementation
 
+### Imputation/Prediction performance
+
+- **Imputation example**
 
 ![example](https://github.com/xinychen/transdim/blob/master/images/estimated_series1.png)
   *(a) Time series of actual and estimated speed within two weeks from August 1 to 14.*
@@ -90,13 +94,10 @@ Overview
 
 > *The imputation performance of BGCP (CP rank r=15 and missing rate α=30%) under the fiber missing scenario with third-order tensor representation, where the estimated result of road segment #1 is selected as an example. In the both two panels, red rectangles represent fiber missing (i.e., speed observations are lost in a whole day).*
 
-### Machine learning models
+- **Prediction example**
 
-  - **Missing data imputation**
 
-  > **Urban traffic speed data set** (i.e., [Guangzhou-data-set(Gdata)](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set)) registered traffic speed data from 214 road segments over two months (61 days from August 1 to September 30 in 2016) in Guangzhou, China. We organize the raw data into a time series matrix of (214, 8784). For tensor-based models, we use a third-order tensor (214, 61, 144) as input. Matrix based models are tested with the time series matrix (214, 8784).
 
-  > We consider two common missing data scenarios (i.e., **random missing (RM)** and **non-random missing (NM))**. For **RM**, we simply remove certain amount of observed entries in the matrix randomly and use these entries as ground truth to evaluate RMSE. For **NM**, we apply correlated fiber missing experiment by randomly choosing certain amount (e.g., 40%) (location, day) combinations and removing the whole time series in each combination.
 
 - ***BGCP***: Bayesian Gaussian CP decomposition (by [Chen et al., 2019](https://doi.org/10.1016/j.trc.2018.11.003)). [[Imputation example - Jupyter Notebook](http://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/BGCP_example.ipynb)] [[Matlab code is also available!](https://github.com/lijunsun/bgcp_imputation)]
 
