@@ -91,7 +91,7 @@ If you want to view the original data, please check out the following links:
 
 ### Model implementation
 
-In our experiments, we have implementated the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, you could download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
+In our experiments, we have implemented the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, you could download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
 
 | Task     | Jupyter Notebook link | Guangzhou data | Birmingham data | Hangzhou data | NYC data |
 | :---:    | :------------- | :------------: | :------------:  | :-----------: | :-------:|
