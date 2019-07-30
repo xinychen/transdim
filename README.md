@@ -69,7 +69,20 @@ Our Implementation
 
 ### Open data
 
-In this repository, we have adapted the following public data sets into our experiments. If you want to view the original data, please check out the following links:
+In this repository, we have adapted the public data sets into our experiments. For example, to read the data set on your console, you may see the following code:
+
+```{python}
+import scipy.io
+
+tensor = scipy.io.loadmat('../Guangzhou-data-set/tensor.mat')
+tensor = tensor['tensor']
+random_matrix = scipy.io.loadmat('../Guangzhou-data-set/random_matrix.mat')
+random_matrix = random_matrix['random_matrix']
+random_tensor = scipy.io.loadmat('../Guangzhou-data-set/random_tensor.mat')
+random_tensor = random_tensor['random_tensor']
+```
+
+If you want to view the original data, please check out the following links:
 
 - [Guangzhou traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
 - [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
@@ -103,7 +116,9 @@ In our experiments, we have implementated the machine learning models mainly on 
 * 🔶 — Does not cover
 * 🚧 — Under development
 
+Perhaps these notebooks are not well enough for your understanding, so if you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) send your revised implementation.
 
+> Recommended email subject: Suggestions on transdim from [+ your name].
 
 ### Imputation/Prediction performance
 
