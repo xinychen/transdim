@@ -116,7 +116,7 @@ In our experiments, we have implementated the machine learning models mainly on 
 * 🔶 — Does not cover
 * 🚧 — Under development
 
-Perhaps these notebooks are not well enough for your understanding, so if you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) send your revised implementation.
+Perhaps these notebooks are not well enough for your understanding, so if you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your revised implementation.
 
 > Recommended email subject: Suggestions on transdim from [+ your name].
 
