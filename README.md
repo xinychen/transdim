@@ -45,13 +45,11 @@ Tasks and Challenges
 What we do just now!
 --------------
 
-- Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
+- **Industrial tensor completion framework for multi-dimensional missing traffic data imputation**.
 
 ![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
 
-> *Framework*: Tensor completion task and its framework ( including two steps: **data organization** and **tensor completion**), here, these traffic measurements are partially observed.
-
-- An illustration of single-step rolling prediction task under a matrix factorization framework.
+- **An illustration of single-step rolling prediction task under a matrix factorization framework**.
 
     - Example: Traffic forecasting using matrix factorization models.
 
@@ -71,7 +69,7 @@ Our Implementation
 
 ### Open data
 
-In this repository, we have adapted the following public data sets into our experiments. If you want to view the original data, please see the following links:
+In this repository, we have adapted the following public data sets into our experiments. If you want to view the original data, please check out the following links:
 
 - [Guangzhou traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
 - [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
@@ -80,7 +78,7 @@ In this repository, we have adapted the following public data sets into our expe
 
 ### Model implementation
 
-In our experiments, we have implementated the machine learning models mainly on `Numpy`, and written these Python codes in **Jupyter Notebook**. So, if you want to evaluate these models, you could run these notebooks directly (prerequisite: **download the data sets**).
+In our experiments, we have implementated the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, you could download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
 
 | Task     | Jupyter Notebook link | Guangzhou data | Birmingham data | Hangzhou data | NYC data |
 | :---:    | :------------- | :------------: | :------------:  | :-----------: | :-------:|
