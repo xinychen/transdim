@@ -23,7 +23,6 @@ In a hurry? Please check out our contents as follows.
 | [Our Implementation](#our-implementation) |
 | [Selected References](#selected-references) |
 | [Our Publications](#our-publications) |
-| [License](#license) |
 
 Strategic Aim
 --------------
@@ -58,9 +57,6 @@ What we do just now!
 
 		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
 
-- describe the **core challenges** intuitively;
-- list **main contributions** of these studies.
-
 What we care about!
 --------------
 
@@ -75,12 +71,16 @@ Our Implementation
 
 ### Open data
 
-- Guangzhou traffic speed data set. [[**adpated data**](https://github.com/xinychen/transdim/tree/master/Guangzhou-data-set)] [[**source data**](https://doi.org/10.5281/zenodo.1205228)]
-- Birmingham parking data set. [[**adapted data**](https://github.com/xinychen/transdim/tree/master/Birmingham-data-set)] [[**source data**](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)]
-- Hangzhou metro passenger flow data set. [[**adapted data**](https://github.com/xinychen/transdim/tree/master/Hangzhou-data-set)] [[**source data**](https://doi.org/10.5281/zenodo.3145403)]
-- NYC taxi data set. [[**adapted data**](https://github.com/xinychen/transdim/tree/master/NYC-data-set)] [[**source data**](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)]
+In this repository, we have adapted the following public data sets into our experiments. If you want to view the original data, please see the following links:
+
+- [Guangzhou traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
+- [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
+- [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403).
+- [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 
 ### Model implementation
+
+In our experiments, we have implementated the machine learning models mainly on `Numpy`, and written these Python codes in **Jupyter Notebook**. So, if you want to evaluate these models, you could run these notebooks directly (prerequisite: **download the data sets**).
 
 | Task     | Jupyter Notebook link | Guangzhou data | Birmingham data | Hangzhou data | NYC data |
 | :---:    | :------------- | :------------: | :------------:  | :-----------: | :-------:|
