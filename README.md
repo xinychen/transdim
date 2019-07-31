@@ -32,12 +32,12 @@ Strategic Aim
 Tasks and Challenges
 --------------
 
-- ### **Missing data imputation**
+- **Missing data imputation**
 
-  - **Random missing**: Each sensor lost their observations at completely random. (★★★)
-  - **Non-random missing**: Each sensor lost their observations during several days. (★★★★)
+  - Random missing (**RM**): Each sensor lost their observations at completely random. (★★★)
+  - Non-random missing (**NM**): Each sensor lost their observations during several days. (★★★★)
 
-- ### **Rolling traffic prediction**
+- **Rolling traffic prediction**
 
   - Forecasting **without missing values**. (★★★)
   - Forecasting **with incomplete observations**. (★★★★★)
@@ -231,6 +231,14 @@ Selected References
   - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, 2015. [*Bayesian sparse Tucker models for dimension reduction and tensor completion*](https://arxiv.org/pdf/1505.02343.pdf). arXiv.
 
   - Piyush Rai, Yingjian Wang, Shengbo Guo, Gary Chen, David B. Dunsun,	Lawrence Carin, 2014. [*Scalable Bayesian low-rank decomposition of incomplete multiway tensors*](http://people.ee.duke.edu/~lcarin/mpgcp.pdf). Proceedings of the 31st International Conference on Machine Learning (*ICML 2014*), Beijing, China.
+  
+- ### **Matrix completion on graphs**
+
+  - Vassilis Kalofolias, Xavier Bresson, Michael Bronstein, Pierre Vandergheynst, 2014. [*Matrix completion on graphs*](https://arxiv.org/abs/1408.1717). arXiv. (appear in NIPS 2014)
+
+  - Rianne van den Berg, Thomas N. Kipf, Max Welling, 2018. [*Graph convolutional matrix completion*](https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_32.pdf). Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (*KDD 2018*), London, UK.
+
+  - Federico Monti, Michael M. Bronstein, Xavier Bresson, 2017. [*Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks*](https://papers.nips.cc/paper/6960-geometric-matrix-completion-with-recurrent-multi-graph-neural-networks.pdf). NIPS 2017.
 
 - ### **Low-rank tensor completion**
 
@@ -253,10 +261,6 @@ Selected References
 - ### **Variational Autoencoder**
 
   - Zhiwei Deng, Rajitha Navarathna, Peter Carr, Stephan Mandt, Yisong Yue, 2017. [*Factorized variational autoencoders for modeling audience reactions to movies*](http://openaccess.thecvf.com/content_cvpr_2017/papers/Deng_Factorized_Variational_Autoencoders_CVPR_2017_paper.pdf). 2017 IEEE Conference on Computer Vision and Pattern Recognition (*CVPR 2017*), Honolulu, HI, USA.
-
-  - Vassilis Kalofolias, Xavier Bresson, Michael Bronstein, Pierre Vandergheynst, 2014. [*Matrix completion on graphs*](https://arxiv.org/abs/1408.1717). arXiv. (appear in NIPS 2014)
-
-  - Rianne van den Berg, Thomas N. Kipf, Max Welling, 2018. [*Graph convolutional matrix completion*](https://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_32.pdf). Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (*KDD 2018*), London, UK.
 
   - [*Graph autoencoder - GitHub*](https://github.com/tkipf/gae).
 
