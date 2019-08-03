@@ -27,12 +27,12 @@ In a hurry? Please check out our contents as follows.
 Strategic Aim
 --------------
 
->Creating accurate and efficient solutions for the spatiotemporal traffic data imputation and prediction tasks.
+> **Creating accurate and efficient solutions for the spatiotemporal traffic data imputation and prediction tasks.**
 
 Tasks and Challenges
 --------------
 
-> **Missing data are there, whether we like it or not. The really interesting question is how we deal with incomplete data.**
+> **Missing data are there, whether we like them or not. The really interesting question is how we deal with incomplete data.**
 
 - **Missing data imputation**
 
