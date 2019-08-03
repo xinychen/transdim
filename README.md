@@ -32,7 +32,7 @@ Strategic Aim
 Tasks and Challenges
 --------------
 
-> **Missing data are there, whether we like them or not. The really interesting question is how we deal with incomplete data.**
+> Missing data are there, whether we like them or not. The really interesting question is how we deal with incomplete data.
 
 - **Missing data imputation**
 
