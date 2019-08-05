@@ -39,19 +39,18 @@ Tasks and Challenges
   - Random missing (**RM**): Each sensor lost their observations at completely random. (★★★)
   - Non-random missing (**NM**): Each sensor lost their observations during several days. (★★★★)
 
-- **Rolling traffic prediction**
-
-  - Forecasting **without missing values**. (★★★)
-  - Forecasting **with incomplete observations**. (★★★★★)
+- **Spatiotemporal prediction**
+- Forecasting without missing values. (★★★)
+  - Forecasting with incomplete observations. (★★★★★)
 
 What we do just now!
 --------------
 
-- **Industrial tensor completion framework for multi-dimensional missing traffic data imputation**.
+- **Task 1**: Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
 
 ![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
 
-- **An illustration of single-step rolling prediction task under a matrix factorization framework**.
+- **Task 2**: An illustration of single-step rolling prediction task under a matrix factorization framework.
 
     - Example: Traffic forecasting using matrix factorization models.
 
@@ -86,16 +85,17 @@ random_tensor = random_tensor['random_tensor']
 
 If you want to view the original data, please check out the following links:
 
-- [Guangzhou traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
-- [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
-- [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403).
-- [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+- Gdata: [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
+- Bdata: [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
+- Hdata: [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403).
+- Ndata: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+- Sdata: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
 
 ### Model implementation
 
 In our experiments, we have implemented the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, you could download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
 
-| Task     | Jupyter Notebook link | Guangzhou data | Birmingham data | Hangzhou data | NYC data |
+| Task     | Jupyter Notebook link | Gdata | Bdata | Hdata | Ndata |
 | :---:    | :------------- | :------------: | :------------:  | :-----------: | :-------:|
 |Imputation| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)           | ✅     | ✅     | ✅    | 🔶 |
 |          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
