@@ -85,33 +85,33 @@ random_tensor = random_tensor['random_tensor']
 
 If you want to view the original data, please check out the following links:
 
-- Gdata: [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
-- Bdata: [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
-- Hdata: [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403).
-- Ndata: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
-- Sdata: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
+- **Gdata**: [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
+- **Bdata**: [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
+- **Hdata**: [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403).
+- **Ndata**: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+- **Sdata**: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
 
 ### Model implementation
 
 In our experiments, we have implemented the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, you could download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
 
-| Task     | Jupyter Notebook link | Gdata | Bdata | Hdata | Ndata |
-| :---:    | :------------- | :------------: | :------------:  | :-----------: | :-------:|
-|Imputation| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)           | ✅     | ✅     | ✅    | 🔶 |
-|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
-|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
-|          | [**BPMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
-|          | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) | ✅     | ✅     | ✅    | ✅ |
-|          | [**TF-ALS**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TF-ALS.ipynb) | ✅     | ✅     | ✅    | ✅ |
-|          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
-|          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
-|          | [**BPTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
-|Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
-|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
-|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 |
-|          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
-|          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
-|          | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRTF.ipynb) | 🔶     | 🔶     | 🔶    | ✅ |
+| Task     | Jupyter Notebook link | Gdata | Bdata | Hdata | Sdata | Ndata |
+| :---:    | :------------- | :------------: | :------------:  | :-----------: | :-----------: | :-------:|
+|Imputation| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)           | ✅     | ✅     | ✅    | 🔶 | 🔶 |
+|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
+|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
+|          | [**BPMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
+|          | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) | ✅     | ✅     | ✅    | 🔶 | ✅ |
+|          | [**TF-ALS**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TF-ALS.ipynb) | ✅     | ✅     | ✅    | 🔶 | ✅ |
+|          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|          | [**BPTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
+|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
+|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
+|          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|          | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 
 
 * ✅ — Covered
