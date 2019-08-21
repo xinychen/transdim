@@ -40,7 +40,7 @@ Tasks and Challenges
   - Non-random missing (**NM**): Each sensor lost their observations during several days. (★★★★)
 
 - **Spatiotemporal prediction**
-- Forecasting without missing values. (★★★)
+  - Forecasting without missing values. (★★★)
   - Forecasting with incomplete observations. (★★★★★)
 
 What we do just now!
