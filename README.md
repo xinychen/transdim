@@ -32,7 +32,7 @@ Strategic Aim
 Tasks and Challenges
 --------------
 
-> Missing data are there, whether we like them or not. The really interesting question is how we deal with incomplete data.
+> Missing data are there, whether we like them or not. The really interesting question is how to deal with incomplete data.
 
 - **Missing data imputation**
 
@@ -118,7 +118,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 * 🔶 — Does not cover
 * 🚧 — Under development
 
-Perhaps these notebooks are not well enough for your understanding, so if you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your revised implementation.
+Perhaps this repository is not well enough for your understanding, so if you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions.
 
 > Recommended email subject: Suggestions on transdim from [+ your name].
 
