@@ -12,7 +12,6 @@ About the Project
 
 In the **transdim** (**trans**portation **d**ata **im**putation) project, we create machine learning models to help address some of the toughest challenges of spatiotemporal data modeling -- from missing data imputation to time series prediction.
 
-
 In a hurry? Please check out our contents as follows.
 
 | Table of Contents |
@@ -355,6 +354,12 @@ Our Blog Posts (in Chinese)
   - [如何用贝叶斯高斯张量分解修复缺失数据？(Jupyter notebook - Python)](https://zhuanlan.zhihu.com/p/59196946), by Xinyu Chen (陈新宇).
   
   - [统计学习 | 矩阵正态分布 (matrix normal distribution)](https://zhuanlan.zhihu.com/p/73585133), by Xinyu Chen (陈新宇).
+
+Logo
+--------------
+![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo.png)
+
+
 
 License
 --------------
