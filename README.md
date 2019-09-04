@@ -357,7 +357,7 @@ Our Blog Posts (in Chinese)
 
 Logo
 --------------
-![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo.png)
+![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
 
 
 
