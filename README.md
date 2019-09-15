@@ -11,7 +11,7 @@ Machine learning models make important developments about spatiotemporal data mo
 About the Project
 ---
 
-In the **transdim** (**trans**portation **d**ata **im**putation) project, we create machine learning models to help address some of the toughest challenges of spatiotemporal data modeling -- from missing data imputation to time series prediction.
+In the **transdim** (**trans**portation **d**ata **im**putation) project, we build machine learning models to help address some of the toughest challenges of spatiotemporal data modeling -- from missing data imputation to time series prediction.
 
 In a hurry? Please check out our contents as follows.
 
