@@ -75,11 +75,11 @@ In this repository, we have adapted the public data sets into our experiments. F
 ```{python}
 import scipy.io
 
-tensor = scipy.io.loadmat('../Guangzhou-data-set/tensor.mat')
+tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/tensor.mat')
 tensor = tensor['tensor']
-random_matrix = scipy.io.loadmat('../Guangzhou-data-set/random_matrix.mat')
+random_matrix = scipy.io.loadmat('../datasets/Guangzhou-data-set/random_matrix.mat')
 random_matrix = random_matrix['random_matrix']
-random_tensor = scipy.io.loadmat('../Guangzhou-data-set/random_tensor.mat')
+random_tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/random_tensor.mat')
 random_tensor = random_tensor['random_tensor']
 ```
 
