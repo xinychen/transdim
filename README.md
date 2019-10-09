@@ -48,13 +48,14 @@ What we do just now!
 
 - **Task 1**: Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
 
-![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
+<img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="850"/>
 
 - **Task 2**: An illustration of single-step rolling prediction task under a matrix factorization framework.
 
     - Example: Traffic forecasting using matrix factorization models.
 
-		![example](https://github.com/xinychen/transdim/blob/master/images/rolling_prediction_strategy.png)
+		<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
+
 
 What we care about!
 --------------
@@ -101,17 +102,20 @@ In our experiments, we have implemented the machine learning models mainly on `N
 |          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
 |          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
 |          | [**BPMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
-|          | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) | ✅     | ✅     | ✅    | 🔶 | ✅ |
+|          | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) | ✅     | ✅     | ✅    | ✅ | ✅ |
 |          | [**TF-ALS**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TF-ALS.ipynb) | ✅     | ✅     | ✅    | 🔶 | ✅ |
 |          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**BPTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
-|Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
+|Single-Step Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
 |          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
 |          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
 |          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|Multi-Step Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BTMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
+|           | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
+|           | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-TRMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
 
 
 * ✅ — Covered
