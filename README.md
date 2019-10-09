@@ -98,7 +98,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 
 | Task     | Jupyter Notebook link | Gdata | Bdata | Hdata | Sdata | Ndata |
 | :---:    | :------------- | :------------: | :------------:  | :-----------: | :-----------: | :-------:|
-|Imputation| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)           | ✅     | ✅     | ✅    | 🔶 | 🔶 |
+|Missing Data Imputation| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)           | ✅     | ✅     | ✅    | 🔶 | 🔶 |
 |          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
 |          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TRMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
 |          | [**BPMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPMF.ipynb) | ✅     | ✅     | ✅    | 🔶 | 🔶 |
