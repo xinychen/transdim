@@ -48,7 +48,7 @@ What we do just now!
 
 - **Task 1**: Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
 
-<img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="850"/>
+<img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 
 - **Task 2**: An illustration of single-step rolling prediction task under a matrix factorization framework.
 
