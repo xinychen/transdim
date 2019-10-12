@@ -341,26 +341,6 @@ Our Publications
 
   >Please consider citing our papers if they help your research.
 
-Our Blog Posts (in Chinese)
---------------
-
-  - [贝叶斯泊松分解变分推断笔记](https://yxnchen.github.io/research/%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%B3%8A%E6%9D%BE%E5%88%86%E8%A7%A3%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
-
-  - [变分贝叶斯推断笔记](https://yxnchen.github.io/research/%E5%8F%98%E5%88%86%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%8E%A8%E6%96%AD%E7%AC%94%E8%AE%B0/), by Yixian Chen (陈一贤).
-
-  - [贝叶斯高斯张量分解](https://zhuanlan.zhihu.com/p/47049414), by Xinyu Chen (陈新宇).
-
-  - [贝叶斯矩阵分解](https://zhuanlan.zhihu.com/p/26067454), by Xinyu Chen (陈新宇).
-
-  - [时序矩阵分解 | 时序数据修补与预测](https://zhuanlan.zhihu.com/p/56105537), by Jamie Yang (杨津铭).
-
-  - [如何用贝叶斯概率矩阵分解修复缺失数据？(Jupyter notebook - Python)](https://zhuanlan.zhihu.com/p/63351454), by Xinyu Chen (陈新宇).
-
-  - [如何用贝叶斯高斯张量分解修复缺失数据？(Jupyter notebook - Python)](https://zhuanlan.zhihu.com/p/59196946), by Xinyu Chen (陈新宇).
-  
-  - [统计学习 | 矩阵正态分布 (matrix normal distribution)](https://zhuanlan.zhihu.com/p/73585133), by Xinyu Chen (陈新宇).
-
-
 
 License
 --------------
