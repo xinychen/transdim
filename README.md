@@ -12,7 +12,7 @@ Machine learning models make important developments about spatiotemporal data mo
 About the Project
 ---
 
-In the **transdim** (**trans**portation **d**ata **im**putation) project, we build machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is *creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks*.
+In the **transdim** (**trans**portation **d**ata **im**putation) project, we build machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is **creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks**.
 
 In a hurry? Please check out our contents as follows.
 
@@ -27,17 +27,17 @@ Tasks and Challenges
   - Random missing (**RM**): Each sensor lost their observations at completely random. (★★★)
   - Non-random missing (**NM**): Each sensor lost their observations during several days. (★★★★)
 
+> **Example**: Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
+
+<img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
+
 - **Spatiotemporal prediction**
   - Forecasting without missing values. (★★★)
   - Forecasting with incomplete observations. (★★★★★)
 
-- **Task 1**: Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
+> **Example**: An illustration of single-step rolling prediction task under a matrix factorization framework.
 
-<img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
-
-- **Task 2**: An illustration of single-step rolling prediction task under a matrix factorization framework.
-
-		<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
 
 
 Implementation
