@@ -333,7 +333,7 @@ Collaborators
   </tr>
 </table>
 
-See the list of [contributors](https://github.com/liyasthomas/postwoman/graphs/contributors) who participated in this project.
+See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
 License
