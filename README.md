@@ -27,7 +27,7 @@ Tasks and Challenges
   - Random missing (**RM**): Each sensor lost their observations at completely random. (★★★)
   - Non-random missing (**NM**): Each sensor lost their observations during several days. (★★★★)
 
-> **Example**: Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
+> **Example**: Tensor completion framework for multi-dimensional missing traffic data imputation.
 
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 
