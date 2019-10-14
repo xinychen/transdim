@@ -12,15 +12,10 @@ Machine learning models make important developments about spatiotemporal data mo
 About the Project
 ---
 
-In the **transdim** (**trans**portation **d**ata **im**putation) project, we build machine learning models to help address some of the toughest challenges of spatiotemporal data modeling -- from missing data imputation to time series prediction.
+In the **transdim** (**trans**portation **d**ata **im**putation) project, we build machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is *creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks*.
 
 In a hurry? Please check out our contents as follows.
 
-
-Strategic Aim
---------------
-
-> **Creating accurate and efficient solutions for the spatiotemporal traffic data imputation and prediction tasks.**
 
 Tasks and Challenges
 --------------
@@ -36,16 +31,11 @@ Tasks and Challenges
   - Forecasting without missing values. (★★★)
   - Forecasting with incomplete observations. (★★★★★)
 
-What we do just now!
---------------
-
 - **Task 1**: Industrial tensor completion framework for multi-dimensional missing traffic data imputation.
 
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 
 - **Task 2**: An illustration of single-step rolling prediction task under a matrix factorization framework.
-
-    - Example: Traffic forecasting using matrix factorization models.
 
 		<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
 
