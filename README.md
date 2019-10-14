@@ -27,17 +27,17 @@ Tasks and Challenges
   - Random missing (**RM**): Each sensor lost their observations at completely random. (★★★)
   - Non-random missing (**NM**): Each sensor lost their observations during several days. (★★★★)
 
-> **Example**: Tensor completion framework for multi-dimensional missing traffic data imputation.
-
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
+
+> **Example**: Tensor completion framework for multi-dimensional missing traffic data imputation.
 
 - **Spatiotemporal prediction**
   - Forecasting without missing values. (★★★)
   - Forecasting with incomplete observations. (★★★★★)
 
-> **Example**: An illustration of single-step rolling prediction task under a matrix factorization framework.
-
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
+
+> **Example**: An illustration of single-step rolling prediction task under a matrix factorization framework.
 
 
 Implementation
