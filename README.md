@@ -110,7 +110,7 @@ Perhaps this repository is not well enough for your understanding, so if you hav
 ![example](https://github.com/xinychen/transdim/blob/master/images/estimated_series2.png)
   *(b) Time series of actual and estimated speed within two weeks from September 12 to 25.*
 
-> *The imputation performance of BGCP (CP rank r=15 and missing rate α=30%) under the fiber missing scenario with third-order tensor representation, where the estimated result of road segment #1 is selected as an example. In the both two panels, red rectangles represent fiber missing (i.e., speed observations are lost in a whole day).*
+> The imputation performance of BGCP (CP rank r=15 and missing rate α=30%) under the fiber missing scenario with third-order tensor representation, where the estimated result of road segment #1 is selected as an example. In the both two panels, red rectangles represent fiber missing (i.e., speed observations are lost in a whole day).
 
 - **Prediction example**
 
