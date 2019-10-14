@@ -22,16 +22,16 @@ Tasks and Challenges
 
 > Missing data are there, whether we like them or not. The really interesting question is how to deal with incomplete data.
 
-- **Missing data imputation**
+- **Missing data imputation** 🔥
 
-  - Random missing (**RM**): Each sensor lost their observations at completely random. (★★★)
-  - Non-random missing (**NM**): Each sensor lost their observations during several days. (★★★★)
+  - Random missing (RM): Each sensor lost their observations at completely random. (★★★)
+  - Non-random missing (NM): Each sensor lost their observations during several days. (★★★★)
 
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 
 > **Example**: Tensor completion framework for multi-dimensional missing traffic data imputation.
 
-- **Spatiotemporal prediction**
+- **Spatiotemporal prediction** 🔥
   - Forecasting without missing values. (★★★)
   - Forecasting with incomplete observations. (★★★★★)
 
@@ -314,6 +314,22 @@ Our Publications
 - **Xinyu Chen**, Zhaocheng He, Jiawei Wang (2018). **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. Transportation Research Part C: Emerging Technologies, 86: 59-77. [[doi](http://doi.org/10.1016/j.trc.2017.10.023)] [[data](http://doi.org/10.5281/zenodo.1205229)]
 
   >Please consider citing our papers if they help your research.
+
+Collaborators
+--------------
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/xinychen"><img src="https://github.com/xinychen.png?size=80" width="80px;" alt="Xinyu Chen"/><br /><sub><b>Xinyu Chen</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=xinychen" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Vadermit"><img src="https://github.com/Vadermit.png?size=80" width="80px;" alt="Jinming Yang"/><br /><sub><b>Jinming Yang</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=Vadermit" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/yxnchen"><img src="https://github.com/yxnchen.png?size=80" width="80px;" alt="Yixian Chen"/><br /><sub><b>Yixian Chen</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=yxnchen" title="Code">💻</a></td>
+<!--   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/xxxx"><img src="https://github.com/xxxx.png?size=100" width="100px;" alt="xxxx"/><br /><sub><b>xxxx</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=xxxx" title="Code">💻</a></td> -->
+  </tr>
+</table>
+
+See the list of [contributors](https://github.com/liyasthomas/postwoman/graphs/contributors) who participated in this project.
 
 
 License
