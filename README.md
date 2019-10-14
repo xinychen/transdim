@@ -316,7 +316,7 @@ Our Publications
 
 - **Xinyu Chen**, Zhaocheng He, Jiawei Wang (2018). **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. Transportation Research Part C: Emerging Technologies, 86: 59-77. [[doi](http://doi.org/10.1016/j.trc.2017.10.023)] [[data](http://doi.org/10.5281/zenodo.1205229)]
 
-  >Please consider citing our papers if they help your research.
+  >This project originates from our papers, so please consider citing our papers if they help your research.
 
 Collaborators
 --------------
