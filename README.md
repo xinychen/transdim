@@ -99,7 +99,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 * 🔶 — Does not cover
 * 🚧 — Under development
 
-Perhaps this repository is not well enough for your understanding, so if you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions.
+If you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions.
 
 > Recommended email subject: Suggestions on transdim from [+ your name].
 
