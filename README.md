@@ -2,6 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.7](https://img.shields.io/badge/Python-3.7-blue.svg)
+[![repo size](https://img.shields.io/github/repo-size/xinychen/transdim.svg)](https://github.com/xinychen/transdim/archive/master.zip)
 [![GitHub stars](https://img.shields.io/github/stars/xinychen/transdim.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/transdim)
 
 ![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
@@ -15,14 +16,6 @@ In the **transdim** (**trans**portation **d**ata **im**putation) project, we bui
 
 In a hurry? Please check out our contents as follows.
 
-| Table of Contents |
-| :------------- |
-| [Strategic Aim](#strategic-aim) |
-| [Tasks and Challenges](#tasks-and-challenges) |
-| [What we do just now!](#what-we-do-just-now) |
-| [Our Implementation](#our-implementation) |
-| [Selected References](#selected-references) |
-| [Our Publications](#our-publications) |
 
 Strategic Aim
 --------------
@@ -57,23 +50,14 @@ What we do just now!
 		<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
 
 
-What we care about!
---------------
-
-- Best algebraic structure for data imputation.
-- The context of urban transportation.
-- Data noise avoidance.
-- Competitive imputation and prediction performance.
-- Capable of various missing data scenarios.
-
-Our Implementation
+Implementation
 --------------
 
 ### Open data
 
 In this repository, we have adapted the public data sets into our experiments. For example, to read the data set on your console, you may see the following code:
 
-```{python}
+```python
 import scipy.io
 
 tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/tensor.mat')
@@ -146,7 +130,7 @@ Perhaps this repository is not well enough for your understanding, so if you hav
 
 ![example](https://github.com/xinychen/transdim/blob/master/images/prediction_nyc.png)
 
-Selected References
+References
 --------------
 
 - ### **Spatiotemporal forecasting**
