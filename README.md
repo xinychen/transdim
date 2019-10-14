@@ -81,15 +81,18 @@ In our experiments, we have implemented the machine learning models mainly on `N
 |          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**BPTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
-|Single-Step Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
-|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
-|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRMF.ipynb) | ✅     | ✅     | ✅    | 🚧 | 🔶 |
+|Single-Step Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
+|          | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
+|          | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
 |          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |Multi-Step Prediction| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BTMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
 |           | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BayesTRMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
 |           | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-TRMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
+|          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
+|          | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-TRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 
 
 * ✅ — Covered
