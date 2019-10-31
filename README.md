@@ -187,6 +187,8 @@ References
 
   - John Bradshaw, Alexander G. de G. Matthews, Zoubin Ghahramani, 2017. [*Adversarial examples, uncertainty, and transfer testing robustness in Gaussian process hybrid deep networks*](https://arxiv.org/pdf/1707.02476.pdf). arXiv.
 
+  - David Salinas, Michael Bohlke-Schneider, Laurent Callot, Roberto Medico, Jan Gasthaus, 2019. [*High-Dimensional Multivariate Forecasting with Low-Rank Gaussian Copula Processes*](https://arxiv.org/pdf/1910.03002.pdf). arXiv. (★★★★)
+
 - ### **Matrix factorization**
 
   - Nikhil Rao, Hsiangfu Yu, Pradeep Ravikumar, Inderjit S Dhillon, 2015. [*Collaborative filtering with graph information: Consistency and scalable methods*](http://www.cs.utexas.edu/~rofuyu/papers/grmf-nips.pdf). Neural Information Processing Systems (*NIPS 2015*). [[Matlab code](http://bigdata.ices.utexas.edu/publication/collaborative-filtering-with-graph-information-consistency-and-scalable-methods/)]
@@ -214,6 +216,10 @@ References
   - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, 2015. [*Bayesian sparse Tucker models for dimension reduction and tensor completion*](https://arxiv.org/pdf/1505.02343.pdf). arXiv.
 
   - Piyush Rai, Yingjian Wang, Shengbo Guo, Gary Chen, David B. Dunsun,	Lawrence Carin, 2014. [*Scalable Bayesian low-rank decomposition of incomplete multiway tensors*](http://people.ee.duke.edu/~lcarin/mpgcp.pdf). Proceedings of the 31st International Conference on Machine Learning (*ICML 2014*), Beijing, China.
+
+  - Aaron Schein, Scott W. Linderman, Mingyuan Zhou, David M. Blei, Hanna Wallach, 2019. [*Poisson-Randomized Gamma Dynamical Systems*](https://arxiv.org/pdf/1910.12991.pdf). arXiv. (★★★★★)
+
+  - Ömer Deniz Akyildiz, Theodoros Damoulas, Mark F. J. Steel, 2019. [*Probabilistic sequential matrix factorization*](https://arxiv.org/pdf/1910.03906.pdf). arXiv. (★★★★★)
   
 - ### **Matrix completion on graphs**
 
@@ -251,7 +257,7 @@ References
 
   - John T. McCoy, Steve Kroon, Lidia Auret, 2018. [*Variational Autoencoders for missing data imputation with application to a simulated milling circuit*](https://doi.org/10.1016/j.ifacol.2018.09.406). IFAC-PapersOnLine, 51(21): 141-146. [[Python code](https://github.com/ProcessMonitoringStellenboschUniversity/IFAC-VAE-Imputation)] [[VAE demo](https://github.com/oduerr/dl_tutorial/blob/master/tensorflow/vae/vae_demo-2D.ipynb)]
 
-  - Pierre-Alexandre Mattei, Jes Frellsen, 2018. [missingIWAE: Deep generative modelling and imputation of incomplete data](http://bayesiandeeplearning.org/2018/papers/100.pdf). Third workshop on Bayesian Deep Learning (*NeurIPS 2018*), Montréal, Canada. [related slide](https://ai.ku.dk/ai-seminar-series/ai-seminar_jes-frellsen.pdf)
+  - Pierre-Alexandre Mattei, Jes Frellsen, 2018. [missingIWAE: Deep generative modelling and imputation of incomplete data](http://bayesiandeeplearning.org/2018/papers/100.pdf). Third workshop on Bayesian Deep Learning (*NeurIPS 2018*), Montréal, Canada. [[related slide](https://ai.ku.dk/ai-seminar-series/ai-seminar_jes-frellsen.pdf)]
 
 - ### **Tensor regression**
 
@@ -305,7 +311,7 @@ References
 
   - Dimitris Bertsimas, Colin Pawlowski, Ying Daisy Zhuo, 2018. [*From predictive methods to missing data imputation: An optimization approach*](http://jmlr.org/papers/v18/17-073.html). Journal of Machine Learning Research, 18(196): 1-39.
 
-  - Wei Cao, Dong Wang, Jian Li, Hao Zhou, Yitan Li, Lei Li, 2018. [*BRITS: Bidirectional Recurrent Imputation for Time Series*](https://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series.pdf). 32nd Conference on Neural Information Processing Systems (NeurIPS 2018), Montréal, Canada. [Python code](https://github.com/caow13/BRITS)
+  - Wei Cao, Dong Wang, Jian Li, Hao Zhou, Yitan Li, Lei Li, 2018. [*BRITS: Bidirectional Recurrent Imputation for Time Series*](https://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series.pdf). 32nd Conference on Neural Information Processing Systems (NeurIPS 2018), Montréal, Canada. [[Python code](https://github.com/caow13/BRITS)]
 
 Our Publications
 --------------
