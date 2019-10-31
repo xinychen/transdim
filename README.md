@@ -217,8 +217,6 @@ References
 
   - Piyush Rai, Yingjian Wang, Shengbo Guo, Gary Chen, David B. Dunsun,	Lawrence Carin, 2014. [*Scalable Bayesian low-rank decomposition of incomplete multiway tensors*](http://people.ee.duke.edu/~lcarin/mpgcp.pdf). Proceedings of the 31st International Conference on Machine Learning (*ICML 2014*), Beijing, China.
 
-  - Aaron Schein, Scott W. Linderman, Mingyuan Zhou, David M. Blei, Hanna Wallach, 2019. [*Poisson-Randomized Gamma Dynamical Systems*](https://arxiv.org/pdf/1910.12991.pdf). arXiv. (★★★★★)
-
   - Ömer Deniz Akyildiz, Theodoros Damoulas, Mark F. J. Steel, 2019. [*Probabilistic sequential matrix factorization*](https://arxiv.org/pdf/1910.03906.pdf). arXiv. (★★★★★)
   
 - ### **Matrix completion on graphs**
@@ -282,6 +280,8 @@ References
   - Laurent Charlin, Rajesh Ranganath, James Mclnerney, 2015. [*Dynamic Poisson factorization*](http://www.cs.toronto.edu/~lcharlin/papers/2015_CharlinRanganathMcInerneyBlei.pdf). Proceedings of the 9th ACM Conference on Recommender Systems (*RecSys 2015*), Vienna, Italy. [[C++ code](https://github.com/blei-lab/DynamicPoissonFactorization)]
 
   - Seyed Abbas Hosseini, Keivan Alizadeh, Ali Khodadadi, Ali Arabzadeh, Mehrdad Farajtabar, Hongyuan Zha, Hamid R. Rabiee, 2017. [*Recurrent Poisson factorization for temporal recommendation*](https://dl.acm.org/citation.cfm?doid=3097983.3098197). Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (*KDD 2017*), Halifax, Nova Scotia Canada. [[Matlab code](https://github.com/AHosseini/RPF)]
+
+  - Aaron Schein, Scott W. Linderman, Mingyuan Zhou, David M. Blei, Hanna Wallach, 2019. [*Poisson-Randomized Gamma Dynamical Systems*](https://arxiv.org/pdf/1910.12991.pdf). arXiv. (★★★★★)
 
 - ### **Graph signal processing**
 
