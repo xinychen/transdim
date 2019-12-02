@@ -95,7 +95,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 |          | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-TRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 
 
-* ✅ — Covered
+* ✅ — Cover
 * 🔶 — Does not cover
 * 🚧 — Under development
 
