@@ -317,7 +317,7 @@ References
 Our Publications
 --------------
 
-- Tianyang Han, Kentaro Wada and Takashi Oguchi, **Large-scale Traffic Data Imputation Using Matrix Completion on Graphs** (2019) IEEE Intelligent Transportation Systems Conference (ITSC), Auckland, New Zealand, 2019, pp. 2252-2258.
+- Tianyang Han, Kentaro Wada and Takashi Oguchi (2019). **Large-scale traffic data imputation using matrix completion on graphs**. IEEE Intelligent Transportation Systems Conference (ITSC), Auckland, New Zealand, 2019, pp. 2252-2258.
 [[doi](http://doi.org/10.1109/ITSC.2019.8917365)]
 
 - Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arxiv. 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
