@@ -228,6 +228,8 @@ References
 
   - Federico Monti, Michael M. Bronstein, Xavier Bresson, 2017. [*Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks*](https://papers.nips.cc/paper/6960-geometric-matrix-completion-with-recurrent-multi-graph-neural-networks.pdf). NIPS 2017.
 
+  - Tianyang Han, Kentaro Wada and Takashi Oguchi, 2019. [*Large-scale traffic data imputation using matrix completion on graphs*](http://doi.org/10.1109/ITSC.2019.8917365). IEEE Intelligent Transportation Systems Conference (ITSC), Auckland, New Zealand, 2019, pp. 2252-2258.
+
 - ### **Low-rank tensor completion**
 
   - Ji Liu, Przemyslaw Musialski, Peter Wonka, Jieping Ye, 2013. [*Tensor completion for estimating missing values in visual data*](https://doi.org/10.1109/TPAMI.2012.39). IEEE Transactions on Pattern Analysis and Machine Intelligence, 35(1): 208-220.
@@ -316,9 +318,6 @@ References
 
 Our Publications
 --------------
-
-- Tianyang Han, Kentaro Wada and Takashi Oguchi (2019). **Large-scale traffic data imputation using matrix completion on graphs**. IEEE Intelligent Transportation Systems Conference (ITSC), Auckland, New Zealand, 2019, pp. 2252-2258.
-[[doi](http://doi.org/10.1109/ITSC.2019.8917365)]
 
 - Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arxiv. 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
 
