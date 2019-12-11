@@ -346,6 +346,16 @@ Collaborators
   </tr>
 </table>
 
+- **Principal Investigator (PI)**
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/lijunsun"><img src="https://github.com/lijunsun.png?size=80" width="80px;" alt="Lijun Sun"/><br /><sub><b>Lijun Sun</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=lijunsun" title="Code">💻</a></td>
+  </tr>
+</table>
+
+
+
 See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
