@@ -100,10 +100,6 @@ In our experiments, we have implemented the machine learning models mainly on `N
 * 🔶 — Does not cover
 * 🚧 — Under development
 
-If you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions.
-
-> Recommended email subject: Suggestions on transdim from [+ your name].
-
 ### Imputation/Prediction performance
 
 - **Imputation example**
@@ -167,6 +163,8 @@ References
   - Koh Takeuchi, Hisashi Kashima, Naonori Ueda, 2017. [*Autoregressive tensor factorization for spatio-temporal predictions*](https://doi.org/10.1109/ICDM.2017.146). 2017 IEEE International Conference on Data Mining (*ICDM 2017*).
 
   - Shun-Yao Shih, Fan-Keng Sun, Hung-yi Lee, 2018. [*Temporal pattern attention for multivariate time series forecasting*](https://arxiv.org/pdf/1809.04206v2.pdf). arXiv.
+  
+  - Dingxiong Deng, Cyrus Shahabi, Ugur Demiryurek, Linhong Zhu, Rose Yu, Yan Liu, 2016. [*Latent space model for road networks to predict time-varying traffic*](http://roseyu.com/Papers/kdd2016.pdf). Proceedings of the 22rd ACM SIGKDD international conference on Knowledge discovery and data mining (*KDD 2016*).
 
 - ### **Principal component analysis**
 
@@ -353,9 +351,17 @@ Collaborators
   </tr>
 </table>
 
+See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
-See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project. We would also like to thank everyone who has helped this project in any way.
+Acknowledgements
+--------------
+
+
+If you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions. We would like to thank everyone who has helped this project in any way.
+
+> Recommended email subject: Suggestions on transdim from [+ your name].
+
 
 
 License
