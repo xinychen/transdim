@@ -45,7 +45,7 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted the public data sets into our experiments. For example, to read the data set on your console, you may see the following code:
+In this repository, we have adapted the public data sets into our experiments. If you want to view these data sets, please run the following command in your Python console:
 
 ```python
 import scipy.io
@@ -68,7 +68,7 @@ If you want to view the original data, please check out the following links:
 
 ### Model implementation
 
-In our experiments, we have implemented the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, you could download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
+In our experiments, we have implemented the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, please download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
 
 | Task     | Jupyter Notebook link | Gdata | Bdata | Hdata | Sdata | Ndata |
 | :---:    | :------------- | :------------: | :------------:  | :-----------: | :-----------: | :-------:|
@@ -327,7 +327,7 @@ Our Publications
 
 - Xinyu Chen, Zhaocheng He, Jiawei Wang (2018). **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. Transportation Research Part C: Emerging Technologies, 86: 59-77. [[doi](http://doi.org/10.1016/j.trc.2017.10.023)] [[data](http://doi.org/10.5281/zenodo.1205229)]
 
-  >This project originates from our papers, please consider citing our papers if they help your research.
+  >This project is from our papers, please consider citing our papers if they help your research.
 
 Collaborators
 --------------
@@ -355,7 +355,7 @@ Collaborators
 
 
 
-See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
+See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project. We would also like to thank everyone who has helped this project in any way.
 
 
 License
