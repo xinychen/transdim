@@ -354,7 +354,7 @@ Collaborators
 See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
-Acknowledge
+Acknowledgements
 --------------
 
 
