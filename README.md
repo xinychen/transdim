@@ -66,7 +66,7 @@ If you want to view the original data, please check out the following links:
 - **Ndata**: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 - **Sdata**: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
 
-For evaluating both data imputation and forecasting, we discard a certain ratio/percentage of the values and attempt to impute them using machine learning models.
+For evaluating both data imputation and forecasting, we discard a certain ratio/percentage of the actual values and attempt to impute them using machine learning models.
 
 
 ### Model implementation
