@@ -81,6 +81,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 |          | [**BPMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPMF.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
 |          | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) | ✅     | ✅     | ✅    | ✅ | ✅ |
 |          | [**HaLRTC**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-HaLRTC.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
+|          | [**LRTC-TNN**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb) | ✅     | ✅     | ✅    | ✅ | 🔶 |
 |          | [**TF-ALS**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TF-ALS.ipynb) | ✅     | ✅     | ✅    | ✅ | ✅ |
 |          | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
 |          | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRTF.ipynb) | 🔶     | 🔶     | 🔶    | 🔶 | ✅ |
