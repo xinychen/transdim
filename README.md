@@ -321,7 +321,7 @@ References
 Our Publications
 --------------
 
-- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A Nonconvex Low-Rank Tensor Completion Model for Spatiotemporal Traffic Data Imputation**. arxiv. 2003.10271. [[preprint](https://arxiv.org/abs/2003.10271)] [[data & Python code](https://github.com/xinychen/transdim)]
+- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. arxiv. 2003.10271. [[preprint](https://arxiv.org/abs/2003.10271)] [[data & Python code](https://github.com/xinychen/transdim)]
 
 - Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arxiv. 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
 
@@ -363,8 +363,9 @@ See the list of [contributors](https://github.com/xinychen/transdim/graphs/contr
 Acknowledgements
 --------------
 
+This research is supported by the Institute for Data Valorization (IVADO).
 
-If you have any suggestion, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions. We would like to thank everyone who has helped this project in any way.
+If you have any suggestion about this project, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions. We would like to thank everyone who has helped this project in any way.
 
 > Recommended email subject: Suggestions on transdim from [+ your name].
 
