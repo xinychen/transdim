@@ -63,8 +63,8 @@ If you want to view the original data, please check out the following links:
 - **Gdata**: [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
 - **Bdata**: [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
 - **Hdata**: [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403).
-- **Ndata**: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 - **Sdata**: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
+- **Ndata**: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 
 For model evaluation, we mask certain entries of the data as missing values and then perform imputation for these "missing" values.
 
