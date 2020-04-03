@@ -133,7 +133,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 
 Quick Start
 --------------
-This is an example of Low-Rank Tensor Completion with Truncated Nuclear Norm minimization (LRTC-TNN). One notable thing is that unlike the complex equations in our model, our Python implementation is extremely easy to work with.
+This is an imputation example using Low-Rank Tensor Completion with Truncated Nuclear Norm minimization (LRTC-TNN). One notable thing is that unlike the complex equations in our model, our Python implementation is extremely easy to work with.
 
 - First, import some necessary packages:
 
@@ -484,13 +484,12 @@ Collaborators
   </tr>
 </table>
 
-See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
+> See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
-Currently, transdim is still under development. More models and features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
+Our transdim is still under development. More models and features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
 
 > Recommended email subjects: 
->
 > - Suggestion on transdim from [+ your name]
 > - Collaboration statement on transdim from [+ your name]
 
