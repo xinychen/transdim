@@ -45,7 +45,7 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please run the following command in your Python console:
+In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please download them at the [datasets/](https://github.com/xinychen/transdim/tree/master/datasets) folder and run the following command in your Python console:
 
 ```python
 import scipy.io
