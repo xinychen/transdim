@@ -133,7 +133,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 
 Quick Start
 --------------
-This is an imputation example using Low-Rank Tensor Completion with Truncated Nuclear Norm minimization (LRTC-TNN). One notable thing is that unlike the complex equations in our model, our Python implementation is extremely easy to work with.
+This is an imputation example of Low-Rank Tensor Completion with Truncated Nuclear Norm minimization (LRTC-TNN). One notable thing is that unlike the complex equations in our paper, our Python implementation is extremely easy to work with.
 
 - First, import some necessary packages:
 
@@ -159,7 +159,7 @@ def mat2ten(mat, tensor_size, mode):
     return np.moveaxis(np.reshape(mat, list(tensor_size[index]), order = 'F'), 0, mode)
 ```
 
-- Define Singular Value Thresholding (SVT):
+- Define Singular Value Thresholding (SVT) for Truncated Nuclear Norm (TNN) minimization:
 
 ```python
 def svt_tnn(mat, alpha, rho, theta):
@@ -222,8 +222,6 @@ import scipy.io
 
 tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/tensor.mat')
 dense_tensor = tensor['tensor']
-random_matrix = scipy.io.loadmat('../datasets/Guangzhou-data-set/random_matrix.mat')
-random_matrix = random_matrix['random_matrix']
 random_tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/random_tensor.mat')
 random_tensor = random_tensor['random_tensor']
 
@@ -243,12 +241,12 @@ alpha = np.ones(3) / 3
 rho = 0.002
 theta = 0.30
 maxiter = 200
-LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, maxiter)
+tensor_hat = LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, maxiter)
 end = time.time()
 print('Running time: %d seconds'%(end - start))
 ```
 
-> This example is from [experiments/Imputation-LRTC-TNN.ipynb](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb). You can check out the above Jupyter Notebook links for advanced usage.
+> This example is from [../experiments/Imputation-LRTC-TNN.ipynb](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb), you can check out this Jupyter Notebook for advanced usage.
 
 
 References
@@ -487,7 +485,7 @@ Collaborators
 > See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
-Our transdim is still under development. More models and features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
+Our transdim is still under development. More machine learning models and technical features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
 
 > Recommended email subjects: 
 > - Suggestion on transdim from [+ your name]
