@@ -135,14 +135,14 @@ Quick Start
 --------------
 This is an example of Low-Rank Tensor Completion with Truncated Nuclear Norm minimization (LRTC-TNN). One notable thing is that unlike the complex equations in our model, our Python implementation is extremely easy to work with.
 
-First, import some necessary packages:
+- First, import some necessary packages:
 
 ```python
 import numpy as np
 from numpy.linalg import inv as inv
 ```
 
-Define the operators of tensor unfolding (`ten2mat`) and matrix folding (`mat2ten`) using `Numpy`:
+- Define the operators of tensor unfolding (`ten2mat`) and matrix folding (`mat2ten`) using `Numpy`:
 
 ```python
 def ten2mat(tensor, mode):
@@ -159,7 +159,7 @@ def mat2ten(mat, tensor_size, mode):
     return np.moveaxis(np.reshape(mat, list(tensor_size[index]), order = 'F'), 0, mode)
 ```
 
-Define Singular Value Thresholding (SVT):
+- Define Singular Value Thresholding (SVT):
 
 ```python
 def svt_tnn(mat, alpha, rho, theta):
@@ -171,7 +171,7 @@ def svt_tnn(mat, alpha, rho, theta):
     return np.matmul(np.matmul(u, np.diag(vec)), v)
 ```
 
-Define performance metrics (i.e., RMSE, MAPE):
+- Define performance metrics (i.e., RMSE, MAPE):
 
 ```python
 def Compute_RMSE(var, var_hat):
@@ -183,7 +183,7 @@ def Compute_MAPE(var, var_hat):
     return np.sum(np.abs(var - var_hat) / var) / var.shape[0]
 ```
 
-Define LRTC-TNN:
+- Define LRTC-TNN:
 
 ```python
 def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, maxiter):
@@ -215,7 +215,7 @@ def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, maxiter):
     return tensor_hat
 ```
 
-Let us try it on Guangzhou urban traffic speed data set (Gdata):
+- Let us try it on Guangzhou urban traffic speed data set (Gdata):
 
 ```python
 import scipy.io
@@ -234,7 +234,7 @@ binary_tensor = np.round(random_tensor + 0.5 - missing_rate)
 sparse_tensor = np.multiply(dense_tensor, binary_tensor)
 ```
 
-Run the imputation:
+- Run the imputation experiment:
 
 ```python
 import time
