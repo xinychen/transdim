@@ -45,7 +45,7 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted the public data sets into our experiments. If you want to view these data sets, please run the following command in your Python console:
+In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please run the following command in your Python console:
 
 ```python
 import scipy.io
@@ -66,7 +66,7 @@ If you want to view the original data, please check out the following links:
 - **Sdata**: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
 - **Ndata**: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 
-For model evaluation, we mask certain entries of the data as missing values and then perform imputation for these "missing" values.
+For model evaluation, we mask certain entries of the "observed" data as missing values and then perform imputation for these "missing" values.
 
 
 ### Model implementation
@@ -103,6 +103,14 @@ In our experiments, we have implemented the machine learning models mainly on `N
 * ✅ — Cover
 * 🔶 — Does not cover
 * 🚧 — Under development
+
+
+
+> Note that the following matrix/tensor models are proposed by our collaborators:
+>
+> - Bayesian Temporal Matrix/Tensor Factorization (**BTMF**/**BTTF**)
+> - Bayesian Gaussian CP decomposition (**BGCP**)
+> - Low-Rank Tensor Completion with Truncated Nuclear Norm minimization (**LRTC-TNN**)
 
 ### Imputation/Prediction performance
 
@@ -356,20 +364,20 @@ Collaborators
     <td align="center"><a href="https://github.com/lijunsun"><img src="https://github.com/lijunsun.png?size=80" width="80px;" alt="Lijun Sun"/><br /><sub><b>Lijun Sun</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=lijunsun" title="Code">💻</a></td>
   </tr>
 </table>
-
 See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
+
+If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
+
+> Recommended email subjects: 
+>
+> - Suggestion on transdim from [+ your name]
+> - Collaboration statement on transdim from [+ your name]
 
 
 Acknowledgements
 --------------
 
 This research is supported by the Institute for Data Valorization (IVADO).
-
-If you have any suggestion about this project, please feel free to contact Xinyu Chen (email: chenxy346@mail2.sysu.edu.cn) and send your suggestions. We would like to thank everyone who has helped this project in any way.
-
-> Recommended email subject: Suggestions on transdim from [+ your name].
-
-
 
 License
 --------------
