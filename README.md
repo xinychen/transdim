@@ -110,14 +110,6 @@ In our experiments, we have implemented the machine learning models mainly on `N
 * 🔶 — Does not cover
 * 🚧 — Under development
 
-
-
-> Note that the following matrix/tensor models are proposed by our collaborators:
->
-> - Bayesian Temporal Matrix/Tensor Factorization (**BTMF**/**BTTF**)
-> - Bayesian Gaussian CP decomposition (**BGCP**)
-> - Low-Rank Tensor Completion with Truncated Nuclear Norm minimization (**LRTC-TNN**)
-
 ### Imputation/Prediction performance
 
 - **Imputation example**
