@@ -45,7 +45,7 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please download them at the [datasets/](https://github.com/xinychen/transdim/tree/master/datasets) folder and run the following command in your Python console:
+In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please download them at the [datasets/](https://github.com/xinychen/transdim/tree/master/datasets) folder in advance, and then run the following command in your Python console:
 
 ```python
 import scipy.io
@@ -366,7 +366,7 @@ Collaborators
 See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
-If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
+Currently, transdim is still under development. More models and features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
 
 > Recommended email subjects: 
 >
@@ -377,7 +377,7 @@ If you have any suggestion about this project or want to collaborate with us, pl
 Acknowledgements
 --------------
 
-This research is supported by the Institute for Data Valorization (IVADO).
+This research is supported by the [Institute for Data Valorization (IVADO)](https://ivado.ca/en/ivado-scholarships/excellence-scholarships-phd/).
 
 License
 --------------
