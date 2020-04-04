@@ -7,9 +7,9 @@
 
 ![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
 
-Machine learning models make important developments about spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built with incomplete data commonly collected in real-world systems?
+Machine learning models make important developments in the field of spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built with incomplete data commonly collected in real-world systems?
 
-About the Project
+About this Project
 --------------
 
 In the **transdim** (**trans**portation **d**ata **im**putation) project, we build machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is **creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks**.
@@ -29,7 +29,7 @@ Tasks and Challenges
 
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 
-> **Example**: Tensor completion framework for multi-dimensional missing traffic data imputation.
+> **Example**: Tensor completion framework for spatiotemporal missing traffic data imputation.
 
 - **Spatiotemporal prediction** 🔥
   - Forecasting without missing values. (★★★)
@@ -37,7 +37,7 @@ Tasks and Challenges
 
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
 
-> **Example**: An illustration of single-step rolling prediction task under a matrix factorization framework.
+> **Example**: An illustration of single-step rolling prediction (i.e., time horizon is 1) task under a matrix factorization framework.
 
 
 Implementation
@@ -45,7 +45,7 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please download them at the [datasets/](https://github.com/xinychen/transdim/tree/master/datasets) folder in advance, and then run the following command in your Python console:
+In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please download them at the [../datasets/](https://github.com/xinychen/transdim/tree/master/datasets) folder in advance, and then run the following codes in your Python console:
 
 ```python
 import scipy.io
@@ -71,7 +71,7 @@ For model evaluation, we mask certain entries of the "observed" data as missing 
 
 ### Model implementation
 
-In our experiments, we have implemented the machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, please download and run these notebooks directly (prerequisite: **download the data sets** before evaluation).
+In our experiments, we have implemented some machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, please download and run these notebooks directly (prerequisite: **download the data sets** in advance).
 
 - **Our models**
 
@@ -112,7 +112,7 @@ In our experiments, we have implemented the machine learning models mainly on `N
 
 ### Imputation/Prediction performance
 
-- **Imputation example**
+- **Imputation example (on Gdata)**
 
 ![example](https://github.com/xinychen/transdim/blob/master/images/estimated_series1.png)
   *(a) Time series of actual and estimated speed within two weeks from August 1 to 14.*
