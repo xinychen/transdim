@@ -75,7 +75,7 @@ In our experiments, we have implemented some machine learning models mainly on `
 
 - **Our models**
 
-|          Task           | Jupyter Notebook link                                        | Gdata | Bdata | Hdata | Sdata | Ndata |
+|          Task           | Jupyter Notebook                                        | Gdata | Bdata | Hdata | Sdata | Ndata |
 | :---------------------: | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |
 | Missing Data Imputation | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
 |                         | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
@@ -88,7 +88,7 @@ In our experiments, we have implemented some machine learning models mainly on `
 
 - **Baselines**
 
-|          Task           | Jupyter Notebook link                                        | Gdata | Bdata | Hdata | Sdata | Ndata |
+|          Task           | Jupyter Notebook                                        | Gdata | Bdata | Hdata | Sdata | Ndata |
 | :---------------------: | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |
 | Missing Data Imputation | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
 |                         | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
