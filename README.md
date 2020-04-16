@@ -374,9 +374,18 @@ References
   - Thomas Schlegl, Philipp Seeböck, Sebastian M. Waldstein, Ursula Schmidt-Erfurth, Georg Langs, 2017. [*Unsupervised anomaly detection with generative adversarial networks to guide marker discovery*](https://arxiv.org/abs/1703.05921). arXiv.
 
   - Yonghong Luo, Xiangrui Cai, Ying Zhang, Jun Xu, Xiaojie Yuan, 2018. [*Multivariate time series imputation with generative adversarial networks*](https://papers.nips.cc/paper/7432-multivariate-time-series-imputation-with-generative-adversarial-networks). 32nd Conference on Neural Information Processing Systems (*NeurIPS 2018*), Montréal, Canada. [[Python code](https://github.com/Luoyonghong/Multivariate-Time-Series-Imputation-with-Generative-Adversarial-Networks)]
+  
+  - Luo, Yonghong, Ying Zhang, Xiangrui Cai, and Xiaojie Yuan, 2019. [*E 2 GAN: end-to-end generative adversarial network for multivariate time series imputation*](https://www.ijcai.org/Proceedings/2019/429) *IJCAI 2019*..
+  
+  - Liu, Yukai, Rose Yu, Stephan Zheng, Eric Zhan, and Yisong Yue, 2019. [*NAOMI: Non-Autoregressive Multiresolution Sequence Imputation*](https://papers.nips.cc/paper/9302-naomi-non-autoregressive-multiresolution-sequence-imputation). *NeurIPS 2019*.
 
 - ### **Variational Autoencoder**
-
+  - Fortuin, Vincent, Gunnar Rätsch, and Stephan Mandt, 2019. [*GP-VAE: Deep Probabilistic Time Series Imputation*](https://arxiv.org/abs/1907.04155). *AISTATS 2020*.
+  
+  - Ivanov, Oleg, Michael Figurnov, and Dmitry Vetrov, 2019 [*Variational autoencoder with arbitrary conditioning*](https://arxiv.org/pdf/1806.02382.pdf). *ICLR 2019*.
+  
+  - Gregor, Karol, George Papamakarios, Frederic Besse, Lars Buesing, and Theophane Weber. [*Temporal difference variational auto-encoder*](https://arxiv.org/pdf/1806.03107.pdf) *ICLR 2019*.
+  
   - Zhiwei Deng, Rajitha Navarathna, Peter Carr, Stephan Mandt, Yisong Yue, 2017. [*Factorized variational autoencoders for modeling audience reactions to movies*](http://openaccess.thecvf.com/content_cvpr_2017/papers/Deng_Factorized_Variational_Autoencoders_CVPR_2017_paper.pdf). 2017 IEEE Conference on Computer Vision and Pattern Recognition (*CVPR 2017*), Honolulu, HI, USA.
 
   - [*Graph autoencoder - GitHub*](https://github.com/tkipf/gae).
