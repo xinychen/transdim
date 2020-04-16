@@ -380,9 +380,12 @@ References
   - Liu, Yukai, Rose Yu, Stephan Zheng, Eric Zhan, and Yisong Yue, 2019. [*NAOMI: Non-Autoregressive Multiresolution Sequence Imputation*](https://papers.nips.cc/paper/9302-naomi-non-autoregressive-multiresolution-sequence-imputation). *NeurIPS 2019*.
 
 - ### **Variational Autoencoder**
+
   - Fortuin, Vincent, Gunnar Rätsch, and Stephan Mandt, 2019. [*GP-VAE: Deep Probabilistic Time Series Imputation*](https://arxiv.org/abs/1907.04155). *AISTATS 2020*.
   
   - Ivanov, Oleg, Michael Figurnov, and Dmitry Vetrov, 2019 [*Variational autoencoder with arbitrary conditioning*](https://arxiv.org/pdf/1806.02382.pdf). *ICLR 2019*.
+  
+  - Boquet, Guillem, Antoni Morell, Javier Serrano, and Jose Lopez Vicario, 2020. [*A variational autoencoder solution for road traffic forecasting systems: Missing data imputation, dimension reduction, model selection and anomaly detection*](https://www.sciencedirect.com/science/article/pii/S0968090X19309611) Transportation Research Part C: Emerging Technologies 115 (2020): 102622.
   
   - Gregor, Karol, George Papamakarios, Frederic Besse, Lars Buesing, and Theophane Weber. [*Temporal difference variational auto-encoder*](https://arxiv.org/pdf/1806.03107.pdf) *ICLR 2019*.
   
