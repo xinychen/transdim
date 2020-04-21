@@ -260,8 +260,6 @@ References
   
   - Syama Sundar Rangapuram, Matthias Seeger, Jan Gasthaus, Lorenzo Stella, Yuyang Wang, Tim Januschowski, 2018. [*Deep State Space Models for Time Series Forecasting*](http://papers.nips.cc/paper/8004-deep-state-space-models-for-time-series-forecasting.pdf?nsukey=CoqM71tHuwiqTTDwkPRsu40QKdc%2BlY%2FWWNEiuEJaWd6sw7dUXlAT3mU122dvYrMHOYfANParRFLBDLgraANFjHdggEDRxbT9Kk2Mam6nZfVkQT4E2cRCMULUTPTFmjCeuBKHjDSSEs6L4Ci7JuyRqB2ojJnBKDD%2FkcAgdhwhJQa%2BLZ5owi4oVwnQrgWX5pTr0vTORENMdC59F4mqtOQENA%3D%3D). NeurIPS 2018.
 
-  - San Gultekin, John Paisley, 2019. [*Online Forecasting Matrix Factorization*](https://ieeexplore.ieee.org/document/8590686/). IEEE Transactions on Signal Processing, 67(5): 1223-1236. [[Python code](https://github.com/chloemnge/online_learning)]
-
   - Zheyi Pan, Yuxuan Liang, Junbo Zhang, Xiuwen Yi, Yong Yu, Yu Zheng, 2018. [*HyperST-Net: hypernetworks for spatio-temporal forecasting*](https://arxiv.org/pdf/1809.10889.pdf). arXiv.
 
   - Truc Viet Le, Richard Oentaryo, Siyuan Liu, Hoong Chuin Lau, 2017. [*Local Gaussian processes for efficient fine-grained traffic speed prediction*](https://arxiv.org/pdf/1708.08079.pdf). arXiv.
@@ -324,7 +322,12 @@ References
   - Hsiang-Fu Yu, Nikhil Rao, Inderjit S. Dhillon, 2016. [*Temporal regularized matrix factorization for high-dimensional time series prediction*](http://www.cs.utexas.edu/~rofuyu/papers/tr-mf-nips.pdf). 30th Conference on Neural Information Processing Systems (*NIPS 2016*), Barcelona, Spain. [[Matlab code](https://github.com/rofuyu/exp-trmf-nips16)]
 
   - Yongshun Gong, Zhibin Li, Jian Zhang, Wei Liu, Yu Zheng, Christina Kirsch, 2018. [*Network-wide crowd flow prediction of Sydney trains via customized online non-negative matrix factorization*](http://urban-computing.com/pdf/CIKM18-1121-Camera%20Ready.pdf). In The 27th ACM International Conference on Information and Knowledge Management (*CIKM 2018*), Torino, Italy.
-
+  
+  - Hanbaek Lyu, Georg Menz, Deanna Needell, and Christopher Strohmeier, 2020. [*Applications of Online Nonnegative Matrix Factorization to Image and Time-Series Data*](https://hanbaeklyudotcom.files.wordpress.com/2020/02/ita_onmf-2.pdf)
+  
+  - San Gultekin, John Paisley, 2019. [*Online Forecasting Matrix Factorization*](https://ieeexplore.ieee.org/document/8590686/). IEEE Transactions on Signal Processing, 67(5): 1223-1236. [[Python code](https://github.com/chloemnge/online_learning)]
+  
+  
 - ### **Bayesian matrix and tensor factorization**
 
   - Ruslan Salakhutdinov, Andriy Mnih, 2008. [*Bayesian probabilistic matrix factorization using Markov chain Monte Carlo*](https://www.cs.toronto.edu/~amnih/papers/bpmf.pdf). Proceedings of the 25th International Conference on Machine Learning (*ICML 2008*), Helsinki, Finland. [[Matlab code (official)](https://www.cs.toronto.edu/~rsalakhu/BPMF.html)] [[Python code](https://github.com/LoryPack/BPMF)] [[Julia and C++ code](https://github.com/ExaScience/bpmf)] [[Julia code](https://github.com/RottenFruits/BPMF.jl)]
