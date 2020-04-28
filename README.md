@@ -249,6 +249,15 @@ print('Running time: %d seconds'%(end - start))
 > This example is from [../experiments/Imputation-LRTC-TNN.ipynb](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb), you can check out this Jupyter Notebook for advanced usage.
 
 
+Toy Examples
+--------------
+
+- Time series forecasting
+  - [Structured low-rank matrix completion](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/SLRMC.ipynb)
+
+- Time series imputation
+
+
 References
 --------------
 
