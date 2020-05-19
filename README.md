@@ -163,53 +163,70 @@ def mat2ten(mat, tensor_size, mode):
 
 ```python
 def svt_tnn(mat, alpha, rho, theta):
-    """This is a Numpy dependent singular value thresholding (SVT) process."""
+    tau = alpha / rho
+    [m, n] = mat.shape
+    if 2 * m < n:
+        u, s, v = np.linalg.svd(mat @ mat.T, full_matrices = 0)
+        s = np.sqrt(s)
+        idx = np.sum(s > tau)
+        mid = np.zeros(idx)
+        mid[:theta] = 1
+        mid[theta:idx] = (s[theta:idx] - tau) / s[theta:idx]
+        return (u[:,:idx] @ np.diag(mid)) @ (u[:,:idx].T @ mat)
+    elif m > 2 * n:
+        return svt_tnn(mat.T, tau, theta).T
     u, s, v = np.linalg.svd(mat, full_matrices = 0)
-    vec = s.copy()
-    vec[theta :] = s[theta :] - alpha / rho
-    vec[vec < 0] = 0
-    return np.matmul(np.matmul(u, np.diag(vec)), v)
+    idx = np.sum(s > tau)
+    vec = s[:idx].copy()
+    vec[theta:] = s[theta:] - tau
+    return u[:,:idx] @ np.diag(vec) @ v[:idx,:]
 ```
 
 - Define performance metrics (i.e., RMSE, MAPE):
 
 ```python
-def Compute_RMSE(var, var_hat):
+def compute_rmse(var, var_hat):
     return np.sqrt(np.sum((var - var_hat) ** 2) / var.shape[0])
-```
 
-```python
-def Compute_MAPE(var, var_hat):
+def compute_mape(var, var_hat):
     return np.sum(np.abs(var - var_hat) / var) / var.shape[0]
 ```
 
 - Define LRTC-TNN:
 
 ```python
-def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, maxiter):
+def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter):
     """Low-Rank Tenor Completion with Truncated Nuclear Norm, LRTC-TNN."""
     
     dim = np.array(sparse_tensor.shape)
-    pos_train = np.where(sparse_tensor != 0)
     pos_missing = np.where(sparse_tensor == 0)
     pos_test = np.where((dense_tensor != 0) & (sparse_tensor == 0))
     
     X = np.zeros(np.insert(dim, 0, len(dim))) # \boldsymbol{\mathcal{X}}
     T = np.zeros(np.insert(dim, 0, len(dim))) # \boldsymbol{\mathcal{T}}
     Z = sparse_tensor.copy()
-    for it in range(maxiter):
+    last_tensor = sparse_tensor.copy()
+    snorm = np.sqrt(np.sum(sparse_tensor ** 2))
+    it = 0
+    while True:
+        rho = min(rho * 1.05, 1e5)
         for k in range(len(dim)):
             X[k] = mat2ten(svt_tnn(ten2mat(Z - T[k] / rho, k), alpha[k], rho, np.int(np.ceil(theta * dim[k]))), dim, k)
         Z[pos_missing] = np.mean(X + T / rho, axis = 0)[pos_missing]
         T = T + rho * (X - np.broadcast_to(Z, np.insert(dim, 0, len(dim))))
         tensor_hat = np.einsum('k, kmnt -> mnt', alpha, X)
+        tol = np.sqrt(np.sum((tensor_hat - last_tensor) ** 2)) / snorm
+        last_tensor = tensor_hat.copy()
+        it += 1
         if (it + 1) % 50 == 0:
             print('Iter: {}'.format(it + 1))
-            print('RMSE: {:.6}'.format(Compute_RMSE(dense_tensor[pos_test], tensor_hat[pos_test])))
+            print('RMSE: {:.6}'.format(compute_rmse(dense_tensor[pos_test], tensor_hat[pos_test])))
             print()
+        if (tol < epsilon) or (it >= maxiter):
+            break
 
-    print('Imputation MAPE: {:.6}'.format(Compute_MAPE(dense_tensor[pos_test], tensor_hat[pos_test])))
-    print('Imputation RMSE: {:.6}'.format(Compute_RMSE(dense_tensor[pos_test], tensor_hat[pos_test])))
+    print('Imputation MAPE: {:.6}'.format(compute_mape(dense_tensor[pos_test], tensor_hat[pos_test])))
+    print('Imputation RMSE: {:.6}'.format(compute_rmse(dense_tensor[pos_test], tensor_hat[pos_test])))
     print()
     
     return tensor_hat
@@ -238,10 +255,11 @@ sparse_tensor = np.multiply(dense_tensor, binary_tensor)
 import time
 start = time.time()
 alpha = np.ones(3) / 3
-rho = 0.002
+rho = 1e-5
 theta = 0.30
+epsilon = 1e-4
 maxiter = 200
-tensor_hat = LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, maxiter)
+LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter)
 end = time.time()
 print('Running time: %d seconds'%(end - start))
 ```
@@ -335,7 +353,6 @@ References
   - Hanbaek Lyu, Georg Menz, Deanna Needell, and Christopher Strohmeier, 2020. [*Applications of Online Nonnegative Matrix Factorization to Image and Time-Series Data*](https://hanbaeklyudotcom.files.wordpress.com/2020/02/ita_onmf-2.pdf)
   
   - San Gultekin, John Paisley, 2019. [*Online Forecasting Matrix Factorization*](https://ieeexplore.ieee.org/document/8590686/). IEEE Transactions on Signal Processing, 67(5): 1223-1236. [[Python code](https://github.com/chloemnge/online_learning)]
-  
   
 - ### **Bayesian matrix and tensor factorization**
 
