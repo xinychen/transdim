@@ -6,9 +6,9 @@
 
 -------------------------------------------
 
-<h3 align='center'> Low-rank autoregressive tensor completion for multivariate time series forecasting<br>
+<h3 align='center'> Low-Rank Autoregressive Tensor Completion for Multivariate Time Series Forecasting<br>
     [<a href="https://arxiv.org/abs/2005">arXiv</a>] </h3>
-    
+   
 <p align="center">
 <img align="middle" src="./images/predictor-explained.png" width="666" />
 </p>
@@ -24,9 +24,15 @@ Code for reproducing experiments is provided in this folder. Please check out `L
 
 ### Results
 
+- Ranking report (`imputer`)
+
+
+- Ranking report (`predictor`)
+
+
 ### Citation
 
-Please consider citing our paper:
+If you use these codes in your work, please cite our paper:
 
 ```bibtex
 @article{chen2020lowrank,
