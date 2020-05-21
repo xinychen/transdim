@@ -4,9 +4,11 @@
 
 > This folder includes our latest **imputer** and **predictor** for multivariate time series analysis.
 
-<h3 align='center'> Low-Rank Autoregressive Tensor Completion for Multivariate Time Series Forecasting<br>
-    [<a href="https://arxiv.org/abs/2005">arXiv</a>] </h3>
+-------------------------------------------
 
+<h3 align='center'> Low-rank autoregressive tensor completion for multivariate time series forecasting<br>
+    [<a href="https://arxiv.org/abs/2005">arXiv</a>] </h3>
+    
 <p align="center">
 <img align="middle" src="./images/predictor-explained.png" width="666" />
 </p>
