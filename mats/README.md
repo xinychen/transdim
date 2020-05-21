@@ -24,7 +24,12 @@ Code for reproducing experiments is provided in this folder. Please check out `L
 
 ### Results
 
-- Ranking report (`imputer`)
+- **Ranking report (`imputer`)**
+
+| Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (s) |
+| :------: | :-------------------: | :---- | :------: | :--: | :--------------: |
+|Guangzhou | 1 | LATC (ours) |   6.79   |   2.96   | - |
+|          | 2 | LRTC-TNN    |   7.27   |   3.12   | - |
 
 
 - Ranking report (`predictor`)
