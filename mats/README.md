@@ -11,7 +11,7 @@
 <img align="middle" src="./images/predictor-explained.png" width="666" />
 </p>
 
-Building multivariate time series forecasting tool on the well-understood *Low-Rank Tensor Completion*, we develop a **Low-Rank Autoregressive Tensor Completion** which takes into account:
+Building multivariate time series forecasting tool on the well-understood Low-Rank Tensor Completion (LRTC), we develop a **Low-Rank Autoregressive Tensor Completion** which takes into account:
 
 - autoregressive process on the matrix structure to capture local temporal states,
 - and low-rank assumption on the tensor structure to capture global low-rank patterns simultaneously.
