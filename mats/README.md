@@ -10,7 +10,7 @@
     [<a href="https://arxiv.org/abs/2005">arXiv</a>] </h3>
    
 <p align="center">
-<img align="middle" src="./images/predictor-explained.png" width="666" />
+<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/predictor-explained.png" width="666" />
 </p>
 
 Building multivariate time series forecasting tool on the well-understood Low-Rank Tensor Completion (LRTC), we develop a **Low-Rank Autoregressive Tensor Completion** which takes into account:
