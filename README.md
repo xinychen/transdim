@@ -22,6 +22,10 @@ Tasks and Challenges
 
 > Missing data are there, whether we like them or not. The really interesting question is how to deal with incomplete data.
 
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/missing.png" width="800" />
+</p>
+
 - **Missing data imputation** 🔥
 
   - Random missing (RM): Each sensor lost their observations at completely random. (★★★)
