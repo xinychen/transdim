@@ -501,7 +501,7 @@ Our Publications
 
 - Xinyu Chen, Zhaocheng He, Jiawei Wang (2018). **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. Transportation Research Part C: Emerging Technologies, 86: 59-77. [[doi](http://doi.org/10.1016/j.trc.2017.10.023)] [[data](http://doi.org/10.5281/zenodo.1205229)]
 
-  >This project is from our papers, please consider citing our papers if they help your research.
+  >This project is from our papers, please cite our papers if they help your research.
 
 Collaborators
 --------------
@@ -530,7 +530,7 @@ Collaborators
 > See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
 
-Our transdim is still under development. More machine learning models and technical features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@mail2.sysu.edu.cn) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
+Our transdim is still under development. More machine learning models and technical features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@gmail.com) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
 
 > Recommended email subjects: 
 > - Suggestion on transdim from [+ your name]
