@@ -26,13 +26,28 @@ Code for reproducing experiments is provided in this folder. Please check out `L
 
 - **Ranking report (`imputer`)**
 
-| Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (s) |
+We create this report by evaluating our proposed imputation models on Guangzhou traffic speed data set and PeMS traffic speed data set with certain amount of missing values.
+
+<center>
+
+| Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (sec.) |
 | :------: | :-------------------: | :---- | :------: | :--: | :--------------: |
-|Guangzhou | 1 | LATC (ours) |   6.79   |   2.96   | - |
-|          | 2 | LRTC-TNN    |   7.27   |   3.12   | - |
+|Guangzhou (40%, RM) | 1 | LATC |   6.79   |   2.96   | - |
+|                    | 2 | [LRTC-TNN](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb)    |   7.32   |   3.17   | 40 |
+|                    | 3 | [BTMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)    |   7.81   |   3.35   | - |
+|                    | 4 | [BGCP](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)    |   8.29   |   3.59   | - |
+
+</center>
+
+| Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (sec.) |
+| :------: | :-------------------: | :---- | :------: | :--: | :--------------: |
+|Guangzhou (40%, NM) | 1 | LATC |   9.51   |   4.07   | - |
+|                    | 2 | [LRTC-TNN](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb)    |   9.54   |   4.08   | 36 |
+|                    | 3 | [BGCP](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)    |   10.25   |   4.32   | 265 |
+|                    | 4 | [BTMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)    |   10.36   |   4.46   | 3885 |
 
 
-- Ranking report (`predictor`)
+- **Ranking report (`predictor`)**
 
 
 ### Citation
