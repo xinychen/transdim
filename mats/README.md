@@ -28,16 +28,12 @@ Code for reproducing experiments is provided in this folder. Please check out `L
 
 We create this report by evaluating our proposed imputation models on Guangzhou traffic speed data set and PeMS traffic speed data set with certain amount of missing values.
 
-<center>
-
 | Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (sec.) |
 | :------: | :-------------------: | :---- | :------: | :--: | :--------------: |
 |Guangzhou (40%, RM) | 1 | LATC |   6.79   |   2.96   | - |
 |                    | 2 | [LRTC-TNN](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb)    |   7.32   |   3.17   | 40 |
 |                    | 3 | [BTMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)    |   7.81   |   3.35   | - |
 |                    | 4 | [BGCP](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)    |   8.29   |   3.59   | - |
-
-</center>
 
 | Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (sec.) |
 | :------: | :-------------------: | :---- | :------: | :--: | :--------------: |
