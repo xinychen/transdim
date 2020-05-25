@@ -30,14 +30,14 @@ We create this report by evaluating our proposed imputation models on Guangzhou 
 
 | Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (sec.) |
 | :------: | :-------------------: | :---- | :------: | :--: | :--------------: |
-|Guangzhou (40%, RM) | 1 | LATC |   6.79   |   2.96   | - |
+|Guangzhou (40%, RM) | 1 | - |   -   |   -   | - |
 |                    | 2 | [LRTC-TNN](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb)    |   7.32   |   3.17   | 40 |
 |                    | 3 | [BTMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)    |   7.81   |   3.35   | - |
 |                    | 4 | [BGCP](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)    |   8.29   |   3.59   | - |
 
 | Data Set |          No           | Model | MAPE (%) | RMSE | Running Time (sec.) |
 | :------: | :-------------------: | :---- | :------: | :--: | :--------------: |
-|Guangzhou (40%, NM) | 1 | LATC |   9.51   |   4.07   | - |
+|Guangzhou (40%, NM) | 1 | - |   -   |   -   | - |
 |                    | 2 | [LRTC-TNN](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb)    |   9.54   |   4.08   | 36 |
 |                    | 3 | [BGCP](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)    |   10.25   |   4.32   | 265 |
 |                    | 4 | [BTMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb)    |   10.36   |   4.46   | 3885 |
