@@ -6,7 +6,7 @@
 
 -------------------------------------------
 
-<h3 align='center'> Low-Rank Autoregressive Tensor Completion for Multivariate Time Series Forecasting<br>
+<h3 align='center'> Low-Rank Autoregressive Tensor Completion for Multivariate Time Series Prediction<br>
     [<a href="https://arxiv.org/abs/2005">arXiv</a>] </h3>
    
 <p align="center">
