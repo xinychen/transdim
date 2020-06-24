@@ -48,7 +48,7 @@ Tasks and Challenges
   - Forecasting with incomplete observations. (★★★★★)
 
 <p align="center">
-<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/predictor-explained.png" width="750" />
+<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/predictor-explained.png" width="700" />
 </p>
 
 <p align="center">
