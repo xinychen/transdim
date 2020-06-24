@@ -52,7 +52,7 @@ Tasks and Challenges
 </p>
 
 <p align="center">
-<b>Figure 3</b>: Illustration of the proposed LATC imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
+<b>Figure 3</b>: Illustration of our proposed Low-Rank Tensor Completion (LATC) imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
 </p>
 
 Implementation
