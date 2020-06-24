@@ -26,23 +26,34 @@ Tasks and Challenges
 <img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/missing.png" width="800" />
 </p>
 
+<p align="center">
+<b>Figure 1</b>: Two classical missing patterns in a spatiotemporal setting.
+</p>
+
 - **Missing data imputation** 🔥
 
   - Random missing (RM): Each sensor lost their observations at completely random. (★★★)
   - Non-random missing (NM): Each sensor lost their observations during several days. (★★★★)
 
+<p align="center">
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
+</p>
 
-> **Example**: Tensor completion framework for spatiotemporal missing traffic data imputation.
+<p align="center">
+<b>Figure 2</b>: Tensor completion framework for spatiotemporal missing traffic data imputation.
+</p>
 
 - **Spatiotemporal prediction** 🔥
   - Forecasting without missing values. (★★★)
   - Forecasting with incomplete observations. (★★★★★)
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/predictor-explained.png" width="750" />
+</p>
 
-> **Example**: An illustration of single-step rolling prediction (i.e., time horizon is 1) task under a matrix factorization framework.
-
+<p align="center">
+<b>Figure 3</b>: Illustration of the proposed LATC imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
+</p>
 
 Implementation
 --------------
