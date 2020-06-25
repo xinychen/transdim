@@ -26,9 +26,9 @@ Tasks and Challenges
 <img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/missing.png" width="800" />
 </p>
 
-<p align="center">
+<h6 align="center">
 <b>Figure 1</b>: Two classical missing patterns in a spatiotemporal setting.
-</p>
+</h6>
 
 - **Missing data imputation** 🔥
 
@@ -39,9 +39,9 @@ Tasks and Challenges
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 </p>
 
-<p align="center">
+<h6 align="center">
 <b>Figure 2</b>: Tensor completion framework for spatiotemporal missing traffic data imputation.
-</p>
+</h6>
 
 - **Spatiotemporal prediction** 🔥
   - Forecasting without missing values. (★★★)
@@ -51,9 +51,9 @@ Tasks and Challenges
 <img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/predictor-explained.png" width="700" />
 </p>
 
-<p align="center">
+<h6 align="center">
 <b>Figure 3</b>: Illustration of our proposed Low-Rank Tensor Completion (LATC) imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
-</p>
+</h6>
 
 Implementation
 --------------
