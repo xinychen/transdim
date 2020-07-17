@@ -5,6 +5,8 @@
 [![repo size](https://img.shields.io/github/repo-size/xinychen/transdim.svg)](https://github.com/xinychen/transdim/archive/master.zip)
 [![GitHub stars](https://img.shields.io/github/stars/xinychen/transdim.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/transdim)
 
+<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
+
 ![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
 
 Machine learning models make important developments in the field of spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built with incomplete data commonly collected in real-world systems?
@@ -26,23 +28,34 @@ Tasks and Challenges
 <img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/missing.png" width="800" />
 </p>
 
+<h6 align="center">
+<b>Figure 1</b>: Two classical missing patterns in a spatiotemporal setting.
+</h6>
+
 - **Missing data imputation** 🔥
 
   - Random missing (RM): Each sensor lost their observations at completely random. (★★★)
   - Non-random missing (NM): Each sensor lost their observations during several days. (★★★★)
 
+<p align="center">
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
+</p>
 
-> **Example**: Tensor completion framework for spatiotemporal missing traffic data imputation.
+<h6 align="center">
+<b>Figure 2</b>: Tensor completion framework for spatiotemporal missing traffic data imputation.
+</h6>
 
 - **Spatiotemporal prediction** 🔥
   - Forecasting without missing values. (★★★)
   - Forecasting with incomplete observations. (★★★★★)
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/predictor-explained.png" width="700" />
+</p>
 
-> **Example**: An illustration of single-step rolling prediction (i.e., time horizon is 1) task under a matrix factorization framework.
-
+<h6 align="center">
+<b>Figure 3</b>: Illustration of our proposed Low-Rank Tensor Completion (LATC) imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
+</h6>
 
 Implementation
 --------------
@@ -491,9 +504,11 @@ References
 Our Publications
 --------------
 
-- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. arxiv. 2003.10271. [[preprint](https://arxiv.org/abs/2003.10271)] [[data & Python code](https://github.com/xinychen/transdim)]
+- Xinyu Chen, Lijun Sun (2020). **Low-rank autoregressive tensor completion for multivariate time series forecasting**. arXiv: 2006.10436. [[preprint](https://arxiv.org/abs/2006.10436)] [[data & Python code](https://github.com/xinychen/tensor-learning)]
 
-- Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arxiv. 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
+- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 117: 102673. [[preprint](https://arxiv.org/abs/2003.10271)] [[doi](https://doi.org/10.1016/j.trc.2020.102673)] [[data & Python code](https://github.com/xinychen/transdim)]
+
+- Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arXiv: 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
 
 - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies, 104: 66-77. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[doi](https://doi.org/10.1016/j.trc.2019.03.003)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)]
 
