@@ -83,6 +83,18 @@ If you want to view the original data, please check out the following links:
 - **Sdata**: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
 - **Ndata**: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 
+In particular, we take into account large-scale traffic data imputation/prediction on PeMS-4W and PeMS-8W data sets:
+
+- **PeMS-4W/8W/12W**: [Large-scale traffic speed data sets in California, USA](https://doi.org/10.5281/zenodo.3939792).
+
+You can download the data sets from [Zenodo](https://doi.org/10.5281/zenodo.3939792) and place them at the folder of datasets (data path example: `../datasets/California-data-set/pems-4w.csv`). Then you can open data in Python by using `Pandas`:
+
+```python
+import pandas as pd
+
+data = pd.read_csv('../datasets/California-data-set/pems-4w.csv', header = None)
+```
+
 For model evaluation, we mask certain entries of the "observed" data as missing values and then perform imputation for these "missing" values.
 
 
