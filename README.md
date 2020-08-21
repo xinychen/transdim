@@ -516,6 +516,8 @@ References
 Our Publications
 --------------
 
+- Xinyu Chen, Yixian Chen, Lijun Sun (2020). **Scalable low-rank autoregressive tensor learning for spatiotemporal traffic data imputation**. arXiv: 2008.03194. [[preprint](https://arxiv.org/abs/2008.03194)] [[data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/tensor-learning)]
+
 - Xinyu Chen, Lijun Sun (2020). **Low-rank autoregressive tensor completion for multivariate time series forecasting**. arXiv: 2006.10436. [[preprint](https://arxiv.org/abs/2006.10436)] [[data & Python code](https://github.com/xinychen/tensor-learning)]
 
 - Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 117: 102673. [[preprint](https://arxiv.org/abs/2003.10271)] [[doi](https://doi.org/10.1016/j.trc.2020.102673)] [[data & Python code](https://github.com/xinychen/transdim)]
