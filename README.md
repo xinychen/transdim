@@ -28,9 +28,9 @@ Tasks and Challenges
 <img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/missing.png" width="800" />
 </p>
 
-<center>
+<p align = "center">
 <b>Figure 1</b>: Two classical missing patterns in a spatiotemporal setting.
-</center>
+</p>
 
 - **Missing data imputation** 🔥
 
@@ -41,9 +41,9 @@ Tasks and Challenges
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 </p>
 
-<center>
+<p align = "center">
 <b>Figure 2</b>: Tensor completion framework for spatiotemporal missing traffic data imputation.
-</center>
+</p>
 
 - **Spatiotemporal prediction** 🔥
   - Forecasting without missing values. (★★★)
@@ -53,9 +53,9 @@ Tasks and Challenges
 <img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/predictor-explained.png" width="700" />
 </p>
 
-<center>
-<b>Figure 3</b>: Illustration of our proposed Low-Rank Tensor Completion (LATC) imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
-</center>
+<p align = "center">
+<b>Figure 3</b>: Illustration of our proposed Low-Rank Autoregressive Tensor Completion (LATC) imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
+</p>
 
 Implementation
 --------------
@@ -141,7 +141,7 @@ In our experiments, we have implemented some machine learning models mainly on `
 
 ### Imputation/Prediction performance
 
-- **Imputation example (on Gdata)**
+- **Imputation example (on Guangzhou data)**
 
 ![example](https://github.com/xinychen/transdim/blob/master/images/estimated_series1.png)
   *(a) Time series of actual and estimated speed within two weeks from August 1 to 14.*
