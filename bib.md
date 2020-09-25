@@ -41,6 +41,8 @@ References
   - Shun-Yao Shih, Fan-Keng Sun, Hung-yi Lee, 2018. [*Temporal pattern attention for multivariate time series forecasting*](https://arxiv.org/pdf/1809.04206v2.pdf). arXiv.
   
   - Dingxiong Deng, Cyrus Shahabi, Ugur Demiryurek, Linhong Zhu, Rose Yu, Yan Liu, 2016. [*Latent space model for road networks to predict time-varying traffic*](http://roseyu.com/Papers/kdd2016.pdf). Proceedings of the 22rd ACM SIGKDD international conference on Knowledge discovery and data mining (*KDD 2016*).
+  
+  - Tanwi Mallick, Prasanna Balaprakash, Eric Rask, Jane Macfarlane, 2020. [*Transfer Learning with Graph Neural Networks for Short-Term Highway Traffic Forecasting*](https://arxiv.org/pdf/2004.08038.pdf). arXiv:2004.08038. 2020.
 
 - ### **Principal component analysis**
 
@@ -97,6 +99,10 @@ References
   - Piyush Rai, Yingjian Wang, Shengbo Guo, Gary Chen, David B. Dunsun,	Lawrence Carin, 2014. [*Scalable Bayesian low-rank decomposition of incomplete multiway tensors*](http://people.ee.duke.edu/~lcarin/mpgcp.pdf). Proceedings of the 31st International Conference on Machine Learning (*ICML 2014*), Beijing, China.
 
   - Ömer Deniz Akyildiz, Theodoros Damoulas, Mark F. J. Steel, 2019. [*Probabilistic sequential matrix factorization*](https://arxiv.org/pdf/1910.03906.pdf). arXiv. (★★★★★)
+  
+- ### **Low-rank matrix completion**
+
+  - Feiping Nie, Hua Wang, Xiao Cai, Heng Huang, Chris Ding, 2012. [*Robust Matrix Completion via Joint Schatten 𝑝-Norm and ℓ𝑝-Norm Minimization*](http://inside.mines.edu/~huawang/Papers/Conference/2012icdm_pnorm.pdf). ICDM 2012.
   
 - ### **Matrix completion on graphs**
 
@@ -195,6 +201,14 @@ References
   - Xu Geng, Yaguang Li, Leye Wang, Lingyu Zhang, Qiang Yang, Jieping Ye, Yan Liu, 2019. [*Spatiotemporal multi-graph convolution network for ride-hailing demand forecasting*](http://www-scf.usc.edu/~yaguang/papers/aaai19_multi_graph_convolution.pdf). *AAAI 2019*.
 
   - Menglin Wang, Baisheng Lai, Zhongming Jin, Yufeng Lin, Xiaojia Gong, Jiangqiang Huang, Xiansheng Hua, 2018. [*Dynamic spatio-temporal graph-based CNNs for traffic prediction*](https://arxiv.org/pdf/1812.02019.pdf). arXiv.
+  
+- ### **Dynamic mode decomposition**
+
+  - Maziar S. Hemati, Matthew O. Williams, Clarence W. Rowley, 2014. [*Dynamic Mode Decomposition for Large and Streaming Datasets*](https://arxiv.org/pdf/1406.7187.pdf). arXiv:1406.7187. 2014.
+  
+  - Katharina Bieker, Sebastian Peitz, Steven L. Brunton, J. Nathan Kutz, Michael Dellnitz, 2019. [*Deep Model Predictive Control with Online Learning for Complex Physical Systems*](https://arxiv.org/pdf/1905.10094.pdf). arXiv:1905.10094. 2019.
+  
+  - Henning Lange, Steven L. Brunton, Nathan Kutz, 2020. [*From Fourier to Koopman: Spectral Methods for Long-term Time Series Prediction*](https://arxiv.org/pdf/2004.00574.pdf). arXiv:2004.00574. 2020. [[PyTorch code](https://github.com/helange23/from_fourier_to_koopman)]
 
 - ### **Missing data imputation**
 
