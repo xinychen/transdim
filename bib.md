@@ -117,8 +117,14 @@ References
 - ### **Low-rank tensor completion**
 
   - Ji Liu, Przemyslaw Musialski, Peter Wonka, Jieping Ye, 2013. [*Tensor completion for estimating missing values in visual data*](https://doi.org/10.1109/TPAMI.2012.39). IEEE Transactions on Pattern Analysis and Machine Intelligence, 35(1): 208-220.
+  
+  - Zemin Zhang, Shuchin Aeron, 2017. [*Exact Tensor Completion Using t-SVD*](https://doi.org/10.1109/TSP.2016.2639466). IEEE Transactions on Signal Processing, 65(6): 1511 - 1526.
 
   - Bin Ran, Huachun Tan, Yuankai Wu, Peter J. Jin, 2016. [*Tensor based missing traffic data completion with spatial–temporal correlation*](https://doi.org/10.1016/j.physa.2015.09.105). Physica A: Statistical Mechanics and its Applications, 446: 54-63.
+  
+  - Yaqing Wang, Quanming Yao, James T. Kwok, 2020. [*Efficient Low-Rank Matrix Learning by Factorizable Nonconvex Regularization*](https://arxiv.org/pdf/2008.06542.pdf). arXiv:2008.06542. 2020.
+  
+  - Kun Xie, Lele Wang, Xin Wang, Gaogang Xie, Jigang Wen, Guangxing Zhang, Jiannong Cao, Dafang Zhang, 2018. [*Accurate Recovery of Internet Traffic Data: A Sequential Tensor Completion Approach*](https://doi.org/10.1109/TNET.2018.2797094).  IEEE/ACM Transactions on Networking, 26(2): 793 - 806.
 
 - ### **Generative Adversarial Nets**
 
@@ -209,6 +215,14 @@ References
   - Katharina Bieker, Sebastian Peitz, Steven L. Brunton, J. Nathan Kutz, Michael Dellnitz, 2019. [*Deep Model Predictive Control with Online Learning for Complex Physical Systems*](https://arxiv.org/pdf/1905.10094.pdf). arXiv:1905.10094. 2019.
   
   - Henning Lange, Steven L. Brunton, Nathan Kutz, 2020. [*From Fourier to Koopman: Spectral Methods for Long-term Time Series Prediction*](https://arxiv.org/pdf/2004.00574.pdf). arXiv:2004.00574. 2020. [[PyTorch code](https://github.com/helange23/from_fourier_to_koopman)]
+  
+  - Hassan Arbabi, Igor Mezic, 2017. [*Ergodic Theory, Dynamic Mode Decomposition, and Computation of Spectral Properties of the Koopman Operator*](http://www.mit.edu/~arbabi/research/Hankel-DMD%20paper.pdf). SIAM J. Applied Dynamical Systems, 16(4): 2096–2126.
+  
+  - Shaowu Pan, Karthik Duraisamy, 2019. [*Physics-Informed Probabilistic Learning of Linear Embeddings of Non-linear Dynamics With Guaranteed Stability*](https://arxiv.org/pdf/1906.03663.pdf). arXiv:1906.03663. 2019.
+  
+  - Santosh Tirunagari, Samaneh Kouchaki, Norman Poh, Miroslaw Bober, David Windridge, 2017. [*Dynamic Mode Decomposition for Univariate Time Series: Analysing Trends and Forecasting*](https://hal.archives-ouvertes.fr/hal-01463744/document). 2017.
+  
+  - Jia-Chen Hua, Farzad Noorian, Duncan Moss, Philip H. W. Leong, Gemunu H. Gunaratne, 2017. [*High-dimensional time series prediction using kernel-based Koopman mode regression*](https://link.springer.com/article/10.1007/s11071-017-3764-y). Nonlinear Dynamics, 90: 1785–1806
 
 - ### **Missing data imputation**
 
