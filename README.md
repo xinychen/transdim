@@ -32,9 +32,9 @@ Tasks and Challenges
 <b>Figure 1</b>: Two classical missing patterns in a spatiotemporal setting.
 </p>
 
-- **Missing data imputation** 🔥
+We create three missing data mechanisms on real-world data.
 
-We create many missing data mechanisms on real-world data:
+- **Missing data imputation** 🔥
 
   - Random missing (RM): Each sensor lost observations at completely random. (★★★)
   - Non-random missing (NM): Each sensor lost observations during several days. (★★★★)
