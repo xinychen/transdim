@@ -34,8 +34,11 @@ Tasks and Challenges
 
 - **Missing data imputation** 🔥
 
-  - Random missing (RM): Each sensor lost their observations at completely random. (★★★)
-  - Non-random missing (NM): Each sensor lost their observations during several days. (★★★★)
+We create many missing data mechanisms on real-world data sets:
+
+  - Random missing (RM): Each sensor lost observations at completely random. (★★★)
+  - Non-random missing (NM): Each sensor lost observations during several days. (★★★★)
+  - Blockout missing (BM): All sensors lost their observations during several consecutive time points. (★★★★)
 
 <p align="center">
 <img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
