@@ -103,6 +103,8 @@ For model evaluation, we mask certain entries of the "observed" data as missing 
 
 ### Model implementation
 
+> **Old version, updated in 2019**
+
 In our experiments, we have implemented some machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, please download and run these notebooks directly (prerequisite: **download the data sets** in advance).
 
 - **Our models**
@@ -141,6 +143,24 @@ In our experiments, we have implemented some machine learning models mainly on `
 * ✅ — Cover
 * 🔶 — Does not cover
 * 🚧 — Under development
+
+### Model implementation 
+
+> **New version, updated in 2020**
+
+In the following implementation, Python codes are improved significantly in terms of both readiability and running speed.
+
+- **imputer** (imputation models)
+
+|          Task           | Notebook                                        | Guangzhou | Birmingham | Hangzhou | Seattle | London | NYC | Pacific |
+| :---------------------: | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Imputation | [BPMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BPMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |   🔶   |
+|  | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |   🔶   |
+|  | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BGCP.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
+|  | [**BATF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BATF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
+|  | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
+
+> Our proposed models are highlighted in bold fonts.
 
 ### Imputation/Prediction performance
 
