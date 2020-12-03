@@ -368,6 +368,7 @@ Collaborators
 <table>
   <tr>
     <td align="center"><a href="https://github.com/lijunsun"><img src="https://github.com/lijunsun.png?size=80" width="80px;" alt="Lijun Sun"/><br /><sub><b>Lijun Sun</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=lijunsun" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nsaunier"><img src="https://github.com/nsaunier.png?size=80" width="80px;" alt="Nicolas Saunier"/><br /><sub><b>Nicolas Saunier</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=nsaunier" title="Code">💻</a></td>
   </tr>
 </table>
 
