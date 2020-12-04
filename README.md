@@ -323,6 +323,7 @@ Toy Examples
 --------------
 
 - Time series forecasting
+  - [Bayesian vector autoregression forecasting](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/Bayesian-VAR-forecasting.ipynb)
   - [Structured low-rank matrix completion](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/SLRMC.ipynb)
 
 - Time series imputation
