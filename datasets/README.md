@@ -81,5 +81,7 @@ np.save('../datasets/Temperature-data-set/tensor.npy', tensor)
 - [PORTAL is the official transportation data archive for the Portland-Vancouver Metropolitan region.](https://portal.its.pdx.edu/home) PORTAL provides a centralized, electronic database that facilitates the collection, archiving, and sharing of data and information for public agencies within the region. The data stored in Portal includes 20-second granularity loop detector data from freeways in the Portland-Vancouver metropolitan region, arterial signal data, travel time data, weather data, incident data, VAS/VMS message data, truck volumes, transit data, and arterial signal data. Many of these data feeds are received by PORTAL in real time or on a daily basis and for most, the retrieval and archiving process is fully automated.
 
 
+### Reading material
 
+- [Data for the public good](https://nic.org.uk/app/uploads/Data-for-the-Public-Good-NIC-Report.pdf), National Infrastructure Commission report.
 
