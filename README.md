@@ -155,12 +155,20 @@ In the following implementation, Python codes written in Jupyter Notebook are im
 | Notebook                                        | Guangzhou | Birmingham | Hangzhou | Seattle | London | NYC | Pacific |
 | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [BPMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BPMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |   🔶   |
+| [BTRMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTRMF.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   🔶   |   🔶   |
 | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |   🔶   |
 | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BGCP.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 | [**BATF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BATF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
 
 > Our proposed models are highlighted in bold fonts.
+
+- **predictor** (prediction models)
+
+| Notebook                                        | Guangzhou | Birmingham | Hangzhou | Seattle | London | NYC | Pacific |
+| :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTMF.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   🔶   |   🔶   |
+
 
 ### Imputation/Prediction performance
 
