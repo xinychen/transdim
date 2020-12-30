@@ -168,7 +168,7 @@ In the following implementation, Python codes written in Jupyter Notebook are im
 | Notebook                                        | Guangzhou | Birmingham | Hangzhou | Seattle | London | NYC | Pacific |
 | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [BTRMF](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTRMF.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   🔶   |   🔶   |
-| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTMF.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   🚧   |   🚧   |
+| [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTMF.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 
 
 ### Imputation/Prediction performance
