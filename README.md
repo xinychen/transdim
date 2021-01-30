@@ -148,7 +148,9 @@ In our experiments, we have implemented some machine learning models mainly on `
 
 > **New version, updated in 2020**
 
-In the following implementation, Python codes written in Jupyter Notebook are improved significantly in terms of both readiability and running speed.
+In the following implementation, we have improved Python codes (in Jupyter Notebook) in terms of both readiability and computational cost.
+
+> Our proposed models are highlighted in bold fonts.
 
 - **imputer** (imputation models)
 
@@ -163,8 +165,6 @@ In the following implementation, Python codes written in Jupyter Notebook are im
 | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
 | [HaLRTC](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/HaLRTC.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 
-> Our proposed models are highlighted in bold fonts.
-
 - **predictor** (prediction models)
 
 | Notebook                                        | Guangzhou | Birmingham | Hangzhou | Seattle | London | NYC | Pacific |
@@ -175,6 +175,7 @@ In the following implementation, Python codes written in Jupyter Notebook are im
 | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTMF.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
 
+> For the implementation of these models, we use both `dense_mat` and `sparse_mat` (or `dense_tensor` and `sparse_tensor`) as the inputs. However, it is not necessary by doing so if you do not hope to see the imputation/prediction performance in the iterative process, you can remove `dense_mat` (or `dense_tensor`) from the inputs of these algorithms.
 
 ### Imputation/Prediction performance
 
