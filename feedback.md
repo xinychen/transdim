@@ -4,4 +4,7 @@ Our transdim is still under development. More machine learning models and techni
   - Antony Masso Lussier (HEC Montreal): For improving the readability of TRMF code.
   - Yingjie Li (China University of Mining and Technology): For improving the readability of BTMF code.
 
+- **2021**
+  - Tinghan Chen (University of Florida): For feedback about the training process (difference between `dense_mat` and `sparse_mat`) of BTMF code.
+
 If you have any suggestion about this project, please feel free to contact Xinyu Chen (email: chenxy346@gmail.com) and send your suggestion. We would like to thank everyone who has helped this project in any way.
