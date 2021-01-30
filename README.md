@@ -150,6 +150,8 @@ In our experiments, we have implemented some machine learning models mainly on `
 
 In the following implementation, we have improved Python codes (in Jupyter Notebook) in terms of both readiability and computational cost.
 
+> Our proposed models are highlighted in bold fonts.
+
 - **imputer** (imputation models)
 
 | Notebook                                        | Guangzhou | Birmingham | Hangzhou | Seattle | London | NYC | Pacific |
@@ -162,8 +164,6 @@ In the following implementation, we have improved Python codes (in Jupyter Noteb
 | [**BATF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BATF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
 | [HaLRTC](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/HaLRTC.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
-
-> Our proposed models are highlighted in bold fonts.
 
 - **predictor** (prediction models)
 
