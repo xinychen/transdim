@@ -351,7 +351,7 @@ Our Publications
 
 - Xinyu Chen, Lijun Sun (2020). **Low-rank autoregressive tensor completion for multivariate time series forecasting**. arXiv: 2006.10436. [[preprint](https://arxiv.org/abs/2006.10436)] [[data & Python code](https://github.com/xinychen/tensor-learning)]
 
-- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 117: 102673. [[preprint](https://arxiv.org/abs/2003.10271)] [[doi](https://doi.org/10.1016/j.trc.2020.102673)] [[data & Python code](https://github.com/xinychen/transdim)]
+- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 117: 102673. [[preprint](https://arxiv.org/abs/2003.10271v2)] [[doi](https://doi.org/10.1016/j.trc.2020.102673)] [[data & Python code](https://github.com/xinychen/transdim)]
 
 - Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arXiv: 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
 
