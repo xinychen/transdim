@@ -65,32 +65,31 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted the publicly available data sets into our experiments. If you want to view or use these data sets, please download them at the [../datasets/](https://github.com/xinychen/transdim/tree/master/datasets) folder in advance, and then run the following codes in your Python console:
+In this repository, we have adapted the publicly available data sets into our experiments. The original links for these data are summarized as follows,
+
+- Multivariate time series
+  - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
+  - [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
+  - [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403)
+  - [Portland highway traffic data set](https://portal.its.pdx.edu/home) (including traffic volume/speed/occupancy)
+  - [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data)
+  - [London urban movement speed data set](https://movement.uber.com/) (other cities are also available at [Uber movement project](https://movement.uber.com/))
+  - [California PeMS traffic speed data set](https://doi.org/10.5281/zenodo.3939792) (large-scale)
+  - [UTD19: Largest multi-city traffic data set](https://utd19.ethz.ch/index.html)
+- Multidimensional time series
+  - [New York City (NYC) taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+  - [Pacific surface temperature data set](http://iridl.ldeo.columbia.edu/SOURCES/.CAC/)
+
+For example, if you want to view or use these data sets, please download them at the [../datasets/](https://github.com/xinychen/transdim/tree/master/datasets) folder in advance, and then run the following codes in your Python console:
 
 ```python
 import scipy.io
 
 tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/tensor.mat')
 tensor = tensor['tensor']
-random_matrix = scipy.io.loadmat('../datasets/Guangzhou-data-set/random_matrix.mat')
-random_matrix = random_matrix['random_matrix']
-random_tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/random_tensor.mat')
-random_tensor = random_tensor['random_tensor']
 ```
 
-If you want to view the original data, please check out the following links:
-
-- **Gdata**: [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228).
-- **Bdata**: [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham).
-- **Hdata**: [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403).
-- **Sdata**: [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data).
-- **Ndata**: [NYC taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
-
-In particular, we take into account large-scale traffic data imputation/prediction on PeMS-4W and PeMS-8W data sets:
-
-- **PeMS-4W/8W/12W**: [Large-scale traffic speed data sets in California, USA](https://doi.org/10.5281/zenodo.3939792).
-
-You can download the data sets from [Zenodo](https://doi.org/10.5281/zenodo.3939792) and place them at the folder of datasets (data path example: `../datasets/California-data-set/pems-4w.csv`). Then you can open data in Python by using `Pandas`:
+In particular, if you are interested in large-scale traffic data, we recommend **PeMS-4W/8W/12W** (see [Large-scale traffic speed data sets in California, USA](https://doi.org/10.5281/zenodo.3939792)) and [UTD19](https://utd19.ethz.ch/index.html). For PeMS data, you can download the data sets from [Zenodo](https://doi.org/10.5281/zenodo.3939792) and place them at the folder of datasets (data path example: `../datasets/California-data-set/pems-4w.csv`). Then you can open data in Python by using `Pandas`:
 
 ```python
 import pandas as pd
