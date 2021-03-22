@@ -67,7 +67,7 @@ Implementation
 
 In this repository, we have adapted the publicly available data sets into our experiments. The original links for these data are summarized as follows,
 
-- Multivariate time series
+- **Multivariate time series**
   - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
   - [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
   - [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403)
@@ -76,7 +76,7 @@ In this repository, we have adapted the publicly available data sets into our ex
   - [London urban movement speed data set](https://movement.uber.com/) (other cities are also available at [Uber movement project](https://movement.uber.com/))
   - [California PeMS traffic speed data set](https://doi.org/10.5281/zenodo.3939792) (large-scale)
   - [UTD19: Largest multi-city traffic data set](https://utd19.ethz.ch/index.html)
-- Multidimensional time series
+- **Multidimensional time series**
   - [New York City (NYC) taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
   - [Pacific surface temperature data set](http://iridl.ldeo.columbia.edu/SOURCES/.CAC/)
 
