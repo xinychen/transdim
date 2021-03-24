@@ -46,7 +46,7 @@ data = pd.read_csv('../datasets/London-data-set/movement-speeds-hourly-london-20
 road = data.drop_duplicates(['osm_way_id', 'osm_start_node_id', 'osm_end_node_id'])
 road = road.drop(['year', 'month', 'day', 'hour', 'utc_timestamp', 'segment_id', 'start_junction_id', 
                   'end_junction_id', 'speed_mph_mean', 'speed_mph_stddev'], axis = 1)
-tensor = np.zeros((road.shape[0], max(temp.day.values), 24))
+tensor = np.zeros((road.shape[0], max(data.day.values), 24))
 k = 0
 for i in range(road.shape[0]):
     temp = data[(data['osm_way_id'] == road.osm_way_id.iloc[i]) 
@@ -57,7 +57,7 @@ for i in range(road.shape[0]):
     k += 1
     if (k % 1000) == 0:
         print(k)
-mat = tensor.reshape([road.shape[0], max(temp.day.values), 24])
+mat = tensor.reshape([road.shape[0], max(data.day.values) * 24])
 np.save('../datasets/London-data-set/hourly_speed_mat.npy', mat)
 
 del data, road, tensor
