@@ -9,12 +9,12 @@
 
 ![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
 
-Machine learning models make important developments in the field of spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built with incomplete data commonly collected in real-world systems?
+Machine learning models make important developments in the field of spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built on incomplete data commonly collected from real-world systems (e.g., transportation system)?
 
 About this Project
 --------------
 
-In the **transdim** (**trans**portation **d**ata **im**putation) project, we build machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is **creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks**.
+In the **transdim** (**trans**portation **d**ata **im**putation) project, we develop machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is **creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks**.
 
 In a hurry? Please check out our contents as follows.
 
