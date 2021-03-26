@@ -65,7 +65,7 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted the publicly available data sets into our experiments. The original links for these data are summarized as follows,
+In this repository, we have adapted some publicly available data sets into our experiments. The original links for these data are summarized as follows,
 
 - **Multivariate time series**
   - [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
@@ -147,7 +147,7 @@ In our experiments, we have implemented some machine learning models mainly on `
 
 > **New version, updated in 2020**
 
-In the following implementation, we have improved Python codes (in Jupyter Notebook) in terms of both readiability and computational cost.
+In the following implementation, we have improved Python codes (in Jupyter Notebook) in terms of both readiability and efficiency.
 
 > Our proposed models are highlighted in bold fonts.
 
@@ -228,8 +228,7 @@ def mat2ten(mat, tensor_size, mode):
 - Define Singular Value Thresholding (SVT) for Truncated Nuclear Norm (TNN) minimization:
 
 ```python
-def svt_tnn(mat, alpha, rho, theta):
-    tau = alpha / rho
+def svt_tnn(mat, tau, theta):
     [m, n] = mat.shape
     if 2 * m < n:
         u, s, v = np.linalg.svd(mat @ mat.T, full_matrices = 0)
@@ -267,6 +266,8 @@ def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter):
     dim = np.array(sparse_tensor.shape)
     pos_missing = np.where(sparse_tensor == 0)
     pos_test = np.where((dense_tensor != 0) & (sparse_tensor == 0))
+    dense_test = dense_tensor[pos_test]
+    del dense_tensor
     
     X = np.zeros(np.insert(dim, 0, len(dim))) # \boldsymbol{\mathcal{X}}
     T = np.zeros(np.insert(dim, 0, len(dim))) # \boldsymbol{\mathcal{T}}
@@ -277,7 +278,7 @@ def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter):
     while True:
         rho = min(rho * 1.05, 1e5)
         for k in range(len(dim)):
-            X[k] = mat2ten(svt_tnn(ten2mat(Z - T[k] / rho, k), alpha[k], rho, np.int(np.ceil(theta * dim[k]))), dim, k)
+            X[k] = mat2ten(svt_tnn(ten2mat(Z - T[k] / rho, k), alpha[k] / rho, np.int(np.ceil(theta * dim[k]))), dim, k)
         Z[pos_missing] = np.mean(X + T / rho, axis = 0)[pos_missing]
         T = T + rho * (X - np.broadcast_to(Z, np.insert(dim, 0, len(dim))))
         tensor_hat = np.einsum('k, kmnt -> mnt', alpha, X)
@@ -286,19 +287,20 @@ def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter):
         it += 1
         if (it + 1) % 50 == 0:
             print('Iter: {}'.format(it + 1))
-            print('RMSE: {:.6}'.format(compute_rmse(dense_tensor[pos_test], tensor_hat[pos_test])))
+            print('MAPE: {:.6}'.format(compute_mape(dense_test, tensor_hat[pos_test])))
+            print('RMSE: {:.6}'.format(compute_rmse(dense_test, tensor_hat[pos_test])))
             print()
         if (tol < epsilon) or (it >= maxiter):
             break
 
-    print('Imputation MAPE: {:.6}'.format(compute_mape(dense_tensor[pos_test], tensor_hat[pos_test])))
-    print('Imputation RMSE: {:.6}'.format(compute_rmse(dense_tensor[pos_test], tensor_hat[pos_test])))
+    print('Imputation MAPE: {:.6}'.format(compute_mape(dense_test, tensor_hat[pos_test])))
+    print('Imputation RMSE: {:.6}'.format(compute_rmse(dense_test, tensor_hat[pos_test])))
     print()
     
     return tensor_hat
 ```
 
-- Let us try it on Guangzhou urban traffic speed data set (Gdata):
+- Let us try it on Guangzhou urban traffic speed data set:
 
 ```python
 import scipy.io
@@ -310,9 +312,8 @@ random_tensor = random_tensor['random_tensor']
 
 missing_rate = 0.2
 
-### Random missing (RM) scenario:
-binary_tensor = np.round(random_tensor + 0.5 - missing_rate)
-sparse_tensor = np.multiply(dense_tensor, binary_tensor)
+### Random missing (RM)
+sparse_tensor = dense_tensor * np.round(random_tensor + 0.5 - missing_rate)
 ```
 
 - Run the imputation experiment:
@@ -325,7 +326,7 @@ rho = 1e-5
 theta = 0.30
 epsilon = 1e-4
 maxiter = 200
-LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter)
+tensor_hat = LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter)
 end = time.time()
 print('Running time: %d seconds'%(end - start))
 ```
