@@ -73,7 +73,7 @@ In this repository, we have adapted some publicly available data sets into our e
   - [Guangzhou urban traffic speed data set](https://doi.org/10.5281/zenodo.1205228)
   - [Hangzhou metro passenger flow data set](https://doi.org/10.5281/zenodo.3145403)
   - [London urban movement speed data set](https://movement.uber.com/) (other cities are also available at [Uber movement project](https://movement.uber.com/))
-  - [Portland highway traffic data set](https://portal.its.pdx.edu/home) (including traffic volume/speed/occupancy)
+  - [Portland highway traffic data set](https://portal.its.pdx.edu/home) (including traffic volume/speed/occupancy, see [data documentation](https://portal.its.pdx.edu/static/files/fhwa/Freeway%20Data%20Documentation.pdf))
   - [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data)
   - [UTD19: Largest multi-city traffic data set](https://utd19.ethz.ch/index.html)
 - **Multidimensional time series**
