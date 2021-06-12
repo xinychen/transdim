@@ -65,7 +65,7 @@ Implementation
 
 ### Open data
 
-In this repository, we have adapted some publicly available data sets into our experiments. The original links for these data are summarized as follows,
+In this project, we have adapted some publicly available data sets into our experiments. The original links for these data are summarized as follows,
 
 - **Multivariate time series**
   - [Birmingham parking data set](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham)
@@ -89,7 +89,7 @@ tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/tensor.mat')
 tensor = tensor['tensor']
 ```
 
-In particular, if you are interested in large-scale traffic data, we recommend **PeMS-4W/8W/12W** (see [Large-scale traffic speed data sets in California, USA](https://doi.org/10.5281/zenodo.3939792)) and [UTD19](https://utd19.ethz.ch/index.html). For PeMS data, you can download the data from [Zenodo](https://doi.org/10.5281/zenodo.3939792) and place them at the folder of datasets (data path example: `../datasets/California-data-set/pems-4w.csv`). Then you can use `Pandas` to open data:
+In particular, if you are interested in large-scale traffic data, we recommend **PeMS-4W/8W/12W** and [UTD19](https://utd19.ethz.ch/index.html). For PeMS data, you can download the data from [Zenodo](https://doi.org/10.5281/zenodo.3939792) and place them at the folder of datasets (data path example: `../datasets/California-data-set/pems-4w.csv`). Then you can use `Pandas` to open data:
 
 ```python
 import pandas as pd
