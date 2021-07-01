@@ -347,7 +347,7 @@ Toy Examples
 Our Publications
 --------------
 
-- Xinyu Chen, Yixian Chen, Nicolas Saunier, Lijun Sun (2021). **Scalable low-rank tensor learning for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies. [[preprint](https://arxiv.org/abs/2008.03194)] [[data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/tensor-learning)]
+- Xinyu Chen, Yixian Chen, Nicolas Saunier, Lijun Sun (2021). **Scalable low-rank tensor learning for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 129: 103226. [[preprint](https://arxiv.org/abs/2008.03194)] [[DOI](https://doi.org/10.1016/j.trc.2021.103226)] [[data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/tensor-learning)]
 
 - Xinyu Chen, Mengying Lei, Nicolas Saunier, Lijun Sun (2021). **Low-rank autoregressive tensor completion for spatiotemporal traffic data imputation**. arXiv: 2104.14936. [[preprint](https://arxiv.org/abs/2104.14936)] [[data & Python code](https://github.com/xinychen/transdim)]
 
