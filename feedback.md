@@ -6,5 +6,6 @@ Our transdim is still under development. More machine learning models and techni
 
 - **2021**
   - Tinghan Chen (University of Florida): For feedback about the training process (difference between `dense_mat` and `sparse_mat`) of BTMF code.
+  - Gang Wang (Stony Brook University): For correcting the typo of Kronecker product example and `cp_combine` example.
 
 If you have any suggestion about this project, please feel free to contact Xinyu Chen (email: chenxy346@gmail.com) and send your suggestion. We would like to thank everyone who has helped this project in any way.
