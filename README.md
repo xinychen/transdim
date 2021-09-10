@@ -346,7 +346,8 @@ Toy Examples
 Documentation
 --------------
 
-1. [Intuitive understanding of randomized singular value decomposition](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de)
+1. [Intuitive understanding of randomized singular value decomposition:
+A Python implementation of SVD with randomized linear algebra, July 1, 2020.](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de)
 
 Our Publications
 --------------
