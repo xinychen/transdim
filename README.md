@@ -347,7 +347,7 @@ Documentation
 --------------
 
 1. [Intuitive understanding of randomized singular value decomposition:
-A Python implementation of SVD with randomized linear algebra, July 1, 2020.](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de)
+A Python implementation of SVD with randomized linear algebra](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de), July 1, 2020.
 
 Our Publications
 --------------
