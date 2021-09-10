@@ -343,6 +343,10 @@ Toy Examples
 
 - Time series imputation
 
+Documentation
+--------------
+
+1. [Intuitive understanding of randomized singular value decomposition](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de)
 
 Our Publications
 --------------
