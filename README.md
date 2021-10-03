@@ -348,6 +348,7 @@ Documentation
 
 1. [Intuitive understanding of randomized singular value decomposition:
 A Python implementation of SVD with randomized linear algebra](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de), July 1, 2020.
+2. [Matrix autoregressive model for multidimensional time series forecasting: A simple Python implementation with Numpy](https://t.co/FMSUSc0Tce?amp=1), October 3, 2021.
 
 Our Publications
 --------------
