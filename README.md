@@ -346,8 +346,12 @@ Toy Examples
 Documentation
 --------------
 
-1. [Intuitive understanding of randomized singular value decomposition](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de), July 1, 2020.
-2. [Matrix autoregressive model for multidimensional time series forecasting](https://t.co/FMSUSc0Tce?amp=1), October 3, 2021.
+1. [Intuitive understanding of randomized singular value decomposition](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de). July 1, 2020.
+2. [Matrix autoregressive model for multidimensional time series forecasting](https://t.co/FMSUSc0Tce?amp=1). October 3, 2021.
+3. [Understanding Lyapunov equation through Kronecker product and linear equation](https://towardsdatascience.com/understand-the-lyapunov-equation-through-kronecker-product-and-linear-equation-bfff9c1e59ab). October 8, 2021.
+4. [Generating random numbers and arrays in Matlab and Numpy](https://towardsdatascience.com/generating-random-numbers-and-arrays-in-matlab-and-numpy-47dcc9997650). October 9, 2021.
+5. [Dynamic mode decomposition for multivariate time series forecasting](https://towardsdatascience.com/dynamic-mode-decomposition-for-multivariate-time-series-forecasting-415d30086b4b). October 10, 2021.
+6. [Reduced-rank vector autoregressive model for high-dimensional time series forecasting](https://towardsdatascience.com/reduced-rank-vector-autoregressive-model-for-high-dimensional-time-series-forecasting-bdd17df6c5ab). October 16, 2021.
 
 Our Publications
 --------------
