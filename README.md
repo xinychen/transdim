@@ -261,7 +261,7 @@ def compute_mape(var, var_hat):
 
 ```python
 def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter):
-    """Low-Rank Tenor Completion with Truncated Nuclear Norm, LRTC-TNN."""
+    """Low-Rank Tensor Completion with Truncated Nuclear Norm, LRTC-TNN."""
     
     dim = np.array(sparse_tensor.shape)
     pos_missing = np.where(sparse_tensor == 0)
