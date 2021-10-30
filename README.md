@@ -352,6 +352,7 @@ Documentation
 4. [Generating random numbers and arrays in Matlab and Numpy](https://towardsdatascience.com/generating-random-numbers-and-arrays-in-matlab-and-numpy-47dcc9997650). October 9, 2021.
 5. [Dynamic mode decomposition for multivariate time series forecasting](https://towardsdatascience.com/dynamic-mode-decomposition-for-multivariate-time-series-forecasting-415d30086b4b). October 10, 2021.
 6. [Reduced-rank vector autoregressive model for high-dimensional time series forecasting](https://towardsdatascience.com/reduced-rank-vector-autoregressive-model-for-high-dimensional-time-series-forecasting-bdd17df6c5ab). October 16, 2021.
+7. [Dynamic mode decomposition for spatiotemporal traffic speed time series in Seattle freeway](https://towardsdatascience.com/dynamic-mode-decomposition-for-spatiotemporal-traffic-speed-time-series-in-seattle-freeway-b0ba97e81c2c#ce4e-5f7c3f01d622), October 29, 2021.
 
 Our Publications
 --------------
