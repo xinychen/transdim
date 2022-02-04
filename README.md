@@ -305,15 +305,14 @@ def LRTC(dense_tensor, sparse_tensor, alpha, rho, theta, epsilon, maxiter):
 ```python
 import scipy.io
 
-tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/tensor.mat')
-dense_tensor = tensor['tensor']
-random_tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/random_tensor.mat')
-random_tensor = random_tensor['random_tensor']
+import scipy.io
+import numpy as np
+np.random.seed(1000)
 
-missing_rate = 0.2
-
-### Random missing (RM)
-sparse_tensor = dense_tensor * np.round(random_tensor + 0.5 - missing_rate)
+dense_tensor = scipy.io.loadmat('../datasets/Guangzhou-data-set/tensor.mat')['tensor']
+dim = dense_tensor.shape
+missing_rate = 0.2 # Random missing (RM)
+sparse_tensor = dense_tensor * np.round(np.random.rand(dim[0], dim[1], dim[2]) + 0.5 - missing_rate)
 ```
 
 - Run the imputation experiment:
