@@ -110,9 +110,6 @@ In our experiments, we have implemented some machine learning models mainly on `
 
 |          Task           | Jupyter Notebook                                        | Gdata | Bdata | Hdata | Sdata | Ndata |
 | :---------------------: | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |
-| Missing Data Imputation | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**BGCP**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
-|                         | [**LRTC-TNN**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
 |                         | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
 | Single-Step Prediction  | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
 |                         | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
