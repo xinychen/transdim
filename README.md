@@ -5,7 +5,7 @@
 [![repo size](https://img.shields.io/github/repo-size/xinychen/transdim.svg)](https://github.com/xinychen/transdim/archive/master.zip)
 [![GitHub stars](https://img.shields.io/github/stars/xinychen/transdim.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/transdim)
 
-<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
+<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://xinychen.github.io">https://xinychen.github.io</a></h6>
 
 ![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
 
@@ -99,52 +99,9 @@ data = pd.read_csv('../datasets/California-data-set/pems-4w.csv', header = None)
 
 For model evaluation, we mask certain entries of the "observed" data as missing values and then perform imputation for these "missing" values.
 
-
 ### Model implementation
 
-> **Old version, updated in 2019**
-
-In our experiments, we have implemented some machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. So, if you want to evaluate these models, please download and run these notebooks directly (prerequisite: **download the data sets** in advance).
-
-- **Our models**
-
-|          Task           | Jupyter Notebook                                        | Gdata | Bdata | Hdata | Sdata | Ndata |
-| :---------------------: | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |
-|                         | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-| Single-Step Prediction  | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-|  Multi-Step Prediction  | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BTMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-
-- **Baselines**
-
-|          Task           | Jupyter Notebook                                        | Gdata | Bdata | Hdata | Sdata | Ndata |
-| :---------------------: | :----------------------------------------------------------- | :---: | :---: | :---: | :---: | :---: |
-| Missing Data Imputation | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**BPMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**HaLRTC**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-HaLRTC.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**TF-ALS**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-TF-ALS.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
-|                         | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BayesTRTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-|                         | [**BPTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-BPTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-| Single-Step Prediction  | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-BayesTRTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-|                         | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-ST-Online-TRTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-|  Multi-Step Prediction  | [**BayesTRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BayesTRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**TRMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-TRMF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   🔶   |
-|                         | [**BayesTRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-BayesTRTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-|                         | [**TRTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Prediction-Multi-TRTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |
-
-* ✅ — Cover
-* 🔶 — Does not cover
-* 🚧 — Under development
-
-### Model implementation 
-
-> **New version, updated in 2020**
-
-In the following implementation, we have improved Python codes (in Jupyter Notebook) in terms of both readiability and efficiency.
+In our experiments, we implemented some machine learning models mainly on `Numpy`, and written these Python codes with **Jupyter Notebook**. If you want to evaluate these models, please download and run these notebooks directly (prerequisite: **download the data sets** in advance). In the following implementation, we have improved Python codes (in Jupyter Notebook) in terms of both readiability and efficiency.
 
 > Our proposed models are highlighted in bold fonts.
 
@@ -160,6 +117,7 @@ In the following implementation, we have improved Python codes (in Jupyter Noteb
 | [**BATF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BATF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
 | [HaLRTC](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/HaLRTC.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
+| [**LRTC-TNN**](https://nbviewer.org/github/xinychen/transdim/blob/master/imputer/LRTC-TNN.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   🔶   |   🔶   |   🔶   |
 
 - **predictor** (prediction models)
 
@@ -171,7 +129,11 @@ In the following implementation, we have improved Python codes (in Jupyter Noteb
 | [**BTMF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTMF.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/predictor/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
 
-> For the implementation of these models, we use both `dense_mat` and `sparse_mat` (or `dense_tensor` and `sparse_tensor`) as the inputs. However, it is not necessary by doing so if you do not hope to see the imputation/prediction performance in the iterative process, you can remove `dense_mat` (or `dense_tensor`) from the inputs of these algorithms.
+* ✅ — Cover
+* 🔶 — Does not cover
+* 🚧 — Under development
+
+> For the implementation of these models, we use both `dense_mat` and `sparse_mat` (or `dense_tensor` and `sparse_tensor`) as inputs. However, it is not necessary by doing so if you do not hope to see the imputation/prediction performance in the iterative process, you can remove `dense_mat` (or `dense_tensor`) from the inputs of these algorithms.
 
 ### Imputation/Prediction performance
 
@@ -327,7 +289,7 @@ end = time.time()
 print('Running time: %d seconds'%(end - start))
 ```
 
-> This example is from [../experiments/Imputation-LRTC-TNN.ipynb](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb), you can check out this Jupyter Notebook for advanced usage.
+> This example is from [../imputer/LRTC-TNN.ipynb](https://nbviewer.org/github/xinychen/transdim/blob/master/imputer/LRTC-TNN.ipynb), you can check out this Jupyter Notebook for details.
 
 
 Toy Examples
