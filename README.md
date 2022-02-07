@@ -5,7 +5,7 @@
 [![repo size](https://img.shields.io/github/repo-size/xinychen/transdim.svg)](https://github.com/xinychen/transdim/archive/master.zip)
 [![GitHub stars](https://img.shields.io/github/stars/xinychen/transdim.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/transdim)
 
-<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
+<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://xinychen.github.io">https://xinychen.github.io</a></h6>
 
 ![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
 
@@ -117,6 +117,7 @@ In our experiments, we implemented some machine learning models mainly on `Numpy
 | [**BATF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BATF.ipynb) |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
 | [**BTTF**](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/BTTF.ipynb) |   🔶   |   🔶   |   🔶   |   🔶   |   🔶   |   ✅   |   ✅   |
 | [HaLRTC](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/imputer/HaLRTC.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   ✅   |   ✅   |   ✅   |
+| [**LRTC-TNN**](https://nbviewer.org/github/xinychen/transdim/blob/master/imputer/LRTC-TNN.ipynb) |   ✅   |   🔶   |   ✅   |   ✅   |   🔶   |   🔶   |   🔶   |
 
 - **predictor** (prediction models)
 
@@ -132,7 +133,7 @@ In our experiments, we implemented some machine learning models mainly on `Numpy
 * 🔶 — Does not cover
 * 🚧 — Under development
 
-> For the implementation of these models, we use both `dense_mat` and `sparse_mat` (or `dense_tensor` and `sparse_tensor`) as the inputs. However, it is not necessary by doing so if you do not hope to see the imputation/prediction performance in the iterative process, you can remove `dense_mat` (or `dense_tensor`) from the inputs of these algorithms.
+> For the implementation of these models, we use both `dense_mat` and `sparse_mat` (or `dense_tensor` and `sparse_tensor`) as inputs. However, it is not necessary by doing so if you do not hope to see the imputation/prediction performance in the iterative process, you can remove `dense_mat` (or `dense_tensor`) from the inputs of these algorithms.
 
 ### Imputation/Prediction performance
 
@@ -288,7 +289,7 @@ end = time.time()
 print('Running time: %d seconds'%(end - start))
 ```
 
-> This example is from [../experiments/Imputation-LRTC-TNN.ipynb](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/experiments/Imputation-LRTC-TNN.ipynb), you can check out this Jupyter Notebook for advanced usage.
+> This example is from [../imputer/LRTC-TNN.ipynb](https://nbviewer.org/github/xinychen/transdim/blob/master/imputer/LRTC-TNN.ipynb), you can check out this Jupyter Notebook for details.
 
 
 Toy Examples
