@@ -75,7 +75,6 @@ In this project, we have adapted some publicly available data sets into our expe
   - [London urban movement speed data set](https://movement.uber.com/) (other cities are also available at [Uber movement project](https://movement.uber.com/))
   - [Portland highway traffic data set](https://portal.its.pdx.edu/home) (including traffic volume/speed/occupancy, see [data documentation](https://portal.its.pdx.edu/static/files/fhwa/Freeway%20Data%20Documentation.pdf))
   - [Seattle freeway traffic speed data set](https://github.com/zhiyongc/Seattle-Loop-Data)
-  - [UTD19: Largest multi-city traffic data set](https://utd19.ethz.ch/index.html)
 - **Multidimensional time series**
   - [New York City (NYC) taxi data set](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
   - [Pacific surface temperature data set](http://iridl.ldeo.columbia.edu/SOURCES/.CAC/)
@@ -299,8 +298,6 @@ Toy Examples
   - [Bayesian vector autoregression forecasting](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/Bayesian-VAR-forecasting.ipynb)
   - [Structured low-rank matrix completion](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/SLRMC.ipynb)
 
-- Time series imputation
-
 Documentation
 --------------
 
@@ -311,6 +308,9 @@ Documentation
 5. [Dynamic mode decomposition for multivariate time series forecasting](https://towardsdatascience.com/dynamic-mode-decomposition-for-multivariate-time-series-forecasting-415d30086b4b). October 10, 2021.
 6. [Reduced-rank vector autoregressive model for high-dimensional time series forecasting](https://towardsdatascience.com/reduced-rank-vector-autoregressive-model-for-high-dimensional-time-series-forecasting-bdd17df6c5ab). October 16, 2021.
 7. [Dynamic mode decomposition for spatiotemporal traffic speed time series in Seattle freeway](https://towardsdatascience.com/dynamic-mode-decomposition-for-spatiotemporal-traffic-speed-time-series-in-seattle-freeway-b0ba97e81c2c#ce4e-5f7c3f01d622). October 29, 2021.
+8. [Analyzing missing data problem in Uber movement speed data](https://medium.com/@xinyu.chen/analyzing-missing-data-problem-in-uber-movement-speed-data-208d7a126af5). February 14, 2022.
+9. [Using conjugate gradient to solve matrix equations](https://medium.com/p/7f16cbae18a3). February 23, 2022.
+10. [Inpainting fluid dynamics with tensor decomposition (NumPy)](https://medium.com/p/d84065fead4d). March 15, 2022.
 
 Our Publications
 --------------
