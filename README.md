@@ -311,6 +311,7 @@ Documentation
 8. [Analyzing missing data problem in Uber movement speed data](https://medium.com/@xinyu.chen/analyzing-missing-data-problem-in-uber-movement-speed-data-208d7a126af5). February 14, 2022.
 9. [Using conjugate gradient to solve matrix equations](https://medium.com/p/7f16cbae18a3). February 23, 2022.
 10. [Inpainting fluid dynamics with tensor decomposition (NumPy)](https://medium.com/p/d84065fead4d). March 15, 2022.
+11. [Temporal matrix factorization for multivariate time series forecasting](https://medium.com/p/b1c59faf05ea). March 20, 2022.
 
 Our Publications
 --------------
