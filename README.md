@@ -312,6 +312,7 @@ Documentation
 9. [Using conjugate gradient to solve matrix equations](https://medium.com/p/7f16cbae18a3). February 23, 2022.
 10. [Inpainting fluid dynamics with tensor decomposition (NumPy)](https://medium.com/p/d84065fead4d). March 15, 2022.
 11. [Temporal matrix factorization for multivariate time series forecasting](https://medium.com/p/b1c59faf05ea). March 20, 2022.
+12. [Forecasting multivariate time series with nonstationary temporal matrix factorization](https://medium.com/p/4705df163fcf). April 25, 2022.
 
 Our Publications
 --------------
