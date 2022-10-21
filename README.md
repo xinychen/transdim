@@ -313,15 +313,20 @@ Documentation
 10. [Inpainting fluid dynamics with tensor decomposition (NumPy)](https://medium.com/p/d84065fead4d). March 15, 2022.
 11. [Temporal matrix factorization for multivariate time series forecasting](https://medium.com/p/b1c59faf05ea). March 20, 2022.
 12. [Forecasting multivariate time series with nonstationary temporal matrix factorization](https://medium.com/p/4705df163fcf). April 25, 2022.
+13. [Implementing Kronecker product decomposition with NumPy](https://medium.com/p/13f679f76347). June 20, 2022.
+14. [Tensor autoregression: A multidimensional time series model](https://medium.com/p/21681f696d79). September 3, 2022.
+15. [Reproducing dynamic mode decomposition on fluid flow data in Python](https://medium.com/@xinyu.chen/reproducing-dynamic-mode-decomposition-on-fluid-flow-data-in-python-94b8d7e1f203). September 6, 2022.
+16. [Convolution nuclear norm minimization for time series modeling](https://medium.com/p/377c56e49962). October 3, 2022.
+17. [Reinforce matrix factorization for time series modeling: Probabilistic sequential matrix factorization](https://medium.com/p/873f4ca344de). October 5, 2022.
+18. [Discrete convolution and fast Fourier transform explained and implemented step by step](https://medium.com/p/83ff1809378d). October 19, 2022.
 
 Our Publications
 --------------
+- Xinyu Chen, Lijun Sun (2022). **Bayesian temporal factorization for multidimensional time series prediction**. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44 (9): 4659-4673. [[Preprint](https://arxiv.org/abs/1910.06366v2)] [[DOI](https://doi.org/10.1109/TPAMI.2021.3066551)] [[Slides](https://doi.org/10.5281/zenodo.4693404)] [[Data & Python code](https://github.com/xinychen/transdim)]
 
-- Xinyu Chen, Mengying Lei, Nicolas Saunier, Lijun Sun (2021). **Low-rank autoregressive tensor completion for spatiotemporal traffic data imputation**. IEEE Transactions on Intelligent Transportation Systems. [[Preprint](https://arxiv.org/abs/2104.14936)] [[DOI](https://doi.org/10.1109/TITS.2021.3113608)] [[Data & Python code](https://github.com/xinychen/transdim)] (Also accepted in part to [MiLeTS Workshop of KDD 2021](https://kdd-milets.github.io/milets2021/), see [workshop paper](https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_23.pdf))
+- Xinyu Chen, Mengying Lei, Nicolas Saunier, Lijun Sun (2022). **Low-rank autoregressive tensor completion for spatiotemporal traffic data imputation**. IEEE Transactions on Intelligent Transportation Systems, 23 (8): 12301-12310.. [[Preprint](https://arxiv.org/abs/2104.14936)] [[DOI](https://doi.org/10.1109/TITS.2021.3113608)] [[Data & Python code](https://github.com/xinychen/transdim)] (Also accepted in part to [MiLeTS Workshop of KDD 2021](https://kdd-milets.github.io/milets2021/), see [workshop paper](https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_23.pdf))
 
 - Xinyu Chen, Yixian Chen, Nicolas Saunier, Lijun Sun (2021). **Scalable low-rank tensor learning for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 129: 103226. [[Preprint](https://arxiv.org/abs/2008.03194)] [[DOI](https://doi.org/10.1016/j.trc.2021.103226)] [[Data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/transdim/tree/master/large-imputer)]
-
-- Xinyu Chen, Lijun Sun (2021). **Bayesian temporal factorization for multidimensional time series prediction**. IEEE Transactions on Pattern Analysis and Machine Intelligence. (Early access) [[Preprint](https://arxiv.org/abs/1910.06366v2)] [[DOI](https://doi.org/10.1109/TPAMI.2021.3066551)] [[Slides](https://doi.org/10.5281/zenodo.4693404)] [[Data & Python code](https://github.com/xinychen/transdim)]
 
 - Xinyu Chen, Lijun Sun (2020). **Low-rank autoregressive tensor completion for multivariate time series forecasting**. arXiv: 2006.10436. [[Preprint](https://arxiv.org/abs/2006.10436)] [[Data & Python code](https://github.com/xinychen/tensor-learning)]
 
