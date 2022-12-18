@@ -319,9 +319,15 @@ Documentation
 16. [Convolution nuclear norm minimization for time series modeling](https://medium.com/p/377c56e49962). October 3, 2022.
 17. [Reinforce matrix factorization for time series modeling: Probabilistic sequential matrix factorization](https://medium.com/p/873f4ca344de). October 5, 2022.
 18. [Discrete convolution and fast Fourier transform explained and implemented step by step](https://medium.com/p/83ff1809378d). October 19, 2022.
+19. [Matrix factorization for image inpainting in Python](https://medium.com/p/d7300e6afbfd). December 8, 2022.
+20. [Circulant matrix nuclear norm minimization for image inpainting in Python](https://medium.com/p/b98eb94d8e). December 9, 2022.
+21. [Low-rank Laplacian convolution model for time series imputation and image inpainting](https://medium.com/p/a46dd88d107e). December 10, 2022.
+22. [Low-rank Laplacian convolution model for color image inpainting](https://medium.com/p/e8c5cdb3cc73). December 17, 2022.
 
 Our Publications
 --------------
+- Xinyu Chen, Zhanhong Cheng, Nicolas Saunier, Lijun Sun (2022). **Laplacian convolutional representation for traffic time series imputation**. arXiv preprint arXiv:2212.01529. [[Preprint](https://arxiv.org/abs/2212.01529)] [[Python code (univariate imputation)](https://github.com/xinychen/transdim/tree/master/univariate-models)] [[Python code (multivariate imputation)](https://github.com/xinychen/transdim/tree/master/multiviarate-models)]
+
 - Xinyu Chen, Lijun Sun (2022). **Bayesian temporal factorization for multidimensional time series prediction**. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44 (9): 4659-4673. [[Preprint](https://arxiv.org/abs/1910.06366v2)] [[DOI](https://doi.org/10.1109/TPAMI.2021.3066551)] [[Slides](https://doi.org/10.5281/zenodo.4693404)] [[Data & Python code](https://github.com/xinychen/transdim)]
 
 - Xinyu Chen, Mengying Lei, Nicolas Saunier, Lijun Sun (2022). **Low-rank autoregressive tensor completion for spatiotemporal traffic data imputation**. IEEE Transactions on Intelligent Transportation Systems, 23 (8): 12301-12310.. [[Preprint](https://arxiv.org/abs/2104.14936)] [[DOI](https://doi.org/10.1109/TITS.2021.3113608)] [[Data & Python code](https://github.com/xinychen/transdim)] (Also accepted in part to [MiLeTS Workshop of KDD 2021](https://kdd-milets.github.io/milets2021/), see [workshop paper](https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_23.pdf))
