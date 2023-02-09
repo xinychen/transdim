@@ -11,6 +11,8 @@
 
 Machine learning models make important developments in the field of spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built on incomplete data commonly collected from real-world systems (e.g., transportation system)?
 
+<br>
+
 About this Project
 --------------
 
@@ -18,6 +20,7 @@ In the **transdim** (**trans**portation **d**ata **im**putation) project, we dev
 
 In a hurry? Please check out our contents as follows.
 
+<br>
 
 Tasks and Challenges
 --------------
@@ -59,6 +62,8 @@ We create three missing data mechanisms on real-world data.
 <p align = "center">
 <b>Figure 3</b>: Illustration of our proposed Low-Rank Autoregressive Tensor Completion (LATC) imputer/predictor with a prediction window τ (green nodes: observed values; white nodes: missing values; red nodes/panel: prediction; blue panel: training data to construct the tensor).
 </p>
+
+<br>
 
 Implementation
 --------------
@@ -154,6 +159,7 @@ In our experiments, we implemented some machine learning models mainly on `Numpy
 
 ![example](https://github.com/xinychen/transdim/blob/master/images/prediction_nyc.png)
 
+<br>
 
 Quick Start
 --------------
@@ -290,6 +296,7 @@ print('Running time: %d seconds'%(end - start))
 
 > This example is from [../imputer/LRTC-TNN.ipynb](https://nbviewer.org/github/xinychen/transdim/blob/master/imputer/LRTC-TNN.ipynb), you can check out this Jupyter Notebook for details.
 
+<br>
 
 Toy Examples
 --------------
@@ -297,6 +304,8 @@ Toy Examples
 - Time series forecasting
   - [Bayesian vector autoregression forecasting](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/Bayesian-VAR-forecasting.ipynb)
   - [Structured low-rank matrix completion](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/SLRMC.ipynb)
+
+<br>
 
 Documentation
 --------------
@@ -323,6 +332,9 @@ Documentation
 20. [Circulant matrix nuclear norm minimization for image inpainting in Python](https://medium.com/p/b98eb94d8e). December 9, 2022.
 21. [Low-rank Laplacian convolution model for time series imputation and image inpainting](https://medium.com/p/a46dd88d107e). December 10, 2022.
 22. [Low-rank Laplacian convolution model for color image inpainting](https://medium.com/p/e8c5cdb3cc73). December 17, 2022.
+23. [Intuitive understanding of tensors in machine learning](https://medium.com/@xinyu.chen/intuitive-understanding-of-tensors-in-machine-learning-33635c64b596). January 20, 2023.
+
+<br>
 
 Our Publications
 --------------
@@ -345,6 +357,8 @@ Our Publications
 - Xinyu Chen, Zhaocheng He, Jiawei Wang (2018). **Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition**. Transportation Research Part C: Emerging Technologies, 86: 59-77. [[DOI](http://doi.org/10.1016/j.trc.2017.10.023)] [[Data](http://doi.org/10.5281/zenodo.1205229)]
 
   >This project is from the above papers, please cite these papers if they help your research.
+
+<br>
 
 Collaborators
 --------------
@@ -382,6 +396,8 @@ Our transdim is still under development. More machine learning models and techni
 > - Collaboration statement on transdim from [+ your name]
 
 If you have any questions, please feel free to create an [issue](https://github.com/xinychen/transdim/issues).
+
+<br>
 
 Acknowledgements
 --------------
