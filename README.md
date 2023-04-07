@@ -333,6 +333,7 @@ Documentation
 21. [Low-rank Laplacian convolution model for time series imputation and image inpainting](https://medium.com/p/a46dd88d107e). December 10, 2022.
 22. [Low-rank Laplacian convolution model for color image inpainting](https://medium.com/p/e8c5cdb3cc73). December 17, 2022.
 23. [Intuitive understanding of tensors in machine learning](https://medium.com/@xinyu.chen/intuitive-understanding-of-tensors-in-machine-learning-33635c64b596). January 20, 2023.
+24. [Low-rank matrix and tensor factorization for speed field reconstruction](https://medium.com/p/bb4807cb93c5). March 9, 2023.
 
 <br>
 
