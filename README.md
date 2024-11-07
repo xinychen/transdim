@@ -311,43 +311,39 @@ Documentation
 --------------
 
 1. [Intuitive understanding of randomized singular value decomposition](https://towardsdatascience.com/intuitive-understanding-of-randomized-singular-value-decomposition-9389e27cb9de). July 1, 2020.
-2. [Matrix autoregressive model for multidimensional time series forecasting](https://t.co/FMSUSc0Tce?amp=1). October 3, 2021.
-3. [Understanding Lyapunov equation through Kronecker product and linear equation](https://towardsdatascience.com/understand-the-lyapunov-equation-through-kronecker-product-and-linear-equation-bfff9c1e59ab). October 8, 2021.
-4. [Generating random numbers and arrays in Matlab and Numpy](https://towardsdatascience.com/generating-random-numbers-and-arrays-in-matlab-and-numpy-47dcc9997650). October 9, 2021.
-5. [Dynamic mode decomposition for multivariate time series forecasting](https://towardsdatascience.com/dynamic-mode-decomposition-for-multivariate-time-series-forecasting-415d30086b4b). October 10, 2021.
-6. [Reduced-rank vector autoregressive model for high-dimensional time series forecasting](https://towardsdatascience.com/reduced-rank-vector-autoregressive-model-for-high-dimensional-time-series-forecasting-bdd17df6c5ab). October 16, 2021.
-7. [Dynamic mode decomposition for spatiotemporal traffic speed time series in Seattle freeway](https://towardsdatascience.com/dynamic-mode-decomposition-for-spatiotemporal-traffic-speed-time-series-in-seattle-freeway-b0ba97e81c2c#ce4e-5f7c3f01d622). October 29, 2021.
-8. [Analyzing missing data problem in Uber movement speed data](https://medium.com/@xinyu.chen/analyzing-missing-data-problem-in-uber-movement-speed-data-208d7a126af5). February 14, 2022.
-9. [Using conjugate gradient to solve matrix equations](https://medium.com/p/7f16cbae18a3). February 23, 2022.
-10. [Inpainting fluid dynamics with tensor decomposition (NumPy)](https://medium.com/p/d84065fead4d). March 15, 2022.
-11. [Temporal matrix factorization for multivariate time series forecasting](https://medium.com/p/b1c59faf05ea). March 20, 2022.
-12. [Forecasting multivariate time series with nonstationary temporal matrix factorization](https://medium.com/p/4705df163fcf). April 25, 2022.
-13. [Implementing Kronecker product decomposition with NumPy](https://medium.com/p/13f679f76347). June 20, 2022.
-14. [Tensor autoregression: A multidimensional time series model](https://medium.com/p/21681f696d79). September 3, 2022.
-15. [Reproducing dynamic mode decomposition on fluid flow data in Python](https://medium.com/@xinyu.chen/reproducing-dynamic-mode-decomposition-on-fluid-flow-data-in-python-94b8d7e1f203). September 6, 2022.
-16. [Convolution nuclear norm minimization for time series modeling](https://medium.com/p/377c56e49962). October 3, 2022.
-17. [Reinforce matrix factorization for time series modeling: Probabilistic sequential matrix factorization](https://medium.com/p/873f4ca344de). October 5, 2022.
-18. [Discrete convolution and fast Fourier transform explained and implemented step by step](https://medium.com/p/83ff1809378d). October 19, 2022.
-19. [Matrix factorization for image inpainting in Python](https://medium.com/p/d7300e6afbfd). December 8, 2022.
-20. [Circulant matrix nuclear norm minimization for image inpainting in Python](https://medium.com/p/b98eb94d8e). December 9, 2022.
-21. [Low-rank Laplacian convolution model for time series imputation and image inpainting](https://medium.com/p/a46dd88d107e). December 10, 2022.
-22. [Low-rank Laplacian convolution model for color image inpainting](https://medium.com/p/e8c5cdb3cc73). December 17, 2022.
-23. [Intuitive understanding of tensors in machine learning](https://medium.com/@xinyu.chen/intuitive-understanding-of-tensors-in-machine-learning-33635c64b596). January 20, 2023.
-24. [Low-rank matrix and tensor factorization for speed field reconstruction](https://medium.com/p/bb4807cb93c5). March 9, 2023.
+2. [Generating random numbers and arrays in Matlab and Numpy](https://towardsdatascience.com/generating-random-numbers-and-arrays-in-matlab-and-numpy-47dcc9997650). October 9, 2021.
+3. [Reduced-rank vector autoregressive model for high-dimensional time series forecasting](https://towardsdatascience.com/reduced-rank-vector-autoregressive-model-for-high-dimensional-time-series-forecasting-bdd17df6c5ab). October 16, 2021.
+4. [Dynamic mode decomposition for spatiotemporal traffic speed time series in Seattle freeway](https://towardsdatascience.com/dynamic-mode-decomposition-for-spatiotemporal-traffic-speed-time-series-in-seattle-freeway-b0ba97e81c2c#ce4e-5f7c3f01d622). October 29, 2021.
+5. [Analyzing missing data problem in Uber movement speed data](https://medium.com/@xinyu.chen/analyzing-missing-data-problem-in-uber-movement-speed-data-208d7a126af5). February 14, 2022.
+6. [Using conjugate gradient to solve matrix equations](https://medium.com/p/7f16cbae18a3). February 23, 2022.
+7. [Inpainting fluid dynamics with tensor decomposition (NumPy)](https://medium.com/p/d84065fead4d). March 15, 2022.
+8. [Temporal matrix factorization for multivariate time series forecasting](https://medium.com/p/b1c59faf05ea). March 20, 2022.
+9. [Forecasting multivariate time series with nonstationary temporal matrix factorization](https://medium.com/p/4705df163fcf). April 25, 2022.
+10. [Implementing Kronecker product decomposition with NumPy](https://medium.com/p/13f679f76347). June 20, 2022.
+11. [Tensor autoregression: A multidimensional time series model](https://medium.com/p/21681f696d79). September 3, 2022.
+12. [Reproducing dynamic mode decomposition on fluid flow data in Python](https://medium.com/@xinyu.chen/reproducing-dynamic-mode-decomposition-on-fluid-flow-data-in-python-94b8d7e1f203). September 6, 2022.
+13. [Convolution nuclear norm minimization for time series modeling](https://medium.com/p/377c56e49962). October 3, 2022.
+14. [Reinforce matrix factorization for time series modeling: Probabilistic sequential matrix factorization](https://medium.com/p/873f4ca344de). October 5, 2022.
+15. [Discrete convolution and fast Fourier transform explained and implemented step by step](https://medium.com/p/83ff1809378d). October 19, 2022.
+16. [Matrix factorization for image inpainting in Python](https://medium.com/p/d7300e6afbfd). December 8, 2022.
+17. [Circulant matrix nuclear norm minimization for image inpainting in Python](https://medium.com/p/b98eb94d8e). December 9, 2022.
+18. [Low-rank Laplacian convolution model for time series imputation and image inpainting](https://medium.com/p/a46dd88d107e). December 10, 2022.
+19. [Low-rank Laplacian convolution model for color image inpainting](https://medium.com/p/e8c5cdb3cc73). December 17, 2022.
+20. [Intuitive understanding of tensors in machine learning](https://medium.com/@xinyu.chen/intuitive-understanding-of-tensors-in-machine-learning-33635c64b596). January 20, 2023.
+21. [Low-rank matrix and tensor factorization for speed field reconstruction](https://medium.com/p/bb4807cb93c5). March 9, 2023.
 
 <br>
 
 Our Publications
 --------------
-- Xinyu Chen, Zhanhong Cheng, Nicolas Saunier, Lijun Sun (2022). **Laplacian convolutional representation for traffic time series imputation**. arXiv preprint arXiv:2212.01529. [[Preprint](https://arxiv.org/abs/2212.01529)] [[Python code (univariate imputation)](https://github.com/xinychen/transdim/tree/master/univariate-models)] [[Python code (multivariate imputation)](https://github.com/xinychen/transdim/tree/master/multiviarate-models)]
+
+- Xinyu Chen, Zhanhong Cheng, HanQin Cai, Nicolas Saunier, Lijun Sun (2024). **Laplacian convolutional representation for traffic time series imputation**. IEEE Transactions on Knowledge and Data Engineering. 36 (11): 6490-6502. [[DOI](https://doi.org/10.1109/TKDE.2024.3419698)] [[Slides](https://xinychen.github.io/slides/LCR24.pdf)] [[Data & Python code](https://github.com/xinychen/LCR)]
 
 - Xinyu Chen, Lijun Sun (2022). **Bayesian temporal factorization for multidimensional time series prediction**. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44 (9): 4659-4673. [[Preprint](https://arxiv.org/abs/1910.06366v2)] [[DOI](https://doi.org/10.1109/TPAMI.2021.3066551)] [[Slides](https://doi.org/10.5281/zenodo.4693404)] [[Data & Python code](https://github.com/xinychen/transdim)]
 
 - Xinyu Chen, Mengying Lei, Nicolas Saunier, Lijun Sun (2022). **Low-rank autoregressive tensor completion for spatiotemporal traffic data imputation**. IEEE Transactions on Intelligent Transportation Systems, 23 (8): 12301-12310. [[Preprint](https://arxiv.org/abs/2104.14936)] [[DOI](https://doi.org/10.1109/TITS.2021.3113608)] [[Data & Python code](https://github.com/xinychen/transdim)] (Also accepted in part to [MiLeTS Workshop of KDD 2021](https://kdd-milets.github.io/milets2021/), see [workshop paper](https://kdd-milets.github.io/milets2021/papers/MiLeTS2021_paper_23.pdf))
 
 - Xinyu Chen, Yixian Chen, Nicolas Saunier, Lijun Sun (2021). **Scalable low-rank tensor learning for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 129: 103226. [[Preprint](https://arxiv.org/abs/2008.03194)] [[DOI](https://doi.org/10.1016/j.trc.2021.103226)] [[Data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/transdim/tree/master/large-imputer)]
-
-- Xinyu Chen, Lijun Sun (2020). **Low-rank autoregressive tensor completion for multivariate time series forecasting**. arXiv: 2006.10436. [[Preprint](https://arxiv.org/abs/2006.10436)] [[Data & Python code](https://github.com/xinychen/tensor-learning)]
 
 - Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 117: 102673. [[Preprint](https://arxiv.org/abs/2003.10271v2)] [[DOI](https://doi.org/10.1016/j.trc.2020.102673)] [[Data & Python code](https://github.com/xinychen/transdim)]
 
@@ -370,15 +366,15 @@ Collaborators
     <td align="center"><a href="https://github.com/Vadermit"><img src="https://github.com/Vadermit.png?size=80" width="80px;" alt="Jinming Yang"/><br /><sub><b>Jinming Yang</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=Vadermit" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/yxnchen"><img src="https://github.com/yxnchen.png?size=80" width="80px;" alt="Yixian Chen"/><br /><sub><b>Yixian Chen</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=yxnchen" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/MengyingLei"><img src="https://github.com/MengyingLei.png?size=80" width="80px;" alt="Mengying Lei"/><br /><sub><b>Mengying Lei</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=MengyingLei" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/lijunsun"><img src="https://github.com/lijunsun.png?size=80" width="80px;" alt="Lijun Sun"/><br /><sub><b>Lijun Sun</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=lijunsun" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/HanTY"><img src="https://github.com/HanTY.png?size=80" width="80px;" alt="Tianyang Han"/><br /><sub><b>Tianyang Han</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=HanTY" title="Code">💻</a></td>
+<!--     <td align="center"><a href="https://github.com/lijunsun"><img src="https://github.com/lijunsun.png?size=80" width="80px;" alt="Lijun Sun"/><br /><sub><b>Lijun Sun</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=lijunsun" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/HanTY"><img src="https://github.com/HanTY.png?size=80" width="80px;" alt="Tianyang Han"/><br /><sub><b>Tianyang Han</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=HanTY" title="Code">💻</a></td> -->
 <!--   </tr>
   <tr>
     <td align="center"><a href="https://github.com/xxxx"><img src="https://github.com/xxxx.png?size=100" width="100px;" alt="xxxx"/><br /><sub><b>xxxx</b></sub></a><br /><a href="https://github.com/xinychen/transdim/commits?author=xxxx" title="Code">💻</a></td> -->
   </tr>
 </table>
 
-- **Principal Investigator (PI)**
+- **Advisory Board**
 
 <table>
   <tr>
@@ -389,21 +385,19 @@ Collaborators
 
 > See the list of [contributors](https://github.com/xinychen/transdim/graphs/contributors) who participated in this project.
 
-
-Our transdim is still under development. More machine learning models and technical features are going to be added and we always welcome contributions to help make transdim better. If you have any suggestion about this project or want to collaborate with us, please feel free to contact **Xinyu Chen** (email: chenxy346@gmail.com) and send your suggestion/statement. We would like to thank everyone who has helped this project in any way.
-
-> Recommended email subjects: 
-> - Suggestion on transdim from [+ your name]
-> - Collaboration statement on transdim from [+ your name]
-
-If you have any questions, please feel free to create an [issue](https://github.com/xinychen/transdim/issues).
-
 <br>
 
-Acknowledgements
+Supported by
 --------------
 
-This research is supported by the [Institute for Data Valorization (IVADO)](https://ivado.ca/en/ivado-scholarships/excellence-scholarships-phd/).
+<a href="https://ivado.ca/en">
+<img align="middle" src="https://github.com/xinychen/tracebase/blob/main/graphics/ivado_logo.jpeg" alt="drawing" height="70" hspace="50">
+</a>
+<a href="https://www.cirrelt.ca/">
+<img align="middle" src="https://github.com/xinychen/tracebase/blob/main/graphics/cirrelt_logo.png" alt="drawing" height="50">
+</a>
+
+<br>
 
 License
 --------------
