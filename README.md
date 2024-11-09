@@ -9,14 +9,29 @@
 
 ![logo](https://github.com/xinychen/transdim/blob/master/images/transdim_logo_large.png)
 
+**Trans**portation **d**ata **im**putation (a.k.a., transdim). 
+
 Machine learning models make important developments in the field of spatiotemporal data modeling - like how to forecast near-future traffic states of road networks. But what happens when these models are built on incomplete data commonly collected from real-world systems (e.g., transportation system)?
+
+<br>
+
+Table of Content
+--------------
+
+- [About this Project](https://github.com/xinychen/transdim?tab=readme-ov-file#about-this-project)
+- [Tasks and Challenges](https://github.com/xinychen/transdim?tab=readme-ov-file#tasks-and-challenges)
+- [Implementation](https://github.com/xinychen/transdim?tab=readme-ov-file#quick-start)
+- [Quick Start](https://github.com/xinychen/transdim?tab=readme-ov-file#quick-start)
+- [Documentation](https://github.com/xinychen/transdim?tab=readme-ov-file#documentation)
+- [Publications](https://github.com/xinychen/transdim?tab=readme-ov-file#publications)
+- [Contributors](https://github.com/xinychen/transdim?tab=readme-ov-file#collaborators)
 
 <br>
 
 About this Project
 --------------
 
-In the **transdim** (**trans**portation **d**ata **im**putation) project, we develop machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is **creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks**.
+In the **transdim** project, we develop machine learning models to help address some of the toughest challenges of spatiotemporal data modeling - from missing data imputation to time series prediction. The strategic aim of this project is **creating accurate and efficient solutions for spatiotemporal traffic data imputation and prediction tasks**.
 
 In a hurry? Please check out our contents as follows.
 
@@ -298,15 +313,6 @@ print('Running time: %d seconds'%(end - start))
 
 <br>
 
-Toy Examples
---------------
-
-- Time series forecasting
-  - [Bayesian vector autoregression forecasting](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/Bayesian-VAR-forecasting.ipynb)
-  - [Structured low-rank matrix completion](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/SLRMC.ipynb)
-
-<br>
-
 Documentation
 --------------
 
@@ -331,10 +337,12 @@ Documentation
 19. [Low-rank Laplacian convolution model for color image inpainting](https://medium.com/p/e8c5cdb3cc73). December 17, 2022.
 20. [Intuitive understanding of tensors in machine learning](https://medium.com/@xinyu.chen/intuitive-understanding-of-tensors-in-machine-learning-33635c64b596). January 20, 2023.
 21. [Low-rank matrix and tensor factorization for speed field reconstruction](https://medium.com/p/bb4807cb93c5). March 9, 2023.
+22. [Bayesian vector autoregression forecasting](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/Bayesian-VAR-forecasting.ipynb)
+23. [Structured low-rank matrix completion](https://nbviewer.jupyter.org/github/xinychen/transdim/blob/master/toy-examples/SLRMC.ipynb)
 
 <br>
 
-Our Publications
+Publications
 --------------
 
 - Xinyu Chen, Zhanhong Cheng, HanQin Cai, Nicolas Saunier, Lijun Sun (2024). **Laplacian convolutional representation for traffic time series imputation**. IEEE Transactions on Knowledge and Data Engineering. 36 (11): 6490-6502. [[DOI](https://doi.org/10.1109/TKDE.2024.3419698)] [[Slides](https://xinychen.github.io/slides/LCR24.pdf)] [[Data & Python code](https://github.com/xinychen/LCR)]
